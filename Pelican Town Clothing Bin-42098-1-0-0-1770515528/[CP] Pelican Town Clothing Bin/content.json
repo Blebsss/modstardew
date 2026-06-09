@@ -1,0 +1,792 @@
+{
+    "Format": "2.8.0",
+    "ConfigSchema": {
+        "EnableMod": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "Section": "General"
+        },
+        "Saturation": {
+            "AllowValues": "Vanilla, Desaturated",
+            "Default": "Vanilla",
+            "Section": "General"
+        },
+        "IncludeRainbowShell": {
+            "AllowValues": "true,false",
+            "Default": "true",
+            "Section": "General"
+        },
+        "RainbowShellDay": {
+            "AllowValues": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+            "Default": "Monday",
+            "Section": "RainbowShells"
+        },
+        "RainbowShellQty": {
+            "AllowValues": "1,2",
+            "Default": "1",
+            "Section": "RainbowShells"
+        },
+        "RainbowShellPrice": {
+            "AllowValues": "0,100,300,600,1200",
+            "Default": "0",
+            "Section": "RainbowShells"
+        }
+    },
+    
+    "Changes": [
+
+        //Patch the Town map - Vanilla
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Town",
+          "FromFile": "maps/ClothingBin.tmx",
+          "ToArea": { "X": 66, "Y": 19, "Width": 2, "Height": 2 },
+          "PatchMode": "Overlay",
+          "MapTiles": [
+              {
+                  "Layer": "Front",
+                  "Position": { "X": 67, "Y": 18 },
+                  "Remove": "true"
+              },
+              {
+                  "Layer": "Front",
+                  "Position": { "X": 67, "Y": 19 },
+                  "Remove": "true"
+              }
+          ],
+          "When": {
+            "EnableMod": "true",
+            "Saturation": "Vanilla"
+          }
+        },
+
+        //Patch the Town map - Desaturated
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Town",
+          "FromFile": "maps/ClothingBin_desat.tmx",
+          "ToArea": { "X": 66, "Y": 19, "Width": 2, "Height": 2 },
+          "PatchMode": "Overlay",
+          "MapTiles": [
+              {
+                  "Layer": "Front",
+                  "Position": { "X": 67, "Y": 18 },
+                  "Remove": "true"
+              },
+              {
+                  "Layer": "Front",
+                  "Position": { "X": 67, "Y": 19 },
+                  "Remove": "true"
+              }
+          ],
+          "When": {
+            "EnableMod": "true",
+            "Saturation": "Desaturated"
+          }
+        },
+
+        //Patch the Town map - Add Shop TileData
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Town",
+          "MapTiles": [
+              {
+                  "Layer": "Buildings",
+                  "Position": { "X": 66, "Y": 20 },
+                  "SetProperties": {
+                      "Action": "OpenShop {{ModId}}_ClothingBin down"
+                  }
+              },
+              {
+                  "Layer": "Buildings",
+                  "Position": { "X": 67, "Y": 20 },
+                  "SetProperties": {
+                      "Action": "OpenShop {{ModId}}_ClothingBin down"
+                  }
+              }
+          ],
+          "When": {
+            "EnableMod": "true"
+          }
+        },
+
+        //SHOP DATA
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "{{ModId}}_ClothingBin": {
+
+                "Owners": [
+                    {
+                        "Name": "AnyOrNone",
+                        "Portrait": "",
+                        "Dialogues": [
+                            {
+                                "Dialogue": "{{i18n:ClothingBin.Dialogue}}"
+                            }
+                        ]    
+                    }
+                ],
+
+                "Items": [
+                    //FARMER PANTS
+                    {
+                        "Id": "{{ModId}}_FarmerPants",
+                        "ItemId": "(P)0",
+                        "Price": 0
+                    },
+                    //SHORTS
+                    {
+                        "Id": "{{ModId}}_Shorts",
+                        "ItemId": "(P)1",
+                        "Price": 0
+                    },
+                    //LONG DRESS
+                    {
+                        "Id": "{{ModId}}_LongDress",
+                        "ItemId": "(P)2",
+                        "Price": 0
+                    },
+                    //SKIRT
+                    {
+                        "Id": "{{ModId}}_Skirt",
+                        "ItemId": "(P)3",
+                        "Price": 0
+                    },
+                    //CLASSIC OVERALLS
+                    {
+                        "Id": "{{ModId}}_ClassicOveralls",
+                        "ItemId": "(S)1000",
+                        "Price": 0
+                    },
+                    //SHIRT 1001
+                    {
+                        "Id": "{{ModId}}_Shirt1001",
+                        "ItemId": "(S)1001",
+                        "Price": 0
+                    },
+                    //MINT BLOUSE
+                    {
+                        "Id": "{{ModId}}_MintBlouse",
+                        "ItemId": "(S)1002",
+                        "Price": 0
+                    },
+                    //DARK SHIRT
+                    {
+                        "Id": "{{ModId}}_DarkShirt",
+                        "ItemId": "(S)1003",
+                        "Price": 0
+                    },
+                    //SKULL SHIRT
+                    {
+                        "Id": "{{ModId}}_SkullShirt",
+                        "ItemId": "(S)1004",
+                        "Price": 0
+                    },
+                    //LIGHTBLUESHIRT
+                    {
+                        "Id": "{{ModId}}_LightBlueShirt",
+                        "ItemId": "(S)1005",
+                        "Price": 0
+                    },
+                    //TAN STRIPED SHIRT
+                    {
+                        "Id": "{{ModId}}_TanStripedShirt",
+                        "ItemId": "(S)1006",
+                        "Price": 0
+                    },
+                    //GREEN OVERALLS
+                    {
+                        "Id": "{{ModId}}_GreenOveralls",
+                        "ItemId": "(S)1007",
+                        "Price": 0
+                    },
+                    //"GOOD GRIEF" SHIRT
+                    {
+                        "Id": "{{ModId}}_GoodGriedShirt",
+                        "ItemId": "(S)1008",
+                        "Price": 0
+                    },
+                    //AQUMARINE SHIRT
+                    {
+                        "Id": "{{ModId}}_AquamarineShirt",
+                        "ItemId": "(S)1009",
+                        "Price": 0
+                    },
+                    //SUIT TOP
+                    {
+                        "Id": "{{ModId}}_SuitTop",
+                        "ItemId": "(S)1010",
+                        "Price": 0
+                    },
+                    //GREEN BELTED SHIRT
+                    {
+                        "Id": "{{ModId}}_GreenBeltedShirt",
+                        "ItemId": "(S)1011",
+                        "Price": 0
+                    },
+                    //LIME GREEN STRIPED SHIRT
+                    {
+                        "Id": "{{ModId}}_LimeGreenStripedShirt",
+                        "ItemId": "(S)1012",
+                        "Price": 0
+                    },
+                    //RED STRIPED SHIRT
+                    {
+                        "Id": "{{ModId}}_RedStripedShirt",
+                        "ItemId": "(S)1013",
+                        "Price": 0
+                    },
+                    //SKELETON SHIRT
+                    {
+                        "Id": "{{ModId}}_SkeletonShirt",
+                        "ItemId": "(S)1014",
+                        "Price": 0
+                    },
+                    //ORANGE SHIRT
+                    {
+                        "Id": "{{ModId}}_OrangeShirt",
+                        "ItemId": "(S)1015",
+                        "Price": 0
+                    },
+                    //NIGHT SKY SHIRT
+                    {
+                        "Id": "{{ModId}}_NightSkyShirt",
+                        "ItemId": "(S)1016",
+                        "Price": 0
+                    },
+                    //MAYORAL SUSPENDERS
+                    {
+                        "Id": "{{ModId}}_MayoralSuspenders",
+                        "ItemId": "(S)1017",
+                        "Price": 0
+                    },
+                    //BROWN JACKET
+                    {
+                        "Id": "{{ModId}}_BrownJacket",
+                        "ItemId": "(S)1018",
+                        "Price": 0
+                    },
+                    //SAILOR SHIRT
+                    {
+                        "Id": "{{ModId}}_SailorShirt",
+                        "ItemId": "(S)1019",
+                        "Price": 0
+                    },
+                    //GREEN VEST
+                    {
+                        "Id": "{{ModId}}_GreenVest",
+                        "ItemId": "(S)1020",
+                        "Price": 0
+                    },
+                    //YELLOW AND GREEN SHIRT
+                    {
+                        "Id": "{{ModId}}_YellowAndGreenShirt",
+                        "ItemId": "(S)1021",
+                        "Price": 0
+                    },
+                    //SHIRTS 1022-1025
+                    {
+                        "Id": "{{ModId}}_Shirt1022",
+                        "ItemId": "(S)1022",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1023",
+                        "ItemId": "(S)1023",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1024",
+                        "ItemId": "(S)1024",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1025",
+                        "ItemId": "(S)1025",
+                        "Price": 0
+                    },
+                    //LIGHT BLUE STRIPED SHIRT
+                    {
+                        "Id": "{{ModId}}_LightBlueStripedShirt",
+                        "ItemId": "(S)1026",
+                        "Price": 0
+                    },
+                    //PINK STRIPED SHIRT
+                    {
+                        "Id": "{{ModId}}_PinkStripedShirt",
+                        "ItemId": "(S)1027",
+                        "Price": 0
+                    },
+                    //HEART SHIRT
+                    {
+                        "Id": "{{ModId}}_HeartShirt",
+                        "ItemId": "(S)1028",
+                        "Price": 0
+                    },
+                    //WORK SHIRT
+                    {
+                        "Id": "{{ModId}}_WorkShirt",
+                        "ItemId": "(S)1029",
+                        "Price": 0
+                    },
+                    //STORE OWNER'S JACKET
+                    {
+                        "Id": "{{ModId}}_StoreOwnersJacket",
+                        "ItemId": "(S)1030",
+                        "Price": 0
+                    },
+                    //SHIRTS 1031-1033
+                    {
+                        "Id": "{{ModId}}_Shirt1031",
+                        "ItemId": "(S)1031",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1032",
+                        "ItemId": "(S)1032",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1033",
+                        "ItemId": "(S)1033",
+                        "Price": 0
+                    },
+                    //GREEN TUNIC
+                    {
+                        "Id": "{{ModId}}_GreenTunic",
+                        "ItemId": "(S)1034",
+                        "Price": 0
+                    },
+                    //FANCY RED BLOUSE
+                    {
+                        "Id": "{{ModId}}_FancyRedBlouse",
+                        "ItemId": "(S)1035",
+                        "Price": 0
+                    },
+                    //SHIRTS 1036-1037
+                    {
+                        "Id": "{{ModId}}_Shirt1036",
+                        "ItemId": "(S)1036",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1037",
+                        "ItemId": "(S)1037",
+                        "Price": 0
+                    },
+                    //PLAIN SHIRT - MALE VERSION
+                    {
+                        "Id": "{{ModId}}_PlainShirtMale",
+                        "ItemId": "(S)1038",
+                        "Price": 0
+                    },
+                    //RETRO RAINBOW SHIRT
+                    {
+                        "Id": "{{ModId}}_RetroRainbowShirt",
+                        "ItemId": "(S)1039",
+                        "Price": 0
+                    },
+                    //SHIRT 1040
+                    {
+                        "Id": "{{ModId}}_Shirt1040",
+                        "ItemId": "(S)1040",
+                        "Price": 0
+                    },
+                    //PLAIN SHIRT - FEMALE VERSION
+                    {
+                        "Id": "{{ModId}}_PlainShirtFemale",
+                        "ItemId": "(S)1041",
+                        "Price": 0
+                    },
+                    //LIME GREEN TUNIC
+                    {
+                        "Id": "{{ModId}}_LimeGreenTunic",
+                        "ItemId": "(S)1042",
+                        "Price": 0
+                    },
+                    //SHIRTS 1043-1070
+                    {
+                        "Id": "{{ModId}}_Shirt1043",
+                        "ItemId": "(S)1043",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1044",
+                        "ItemId": "(S)1044",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1045",
+                        "ItemId": "(S)1045",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1046",
+                        "ItemId": "(S)1046",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1047",
+                        "ItemId": "(S)1047",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1048",
+                        "ItemId": "(S)1048",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1049",
+                        "ItemId": "(S)1049",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1050",
+                        "ItemId": "(S)1050",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1051",
+                        "ItemId": "(S)1051",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1052",
+                        "ItemId": "(S)1052",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1053",
+                        "ItemId": "(S)1053",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1054",
+                        "ItemId": "(S)1054",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1055",
+                        "ItemId": "(S)1055",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1056",
+                        "ItemId": "(S)1056",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1057",
+                        "ItemId": "(S)1057",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1058",
+                        "ItemId": "(S)1058",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1059",
+                        "ItemId": "(S)1059",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1060",
+                        "ItemId": "(S)1060",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1061",
+                        "ItemId": "(S)1061",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1062",
+                        "ItemId": "(S)1062",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1063",
+                        "ItemId": "(S)1063",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1064",
+                        "ItemId": "(S)1064",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1065",
+                        "ItemId": "(S)1065",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1066",
+                        "ItemId": "(S)1066",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1067",
+                        "ItemId": "(S)1067",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1068",
+                        "ItemId": "(S)1068",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1069",
+                        "ItemId": "(S)1069",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1070",
+                        "ItemId": "(S)1070",
+                        "Price": 0
+                    },
+                    //WHITE OVERALLS SHIRT
+                    {
+                        "Id": "{{ModId}}_WhiteOverallsShirt",
+                        "ItemId": "(S)1071",
+                        "Price": 0
+                    },
+                    //SHIRTS 1072-1086
+                    {
+                        "Id": "{{ModId}}_Shirt1072",
+                        "ItemId": "(S)1072",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1073",
+                        "ItemId": "(S)1073",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1074",
+                        "ItemId": "(S)1074",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1075",
+                        "ItemId": "(S)1075",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1076",
+                        "ItemId": "(S)1076",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1077",
+                        "ItemId": "(S)1077",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1078",
+                        "ItemId": "(S)1078",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1079",
+                        "ItemId": "(S)1079",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1080",
+                        "ItemId": "(S)1080",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1081",
+                        "ItemId": "(S)1081",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1082",
+                        "ItemId": "(S)1082",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1083",
+                        "ItemId": "(S)1083",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1084",
+                        "ItemId": "(S)1084",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1085",
+                        "ItemId": "(S)1085",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1086",
+                        "ItemId": "(S)1086",
+                        "Price": 0
+                    },
+                    //NEAT BOW SHIRT
+                    {
+                        "Id": "{{ModId}}_NeatBowShirt",
+                        "ItemId": "(S)1087",
+                        "Price": 0
+                    },
+                    //SHIRTS 1088-1111
+                    {
+                        "Id": "{{ModId}}_Shirt1088",
+                        "ItemId": "(S)1088",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1089",
+                        "ItemId": "(S)1089",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1090",
+                        "ItemId": "(S)1090",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1091",
+                        "ItemId": "(S)1091",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1092",
+                        "ItemId": "(S)1092",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1093",
+                        "ItemId": "(S)1093",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1094",
+                        "ItemId": "(S)1094",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1095",
+                        "ItemId": "(S)1095",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1096",
+                        "ItemId": "(S)1096",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1097",
+                        "ItemId": "(S)1097",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1098",
+                        "ItemId": "(S)1098",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1099",
+                        "ItemId": "(S)1099",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1100",
+                        "ItemId": "(S)1100",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1101",
+                        "ItemId": "(S)1101",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1102",
+                        "ItemId": "(S)1102",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1103",
+                        "ItemId": "(S)1103",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1104",
+                        "ItemId": "(S)1104",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1105",
+                        "ItemId": "(S)1105",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1106",
+                        "ItemId": "(S)1106",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1107",
+                        "ItemId": "(S)1107",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1108",
+                        "ItemId": "(S)1108",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1109",
+                        "ItemId": "(S)1109",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1110",
+                        "ItemId": "(S)1110",
+                        "Price": 0
+                    },
+                    {
+                        "Id": "{{ModId}}_Shirt1111",
+                        "ItemId": "(S)1111",
+                        "Price": 0
+                    }
+               ]
+            }
+        },
+        "When": {
+          "EnableMod": "true"
+        }
+        },
+
+        // RAINBOW SHELLS
+        {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "{{ModId}}_ClothingBin", "Items" ],
+        "Entries": {
+                    "{{ModId}}_RainbowShell": {
+                        "Id": "{{ModId}}_RainbowShell",
+                        "ItemId": "(O)394",
+                        "Price": "{{RainbowShellPrice}}",
+				        "AvailableStock": "{{RainbowShellQty}}",
+				        "Condition": "DAY_OF_WEEK {{RainbowShellDay}}"
+                    }
+        },
+		"MoveEntries" : [
+			{ "ID": "{{ModId}}_RainbowShell", "ToPosition": "Top"}
+        ],
+        "When": {
+            "IncludeRainbowShell": "true",
+            "EnableMod": "true"
+        }
+        }
+
+    ]
+    
+}

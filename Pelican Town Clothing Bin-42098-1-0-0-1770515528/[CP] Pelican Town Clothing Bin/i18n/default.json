@@ -1,0 +1,36 @@
+{
+  //CONFIG SECTIONS
+  "config.section.General.name": "General",
+  "config.section.RainbowShells.name": "Rainbow Shells",
+
+  //CONFIG OPTIONS
+  "config.EnableMod.name": "Enable Mod?",
+  "config.EnableMod.description": "Turn the mod on or off at any time.",
+  "config.Saturation.name": "Saturation",
+  "config.Saturation.description": "Saturation levels for the Clothing Bin image. Choose from the Vanilla colour pallette or Desaturated for better compatibility with muted recolours like Earthy or VPR.",
+  "config.Saturation.values.Vanilla": "Vanilla",
+  "config.Saturation.values.Desaturated": "Desaturated",
+  "config.IncludeRainbowShell.name": "Include Rainbow Shell",
+  "config.IncludeRainbowShell.description": "Adds 1-2 Rainbow Shells to the Clothing Bin on your chosen day of the week, intended for use with dyeing clothes. The mod author hopes you will not utilise this feature for profit, bundles or quests. Options below do nothing if this is unchecked.",
+  "config.RainbowShellDay.name": "Rainbow Shell Day",
+  "config.RainbowShellDay.description": "Choose which day of the week Rainbow Shells are available.",
+  "config.RainbowShellDay.values.Monday": "Monday",
+  "config.RainbowShellDay.values.Tuesday": "Tuesday",
+  "config.RainbowShellDay.values.Wednesday": "Wednesday",
+  "config.RainbowShellDay.values.Thursday": "Thursday",
+  "config.RainbowShellDay.values.Friday": "Friday",
+  "config.RainbowShellDay.values.Saturday": "Saturday",
+  "config.RainbowShellDay.values.Sunday": "Sunday",            
+  "config.RainbowShellQty.name": "Rainbow Shell Quantity",
+  "config.RainbowShellQty.description": "Choose how many Rainbow Shells are available.",
+  "config.RainbowShellPrice.name": "Rainbow Shell Price",
+  "config.RainbowShellPrice.description": "Choose a price for each Rainbow Shell.",
+  "config.RainbowShellPrice.values.0": "Free",
+  "config.RainbowShellPrice.values.100": "100g",
+  "config.RainbowShellPrice.values.300": "300g",
+  "config.RainbowShellPrice.values.600": "600g",
+  "config.RainbowShellPrice.values.1200": "1,200g",  
+
+  //SHOP DIALOGUE
+  "ClothingBin.Dialogue": "Pelican Town Community Clothing Bin. Always stocked for anyone who needs it!"
+}

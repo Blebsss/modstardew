@@ -1,0 +1,11 @@
+{
+    "Name": "Pelican Town Clothing Bin",
+    "Author": "Smashley41",
+    "Version": "1.0.0",
+    "Description": "A source of clothing for those who need it.",
+    "UniqueID": "Smashley41.ClothingBin",
+    "UpdateKeys": ["Nexus:42098"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
