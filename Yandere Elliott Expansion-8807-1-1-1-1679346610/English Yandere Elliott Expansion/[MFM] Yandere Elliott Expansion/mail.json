@@ -1,0 +1,1206 @@
+[
+
+//Flower Dance
+	{
+		"Id": "YandereElliott.Mail.FlowerDance", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "艾利欧特的花舞节邀请", 
+		"Text": "Dear @,^^I know this is a rather presumptuous request, but I'd like you to reserve today's dance for me.^^-Elliott", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Days": [24], 
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 4, 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			}
+		],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+//Sping
+	{
+		"Id": "YandereElliott.Mail.Spring", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的春季问候", 
+		"Text": "@,^^Yesterday's festivities were such a delight. It was impossible take my eyes off of you. The moment I saw your smile, my chest began to ache so fiercely as if to expose my vulgar thoughts - though, I wouldn't want to sully your ears, so I'll spare you the details. To make a long story short, I bought some strawberry seeds from Pierre. It's my understanding that spring is the best time to grow them. In a way, they remind me of you - sweet and ever so temptatious...^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 745, 
+				"Stack": 30 
+			},
+		],
+		"Days": [14], 
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			}
+		],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+//Summer	
+	{
+		"Id": "YandereElliott.Mail.Summer", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的夏季问候", 
+		"Text": "@,^^I was walking on the beach last night and the moonlight enveloped the sea like a fog. As I looked up at the night sky, I suddenly felt acutely aware of just how silent everything was around me. I let myself drift along the sea breeze until I found myself resting upon the moon's surface. Even then, my heart wanted only one thing: to be with you. I wanted to talk to you, gaze at you, and lie quietly with you on the land of the moon.^^When I awoke from this dream, I found this on the beach. I'd like you to have this just so I know that this is more than just a dream.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 394, 
+				"Stack": 1 
+			},
+		],
+		"Days": [20], 
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			}
+		],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+//fall
+	{
+		"Id": "YandereElliott.Mail.Fall", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的秋季问候", 
+		"Text": "@,^^Although I think about you everyday, for some reason, I ached for you more than usual yesterday. There are no words to properly express what I feel for you.^^Most people seem to love autumn, yet every moment I don't see you makes me hate the season beyond measure. Don't get me wrong, it's not you that I hate. I could never hate you, even if you have yet to be mine.^^I have enclosed a gift with this letter. I heard that things like this bring good luck. @, whether or not I have a place in your heart, remember that I only want the best for you.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 446, 
+				"Stack": 1 
+			},
+		],
+		"Days": [6], 
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			}
+		],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+//winter	
+	{
+		"Id": "YandereElliott.Mail.Winter", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的冬季问候", 
+		"Text": "@, ^^Can you believe it's been a year since we first met? Thinking back to the days before I knew you, it somehow all feels like a bygone dream. As much as your indifference torments me, I'll never stop loving you. Otherwise, I'm not sure how I'd get through another year of my life, never mind each year thereafter.^^I noticed this pearl while at the night market and couldn't help but get it for you. To my eyes, you are just as precious and beautiful as this pearl.^^-Your admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 797, 
+				"Stack": 1 
+			},
+		],
+		"Date": "28 winter Y1",
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			}
+		],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+
+//Stalker Letters
+	{
+		"Id": "YandereElliott.Mail.Begin", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的问候", 
+		"Text": "@,^^I've been watching you. Have you noticed?^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 1, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Passionate", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的渴望", 
+		"Text": "@,^^I want to take you in my arms, savor that sweet taste of your lips, and leave you utterly breathless. I want to touch your body and feel every last inch of your beautiful skin. I want to brush my fingers over your ears, your collarbones, and feel your fiery breath against my flesh as you cry and tremble for me. I want to possess all your joy and pleasure, so that your eyes can only hold me alone.^^Of course, most importantly, I want you. ^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 2, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [39],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Complain", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的抱怨", 
+		"Text": "@,^^You are simply too cruel. Don't you know the power you have over me? I can't help but fixate on your every move, every word you say, and every smile you show. Even if you were to demand I jump into the boundless fires of hell, you know I will obey without hesitation. I'm willing to pay any price if it means you could be mine.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 3, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [40],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Desire", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的致歉", 
+		"Text": "@,^^I must apologize to you for I have done something completely inexcusable. Please forgive me.^^I'd been lurking around your farm last night. I saw you rush into your home, your delicate fingertips slightly red as evidence of your arduous labors. Your pretty silhouette cast through the window - and with bated breath - I watched you collapse onto your bed, silent in repose. Unable to control myself, I pushed open your bedroom door to gaze upon your sleeping form, my whole body trembling with excitement. I reached out and caressed your cheek, the softness of which made me feel like a drunken fool unable to think. For Yoba's sake, I didn't do anything beyond that - as tempting as it was to do otherwise - because I didn't want to disturb your peaceful slumber, let alone harm who I hold so dear.^^I understand this sort of behavior is unacceptable, but believe me when I say my actions came from a place filled solely with love and sincerity.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 4, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [626070201],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Confession", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的告白", 
+		"Text": "@,^^There has yet to be a moment where I don't long for you. The only thing I look forward to every day is a few brief conversations with you, and the rest of the time consists of meaningless, hollow anticipation. Whenever you approach me, it takes all of my strength to not tremble in excitement. At first, I didn't know what this emotion was, only that the sight of your smile made my heart sway and that of your back made me suffer. But I understand it now.^^I love you, @. I love you more than anything in the world. ^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 5, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [626070501],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Jealous", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的教导", 
+		"Text": "@,^^I couldn't help but notice that you've been talking to the other townspeople more frequently. As much as I want to say that I hate it, that the mere sight of your eyes on others makes the flames of jealousy burn rampant within my heart, I simply cannot. Whenever I see your smile, these ugly emotions disappear. Regardless, even if you can effortlessly confuse my eyes, this behavior is still wrong. You're the most precious treasure in my life, how could you give me anything but your undivided attention? I understand that you have a kind and loving heart - it's simply in your nature to be friendly to others. However, your actions may foster unwanted emotions within these people, and such an outcome is something none of us would like to see.^^Anyhow, I hope you will consider what I've told you. Have a good day, my love.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 6, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [1848481],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Comfort", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的安慰", 
+		"Text": "@,^^Today, I was reminded of the first time we met. I heard that you used to work for Joja in Zuzu City, eventually deciding to leave everything behind to live here in Stardew Valley. I can't imagine what you must have went through. I understand it must have been overwhelmingly stressful and painful for you if you went as far as to abandon everything. Nonetheless, since you're here now, I hope you can leave those oppressive restrictions behind and simply enjoy your new life. That's just what a new beginning is all about, isn't it?^^I assume most people who decide to start a new life have a sad past, and I am no exception. In fact, even now, my heart is still shrouded in a somber haze. But now I have you, @, the sun and moon of my heart, my savior and my dream. You are the only living presence in my world. There was a time when I would have welcomed my own early death, but now, I want to continue living with you.^^-Your Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 7, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"EventsSeen": [626070401],
+		"MailNotReceived": ["YandereElliott.Mail.Final"], 
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Final", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的告别", 
+		"Text": "Dear @,^^ I dreamt about you again last night. Although I can't recall the exact details of the dream, I woke up inexpressibly frustrated and lost, hands still on my heart. I realize now that I cannot go on like this. I love you, @, there is no person I love more than you. This is why I can't continue to hide behind this anonymity, shamelessly spewing my hopeful and honeyed words of affection your way. I want you to see me. I want your heart to be occupied by me and me alone. As such, I must say goodbye to you here, my dear, in order to be with you for eternity. But, I assure you that I will always be watching over you.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 458, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 8, 
+				"FriendshipStatus": ["Friendly","Dating"] 
+			}
+		],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+//Jealous Letters
+
+	{
+		"Id": "YandereElliott.Mail.DateAllGuys", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的质问", 
+		"Text": "@,^^I'll cut out the boring pleasantries. It's been a while since I last wrote, and during this period, I've been watching your every move. Now, what exactly have you shown me? I think it unfathomable - how is it that you are dating this many people at once? How is this something you've done of your own will? Did they somehow seduce you with their sweet words, or was it simply your desire to toy with these insipid minds and add a little excitement to life? Whatever the case is, I don't think that's true love. Love ought to be as perfect and pure as you are. No one should defile this beauty.^^I beg of you, distance yourself from all these vile men. I understand it's not my place to question your choices. However, I will stop at nothing to protect your beauty, even if it means getting my hands dirty.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Alex", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Harvey", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Sam", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Sebastian", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Shane", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Alex", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的劝诫", 
+		"Text": "@,^^I deeply apologize. After much deliberation, I have finally decided to send this letter.^^I heard that you and Alex started dating. While I know I should express my best wishes, I simply can't bring myself to do so. How could you do this, @? How could you possibly fall for a person like that? I am willing to bet that you know far less about Alex than someone else here - like Haley. I'm certain if the two of you were to go on a date, he would most certainly concentrate on the steak in front of him, completely disregarding you like the simple-minded man he is. No offense, but you and he are in no way compatible. Though, naturally, he's the one who doesn't deserve you.^^I'm doing my best to control my tone, but I hope you understand that I am in no way calm at this time. I implore you to rethink this choice carefully. It's unbecoming of you to make such a rash decision.^^I have enclosed what you need. Once you're ready, give it to him. He will understand.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 277, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Alex", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"MailNotReceived": ["YandereElliott.Mail.DateAllGuys","YandereElliott.Mail.Harvey","YandereElliott.Mail.Sam","YandereElliott.Mail.Sebastian","YandereElliott.Mail.Shane"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Harvey", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的劝诫", 
+		"Text": "@,^^I deeply apologize. After much deliberation, I have finally decided to send this letter.^^I heard that you and Harvey started dating. While I know I should express my best wishes, I simply can't bring myself to do so. How could you do this, @? How could you possibly fall for a person like that? I am willing to bet that you know far less about Harvey than someone else here - like Maru. He's far too cowardly, and there isn't a single person who wants to listen to his medical jargon all day long. No offense, but you and he are in no way compatible. Though, naturally, he's the one who doesn't deserve you.^^I'm doing my best to control my tone, but I hope you understand that I am in no way calm at this time. I implore you to rethink this choice carefully. It's unbecoming of you to make such a rash decision.^^I have enclosed what you need. Once you're ready, give it to him. He will understand.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 277, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Harvey", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"MailNotReceived": ["YandereElliott.Mail.DateAllGuys","YandereElliott.Mail.Alex","YandereElliott.Mail.Sam","YandereElliott.Mail.Sebastian","YandereElliott.Mail.Shane"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Sam", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的劝诫", 
+		"Text": "@,^^I deeply apologize. After much deliberation, I have finally decided to send this letter.^^I heard that you and Sam started dating. While I know I should express my best wishes, I simply can't bring myself to do so. How could you do this, @? How could you possibly fall for a person like that? I am willing to bet that you know far less about Sam than someone else here - like Penny. His flippant attitude towards love is bound to cause you immense, needless suffering, and I can't bear to see you get hurt. No offense, but you and he are in no way compatible. Though, naturally, he's the one who doesn't deserve you.^^I'm doing my best to control my tone, but I hope you understand that I am in no way calm at this time. I implore you to rethink this choice carefully. It's unbecoming of you to make such a rash decision.^^I have enclosed what you need. Once you're ready, give it to him. He will understand.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 277, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Sam", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"MailNotReceived": ["YandereElliott.Mail.DateAllGuys","YandereElliott.Mail.Alex","YandereElliott.Mail.Harvey","YandereElliott.Mail.Sebastian","YandereElliott.Mail.Shane"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Sebastian", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的劝诫", 
+		"Text": "@,^^I deeply apologize. After much deliberation, I have finally decided to send this letter.^^I heard that you and Sebastian started dating. While I know I should express my best wishes, I simply can't bring myself to do so. How could you do this, @? How could you possibly fall for a person like that? I am willing to bet that you know far less about Sebastian than someone else here - like Abigail. He's a rebellious shut-in, and with the way he is, it isn't unlikely that he'll leave Stardew Valley someday and abandon all he left behind. No offense, but you and he are in no way compatible. Though, naturally, he's the one who doesn't deserve you.^^I'm doing my best to control my tone, but I hope you understand that I am in no way calm at this time. I implore you to rethink this choice carefully. It's unbecoming of you to make such a rash decision.^^I have enclosed what you need. Once you're ready, give it to him. He will understand.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 277, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Sebastian", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"MailNotReceived": ["YandereElliott.Mail.DateAllGuys","YandereElliott.Mail.Alex","YandereElliott.Mail.Harvey","YandereElliott.Mail.Sam","YandereElliott.Mail.Shane"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.Mail.Shane", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "仰慕者的劝诫", 
+		"Text": "@,^^I deeply apologize. After much deliberation, I have finally decided to send this letter.^^I heard that you and Shane started dating. While I know I should express my best wishes, I simply can't bring myself to do so. How could you do this, @? How could you possibly fall for a person like that? I am willing to bet that you know far less about Shane than someone else here - like Emily. He's made such a mess of his own life. Surely you don't want to be his guardian forever? No offense, but you and he are in no way compatible. Though, naturally, he's the one who doesn't deserve you.^^I'm doing my best to control my tone, but I hope you understand that I am in no way calm at this time. I implore you to rethink this choice carefully. It's unbecoming of you to make such a rash decision.^^I have enclosed what you need. Once you're ready, give it to him. He will understand.^^-Your Faithful Admirer", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 277, 
+				"Stack": 1 
+			},
+		],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Friendly","Dating","Engaged"] 
+			},
+			{
+				"NpcName": "Shane", 
+				"FriendshipStatus": ["Dating","Engaged"] 
+			},
+		],
+		"MailReceived": ["YandereElliott.Mail.Begin"],
+		"MailNotReceived": ["YandereElliott.Mail.DateAllGuys","YandereElliott.Mail.Alex","YandereElliott.Mail.Harvey","YandereElliott.Mail.Sam","YandereElliott.Mail.Sebastian"],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+
+//Propose
+
+	{
+		"Id": "YandereElliott.Mail.Proposal", 
+		"GroupId": "YandereElliott.Mail", 
+		"Title": "艾利欧特的求婚", 
+		"Text": "@,^^I am at a loss for words to describe how I feel in this moment. I just want you to know that I love you.^^I give you this pendant as proof of my heart. If you feel the same way, simply return it to me and I'll take care of everything. I will wait for you as long as it takes.^^-Love, Elliott", 
+		"WhichBG": 0, 
+		"Repeatable": false, 
+		"Attachments": [ 
+			{
+				"Type": "Object", 
+				"Index": 460, 
+				"Stack": 1 
+			},
+		],
+		"HouseUpgradeLevel": 1,
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipLevel": 10, 
+				"FriendshipStatus": ["Dating"] 
+			}
+		],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+
+//Seed Order
+//Sping
+	{
+		"Id": "YandereElliott.SeedOrder.Sping1", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 495,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping2", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 472,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping3", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 473,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping4", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 474,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping5", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 475,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping6", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 427,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Sping7", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 429,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["spring"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+
+//Summer
+	{
+		"Id": "YandereElliott.SeedOrder.Summer1", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 496,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer2", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 479,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer3", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 480,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer4", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 481,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer5", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 482,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer6", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 302,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Summer7", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 485,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["summer"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+		
+//Fall
+	{
+		"Id": "YandereElliott.SeedOrder.Fall1", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 497,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+
+	{
+		"Id": "YandereElliott.SeedOrder.Fall2", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 490,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Fall3", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 487,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Fall4", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 488,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Fall5", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 493,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+		
+	{
+		"Id": "YandereElliott.SeedOrder.Fall6", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 492,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Fall7", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 483,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+		
+//Winter
+	{
+		"Id": "YandereElliott.SeedOrder.Winter1", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 498,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["winter"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+		"AdditionalMailReceived": ["VANILLA_FLAG"],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Winter2", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 499,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["fall"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"Seasons": ["winter"],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Winter3", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 486,
+				"Stack": 50
+			},
+		],
+		"Seasons": ["winter"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"Buildings": ["Greenhouse"],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Winter4", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 629,
+				"Stack": 3
+			},
+		],
+		"Seasons": ["winter"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+	
+	{
+		"Id": "YandereElliott.SeedOrder.Winter5", 
+		"GroupId": "YandereElliott.SeedOrder.Random", 
+		"Title": "种子订购", 
+		"Text": "Mr. Elliott,^^Thank you for trialing Pierre Grocery Store's mailing service. We will mail you the seeds you ordered. In the meantime, please extend my best regards to @. I hope to see them recover soon!^^Pierre's Grocery is always at your service.^^-Pierre", 
+		"WhichBG": 0, 
+		"Repeatable": true, 
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Index": 628,
+				"Stack": 3
+			},
+		],
+		"Seasons": ["winter"],
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Elliott", 
+				"FriendshipStatus": ["Married"] 
+			}
+		],
+		"EventsSeen": [626070901], 
+		"EventsNotSeen": [626070998],
+	},
+		
+	
+]

@@ -1,0 +1,308 @@
+{
+"Changes": [
+
+//Egg Festival
+{
+    "Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"Entries": {
+        "Elliott": "It's been a busy spring for you, hasn't it? You must be craving a well-deserved rest.#$b#Hey, I found this on the way here. I thought you might find it useful.[16 18 22 24 340 400 485 591 634 140 638]#$e#Oh, don't worry about it. I hope you have a good time today.$h"
+	}
+},   
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "There you are, @! It's lovely to see you.$h#$e#Are you going to join the Egg Hunt later? I have to say, as easy as it looks, this game is actually pretty difficult.#$b#I only found one egg when I participated, and then I gave up on the game after that.$s#$e#Hey, @. You'd be happy if you won, right?#$b#I just know you'll win. I'll be cheering for you.$h",
+		"Abigail": "Elliott just gave me a jar of strawberry jam. He said he bought it from my dad and that I should taste it as soon as possible while it's still fresh.#$b#I'm gonna save it for after the Egg Hunt though, as a reward for winning!$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "By the way, @, do you enjoy these festivals?#$b#I can easily tell by that grin on your face right now.$h#$e#Speaking of which... You know, whenever you go around talking to people, I notice you have this certain smile on your face.#$b#Sometimes it almost seems happier than when you're with me.$h#$e#No, Darling. I'm not mad. It's good to mingle with other people from time to time. Besides, I know I'm the only person you'll ever love.#$b#Anyway, are you going to join the egg hunt this year?$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring13",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "@... Is there anything you'd like to say to me?$h#$b#.........$7"
+	}
+},
+
+
+//Flower Dance
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "Entries": {
+        "Elliott": "@, you're here too.#$b#It's good to see you. It seems like you're fitting in just fine, huh? I'm glad.#$e#Speaking of, I was wondering if you've already...#$b#...$4#$e#Nevermind, it's nothing. Have a nice day.",
+		"Leah": "I've been trying to get Elliott to tell me who he wants to dance with.#$b#He only told me that he's too afraid to ask them, worrying they'll think he's a weirdo or something. So, I think I'll just ask him to dance with me this time."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { "Hearts:Elliott": "4, 5, 6, 7, 8, 9, 10" },
+    "Entries": {
+        "Elliott": "@, there you are!$h#$b#If you don't mind, may I be your dance partner?#$b#You haven't agreed to dance with somebody else already, have you? I've asked around and I believe everyone has already found a partner.$h",
+        "Leah": "Hey, @. So you came too?$h#$e#I don't really plan on dancing today. To be honest, the only guy I could dance with has already found a partner.#$b#It'll be a good opportunity to watch everyone dance, though - as a source of inspiration!#$e#Plus, Elliott won't have to complain about me stepping on his foot anymore. But come on, who really looks worse without a partner, anyway?$a"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { "Relationship:Elliott": "Dating" },
+    "Entries": {
+        "Elliott": "@.$h#$b#You're going to dance with me, won't you? I've been looking forward to this since last week.#$b#Hey, you weren't planning on asking someone else, were you? You belong to me, remember?$7#$b#Just kidding. I know wouldn't do that.$h",
+		"Leah": "Hello, @!$h#$b#For a while now, Elliott's been secretly practicing by himself in order to dance with you. He doesn't want to make a fool of himself, I guess.$h#$e#Don't tell him I told you that."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { "Relationship:Elliott": "Married" },
+    "Entries": {
+        "Elliott": "Honestly, I don't really like these kinds of events. If you want to dance, we can play the stereo at home.#$b#And whenever you're in the mood, I'll accompany you.$h#$e#No, it's not that I hate dancing, I just don't like people looking at you.#$b#You don't know how attractive you are, @. No one can say no to you.$s#$e#You wouldn't ask someone else to dance, would you? Just who would I have to... enlighten... on who you belong to?#$e#...Frankly, if you indeed asked somebody else, I'm not sure I could resist... hurting them. So don't let that happen, okay?$h",
+		"Leah": "Gah, so boring... so boring...#$s#$e#Oh, @, aren't you going to dance with Elliott? If so, don't waste any more time talking to me. I can already feel his eyes burning into the back of my head.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/spring24",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "@, are you going to dance with someone else?#$b#.........$h"
+	}
+},
+
+
+
+//Luau
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "Entries": {
+        "Elliott": "I woke up late, stepped out the door, and found myself in the middle of all this hubbub!#$b#I forgot that today was the Luau.$h#$e#Have fun, @. I hope you enjoy the festivities."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { "Hearts:Elliott": "4, 5, 6, 7, 8", },
+    "Entries": {
+        "Elliott": "Ah, @. It feels nice to see you as soon as I wake up.$h#$b#Just a word of advice, stay away from that soup. You never know what they might put in it.#$e#In case you're wondering, I'm talking about Sam and Sebastian. I wouldn't put it past them to do something strange like that.#$b#Didn't you hear that Sam got a community service fine for that?$s#$e#Me? Ruin the soup? Why, of course I wouldn't.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "A luau is indeed nice but also a potentially dangerous activity.#$b#If someone were planning on putting something bad in the soup, now would be the perfect opportunity to do so.#$e#Of course, I'm sure no one would do that. We're all good people here.$h#$e#Except for maybe Sam and Sebastian. You know Sam isn't too fond of the governor. It's not unlikely that he'll do something foolish on a whim.$h#$b#Don't worry @, I'm always keeping an eye out for you. All you need to do is stay away from them."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "Every time we hold an event on this beach, I get a strange feeling when I look back at that old shack.#$b#You know, I'm really not that reserved, but I don't like excessive noise either. Watching so many people come and go through this familiar place, I can't help but feel...$s#$e#I know, Darling. I don't live here anymore.#$b#And I'm no longer alone. Because I have you...$4#$e#What, the soup? My dear, even if you put poison in it, I'd still be happy to try it.#$b#Just kidding. I know you don't want to kill me, so I won't hurt you either..."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer11",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "..........#$b#What would be a good addition to the soup...?$h"
+	}
+},
+
+
+
+//Moonlight Jellies
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "Entries": {
+        "Elliott": "It's hard to believe that summer is coming to an end, as are these moonlight jellyfish.$s#$b#Well, all good things are fleeting, aren't they?$s#$e#Humans are really strange creatures. We marvel at the beauty of nature while doing our best to destroy it.$s#$b#Maybe some things should never have been taken for granted in the first place... I don't want to watch everything beautiful destroyed within my own hands.$s#$e#Oh, I'm quite alright. I suppose I'm just feeling especially sentimental tonight."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": { "Hearts:Elliott": "4, 5, 6, 7, 8", },
+    "Entries": {
+        "Elliott": "I've always loved this particular time of year - whether it's the luminous moonlight jellies, the distant candlelit boats, or the pleasantly evocative aura of a summer night.#$b#Ah, excuse me. This is view a rare sight, perhaps I should simply enjoy the moment.$h#$e#...Thank you, @. I'm lucky to have you here."
+	}
+},  
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "Summer's almost over, but you're not going to leave me, are you?$s#$b#How curious... Upon seeing you, I feel this long-awaited peace wash over me...#$e#Just stay with me for a while, okay? Let us bid a final farewell to these moonlight jellyfish."
+	}
+},  
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+     "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "It's a beautiful summer evening, don't you think?#$b#I used to get so emotional over summer's end. It was simply part of my pursuit for inspiration, so don't worry.#$b#Your presence makes this experience far less dreary. You brighten up the whole world, @.$h#$e#It may be little selfish of me to ask this, considering how many people are around, but...$4#$b#May I kiss you, @? I want to kiss you so badly right now.$4#$e#...Although this night is bound to end, I know you'll still be by my side tomorrow."
+	}
+},  
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/summer28",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "Summer is over. Perhaps... it's time for me as well...$7#$b#.........$s"
+	}
+},
+
+
+//Stardew Fair
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "Entries": {
+        "Elliott": "Hey, @. How are the fall show preparations going? I hear the competition is tough this year.#$e#I'll be rooting for you! And if you need any help, just let me know.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "Did you ask Welwick to tell your fortune, @?#$b#I've heard she's really good at it. You can hear your future straight from her mouth.#$e#If you did, did you see anyone in particular? Rather, did you see someone else besides me...?$h"
+	}
+},    
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "I can't help but feel such pride every time this festival comes around.#$b#It's because my darling is the best farmer there is. It's only natural to be proud, right?$h#$e#I'm so thankful to have you by my side, @. I love you, and you're the only one I'll ever love."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall16",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "Fortune telling is a nonsensical thing, isn't it?#$b#If it really were accurate, why did you leave me?$h"
+	}
+},
+
+
+//Spirit's Eve      
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "Entries": {
+        "Elliott": "Hello, @. It's pretty cold, isn't it?#b#I'm thinking it's not just because of the weather. A spooky atmosphere like this tends to give people chills.#$e#Don't stay out too long, okay? You should go home and rest soon.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "@! It's good to see you. Have you tried out that maze yet?#$e#I heard the reward for finishing it is a golden pumpkin... but I don't see the use in that.#$b#Well, I suppose some people might like it as a gift, but you have no need to try and impress anyone, now do you?$h#$e#I'm the only person you need."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "There you are, Darling!$h#$b#I think I may have eaten too much pumpkin pie... my mouth tastes all sweet.#$e#Hm? Would you like to try some too?$8#$b#Here, I happened to grab an extra piece for you.[608]$h#$e#Fine, and this too. *Kiss*$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/fall27",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "I don't want to believe that the undead truly exist in this world.#$b#...Otherwise, how could one find eternal peace?$7"
+	}
+},
+
+
+
+//Ice Festival
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "Entries": {
+        "Elliott": "Hey, @. I plan on participating in the ice fishing tournament this year. What about you?#$e#If you decide to enter, watch out for Willy, will you? He's a very skilled fisherman.#$b#I hope you win! Really!$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "It's so cold, @! Do you feel cold too?#$b#Here, come a little closer. We'll keep each other warm.#$e#You're not shy about being seen, are you? Who cares what anyone else thinks?$h#$b#It's alright, you'll be mine sooner or later anyway.$l"
+	}
+},    
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "I already know I'm going to lose miserably to you. Not that I mind, I'm just here for the experience.$h#$e#Besides, I'm happy to play with you. Fishing together, feeling that cold winter breeze...#$b#When this is all over, we can go home, take a hot shower, and share a cup of coffee in front of the fireplace.$h"
+	}
+},  
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter8",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "Why on earth am I even here...?$7#$b#...I don't belong here.$7"
+	}
+},
+
+
+//Winter Star
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "Entries": {
+        "Elliott": "Happy Holidays, @! I've got a gift for you. I think you'll get some use out of it. [107 289 445 446 454 577 645]$h#$e#Don't worry. You don't need to get me a gift. Simply your company is good enough for me.$h#$b#Anyway, happy Winter Star."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "Elliott": "I'm not fond of the secret gift exchange. I never get the person I want.$a#$b#Oftentimes, fate purposely decides not to favor you. You can only get what you want through your own efforts.$s#$e#Ah, let me not say such depressing things. You've been enjoying the holiday season, I hope? Here's the gift I prepared for you, I hope you like it.[529 530 531 532 533 534]$h#$b#Happy Winter Star.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "Elliott": "Are you enjoying all this hoopla? I must admit, I strongly prefer to stay home on days like this.#$b#Fireplace, mead, thick blankets... just the two of us?$h#$b#I'll take good care of you. You don't need anyone else.$h#$e#Still, no matter where I am, I'm content when I'm with you. This is for you, Happy Winter Star, @.[279 911 928]#$b#Thank you for always being there for me. I love you.$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Data/Festivals/winter25",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "Elliott": "I have many wishes that I can no longer fulfill.#$b#...Why do you still bother talking to me, @?$h"
+	}
+},
+
+]
+}

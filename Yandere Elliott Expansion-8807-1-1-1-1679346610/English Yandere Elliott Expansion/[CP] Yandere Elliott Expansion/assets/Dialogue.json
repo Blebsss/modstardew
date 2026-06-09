@@ -1,0 +1,366 @@
+{
+"Changes": [
+
+//Special Dialogue
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Elliott",
+    "Entries": {
+        "Introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Elliott... I live in the little cabin by the beach.#$e#I've only been in town a short while, so maybe we can find some common ground.#$b#If you encounter any difficulties, please, feel free to come to me. Even if it's not anything particularly important, I still welcome your company.#$e#Really, it's a pleasure meeting you!$h",
+        "danceRejection": "...!$8#$b#Dance with you? I hadn't expected you to take the initiative, @.$h#$b#I'd love to, but I've already promised to dance with a friend of mine. Albeit reluctantly, I'd like to uphold that promise.$s#$e#How about next year? Would you still like to dance with me then?$h",
+        "breakUp": "...#$b#@, are you serious? I'd reconsider if I were you.$h#$e#Well, if you change your mind, don't be afraid to come my way.#$b#This is little more than an impusle, isn't it?$h#$e#...$7",
+        "divorced": "It's you, my dear. Is there anything you'd like to say to me?$h#$b#...$7",
+        "dumped_Guys": "@, no matter who you choose in the end, I will always love you.$7#$b#My only hope is that you won't forget me.$s#$e#I wanted to believe that I was the only one you loved, but I suppose that was rather naive of me.$s",
+        "secondChance_Guys": "I'm willing to put the past behind us, @. I love you, and I will always love you.$h"
+	},
+},
+
+//Unique Courtship Dialogue
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Elliott",
+    "Entries": {
+        "give_flowersA": "@, this is...$8#$b#Are you sure? You know what this means, don't you?#$e#From now on, I'm yours alone.$4#$b#We'll be together forever, @. I promise to never leave your side.",
+        "give_flowersB": "...$8#$b#@, are you serious?#$e#Haha, I... I've fantasized about this incessantly ever since we first met.$4#$b#Thank you for giving me this chance.$4",
+        "give_pendant": "...?!$8#$b#Of course! I accept!$h#$e#I've been waiting for you to give this to me, Darling. I knew you would.#$b#I can't wait to live with you. Absolutely no one will get in our way anymore.$h#$e#In three days, everyone will know that you're mine.#$b#I love you, @. I will stop at nothing to make you happy.$4",
+        "stardrop_gift": "Although I've said it countless times already, I'm willing to continue saying it forever. I love you, @.#$b#You simply cannot imagine how much I love you. Even I can't describe it accurately myself.#$b#This is a gift for you. I hope it can protect you, even if I am not by your side.#$e#Not that I'd let you out of my sight in the first place, of course.$h",
+
+		"rejectNPCA": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#...How much do you truly love me? Are you prepared to give your eyes and heart to no other?$s#$b#If you're not completely sure of your feelings, we should give it more time. I'd be devastated if you left me so easily, so...$s",
+		"rejectNPCB": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#...How much do you truly love me? Are you prepared to give your eyes and heart to no other?$s#$b#If you're not completely sure of your feelings, we should give it more time. I'd be devastated if you left me so easily, so...$s",
+		"reject_two_heartA": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#I'm afraid I'll hurt you... and that is the last thing I want to do.$s",
+		"reject_two_heartB": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#I'm afraid I'll hurt you... and that is the last thing I want to do.$s",	
+		"reject_four_heartA": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#I much prefer staying friends for now over constantly fearing I'll just lose you in the end.$s",
+		"reject_four_heartB": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#I much prefer staying friends for now over constantly fearing I'll just lose you in the end.$s",
+		"refusal_knownA": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#There is still a lot you don't know about me... I don't want you to regret your decision.$s",
+		"refusal_knownB": "...! @, this is...$8#$b#I'm sorry. You know I love you, but I simply can't accept this.$s#$e#There is still a lot you don't know about me... I don't want you to regret your decision.$s",
+		"engageA": "Ah, finally... I've waited for this day for so long...$4#$b#Is there anything else you want me to do, Darling? Would you like me to get rid of your fiance first?$h",
+		"engageB": "Ah, finally... I've waited for this day for so long...$4#$b#Is there anything else you want me to do, Darling? Would you like me to get rid of your fiance first?$h",
+		"marriedA": "Believe me, Darling, I'd love to accept this... However, we still have some unfinished business.#$b#We need to deal with %spouse first...$h",
+		"marriedB": "Believe me, Darling, I'd love to accept this... However, we still have some unfinished business.#$b#We need to deal with %spouse first...$h",
+		"refusal_botherA": "@, don't do this... You'll make me unable to control myself...",
+		"refusal_botherB": "@, don't do this... You'll make me unable to control myself...",
+		"giftquestion_yes": "...Why would you give a gift to someone else? Am I not your favorite person?$h#$b#...$s",
+		"giftquestion_lie": "...Is that so?$h#$b#I'll believe whatever you tell me, @. So please, don't lie to me.$s"
+	},
+    "When": {
+        "HasMod: |contains=misscoriel.UCRFix": true,
+    },
+},
+
+
+//Daily Dialogue
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Elliott",
+"Entries": {
+
+        "Mon": "I haven't lived in this town for very long. It's only been a year since I first moved here.$h#$e#To be honest, it was rather difficult to adapt at first.#$b#Though, now that you're here, I suppose I'm not alone. It's nice to meet someone like me.",
+        "Mon2": "It's you, @!#$b#It's good to see you! You just so happened to be on my mind.$h",
+        "Mon4": "Does Pelican Town feel like \"home\" to you yet?#$e#...Hmm? You're asking me what I think?$8#$b#...Well, if you can treat this place as your home, then I believe I can do the same.#$e#Ah, sorry, I didn't mean anything special by that. Don't think too hard on it.$h",
+        "Mon6": "Hello, @. Is there anything you need help with?$h#$e#If there's anything you need, don't be afraid to let me know.#$b#No matter what happens, I'll be there for you.#$e#Mm... Perhaps that sounds a little ominous, but you know I mean well, don't you?$h",
+        "Mon8": "Um, @, did you need this?[772 773 524 525]#$e#You visit the mines rather often, don't you? I was hoping to accompany you sometime - if you'd let me, that is.#$b#Please promise me that, as soon as you've done all that you need to do, you'll go home as soon as possible, okay?$s#$e#Even just the notion of you being in danger... It drives me crazy.$s",
+        "Mon10": "@! It's so good to see you again.$h#$e#I wish I could be with you all day... Do you feel the same?#$b#I understand you must be very busy and all, but... I just want to stay here with you.#$e#I just want to touch you and kiss you and...$4#$e#Do you know just how much I love you?$4",
+
+        "Tue": "Although it may seem counterintuitive, you mustn't think too much when writing. A great idea may pass through your head when you least expect it, and if you overthink, you may miss it.#$e#I have to go back to work now, but would you like to meet me at the beach later?#$b#I'd love to tell you about my day.",
+        "Tue2": "Hello, @. It's a lovely day today, isn't it?$h#$e#I was actually planning on going to see you. How've you been?",
+        "Tue4": "The future seems brighter nowadays... Is it because it's springtime?#$e#Actually, it may be because of you, @.#$b#I seem to find you smiling at me more and more often, or is it just my imagination?$h",
+        "Tue6": "Sometimes I wonder if I am too vain to realize what may be an inflated self-image and true lack of ability.$s#$b#I just hope I don't look pathetic to you.$s#$e#What do you really think of me, @?$s#$e#Ah, no, I didn't just say that to hear your praise - although, it would be more than welcomed...",
+        "Tue8": "You may not know this, but although the people in town seem very friendly, everyone has a dark side of their own.#$e#I don't mean to be an alarmist - it's just that it's impossible to fully know a person from daily conversations alone.#$e#Oh, but don't worry, I'm an open book to you.$h#$b#No matter what, you can trust me.$h",
+        "Tue10": "I don't like the way other people look at you, @.$s#$b#You've made yourself some friends now, which is completely within your right, but sometimes I find it... hard to control myself.$s#$e#Can you imagine what goes through their minds? Those filthy thoughts...$a#$b#It's dangerous.$a#$e#I have to protect you, @.#$b#You're unique, and I refuse to stand by and watch them hurt you.$4",
+
+        "Wed": "The forest is really a wonderful place.#$b#The fresh air, natural scenery, and its vaguely magical aura inspires my writing like nothing else.#$e#Care to join me for a stroll sometime, @?#$b#You could also be part of my inspiration.$h",
+        "Wed2":"*mumble* Years from now, I can only see myself being reduced to yet another lonely old hermit.$s#$b#Why is it so hard for me to see a happy future for myself...?$s#$e#Oh, sorry, @! How long have you been standing there?$8#$b#Did I say something serious? Sorry, I suppose I got a bit too involved in my thoughts.",
+        "Wed4": "I've been watching you, @, and you know what?$h#$b#Seeing you work so hard for the farm and accomplish so much... It fills my heart with motivation.#$e#Hm? What else did you think I was talking about?$h#$b#Haha, it's not like I'm some sort of stalker. Is that what you were thinking?",
+        "Wed6": "...$s#$e#Sorry, @, I'm not in a good mood today.$s#$b#It's unpleasant, but I don't want to make you unhappy as well.#$e#Really, it's alright. Simply seeing you care so much is enough for me.$h",
+        "Wed8": "Hey, @. I happened to find this on the road.[60 62 64 66 68 70 72 74 797]#$e#I want to give it to you. Although these gems may be pretty, there isn't a single jewel in the world that is as dazzling as you.$h",
+        "Wed10": "I love you, @.#$e#Haha, that was sudden, you say? But I've always loved you.#$b#I fully believe it, and no matter how many times I say it, it never seems to be enough for me.$h#$b#I love you. I love you. I love you.$l#$b#Please don't ever leave me. Just stay with me forever.$l",
+
+        "Thu": "Hey, @. How are you doing?#$e#I don't seem to see much of you these days. Is the farm keeping you busy?#$e#Don't push yourself too hard, okay? Remember to get plenty of rest.$h",
+        "Thu2": "It's difficult to find inspiration for the beginning of a novel.#$e#Though, fortunately, you're here - and you can be my muse.$h",
+        "Thu4": "Do you like music, @?$h#$b#If you do, you can come to my cabin to play the piano any time.#$e#I could also play it to you if you'd like.$h",
+        "Thu6": "It's rather lonely to live out here on the beach...$s#$e#I must apologize if I came off as too eager when we first met. I was simply anxious to get to know you.$s#$b#I really am grateful to have you in my life. You saved me.",
+        "Thu8": "Recently, whenever I lift my pen, I can't help but think of you.$4#$b#You've brought light to my life, @.$h#$e#I can't fathom what I did to deserve a blessing such as you. Simply looking at you makes me feel content.$h",
+        "Thu10": "When we first met, I had a strange feeling. It was as if we'd known each other for a lifetime.#$b#To me, there's no one more special than you.$4#$e#Sometimes, this feeling becomes so strong that it's difficult for me to control my impulses...$7#$e#Oh, don't worry - I'd never hurt you.$h",
+
+        "Fri": "I can't stand disturbances when I write, so I decided to live here on the beach.#$b#Though, if it's you, I can certainly make an exception. You're more than welcome to disturb me.$h#$e#In fact, whenever you come by the beach, please, be sure to visit my cabin.#$b#For as long as you are by my side, I will have a steady stream of inspiration.$h",
+		"Fri2": "Leah? I consider her a good friend of mine.#$b#Though, we do differ greatly in our aesthetic preferences. She doesn't like my style and I don't like her way of thinking.#$b#But that's just what friends are like, right? I still respect her pursuit of beauty in material art. However, I personally believe that beauty only exists in the soul.$h#$e#Of course, we're just friends, don't get me wrong.#$b#But, if you want me to, I could keep my distance from her.$h",
+        "Fri4": "@, do you have a composer you particularly like?#$b#Next time you come visit me, I could play a song for you.$h#$e#You know, sometimes classical music is much better than those shoddy modern bands.$h#$e#Hm? What? I didn't refer to anyone specifically.$h",
+        "Fri6": "Oh? There's a petal in your hair, @.#$b#Here, let me get it for you.$h#$e#...$4#$e#It's nothing, it's just...#$b#Come a little closer...$4",
+        "Fri8": "I already have the initial idea for my next work.#$b#Say, if I wrote you into the novel, would you mind?$4#$e#Of course it's not anything bad, it's just some ideas of mine...#$b#...Or perhaps it's more accurate to call it some wishful thinking.$h",
+        "Fri10": "...$4#$e#@!$8#$b#Ah, I promise I didn't follow you all the way here.$4#$e#I'm not in need of anything special, I just happened to be thinking of you.#$b#Sometimes I find it hard to believe that you belong to me now.#$b#I just want to be by your side, always.$h",
+
+        "Sat": "The advantage of writing with pen and paper is that it's more decisive. After all, it can't be revised over and over like on a computer.#$b#You become responsible for every word you write, and this has made me far less indecisive. I find this to be one of the advantages of moving here.#$e#Moreover, staying away from the internet and social media brings you closer to nature. You'll notice even the most subtle differences in the scenery from day to day.$h",
+        "Sat2": "Did you know that Sam and Penny grew up together? The bond between childhood friends is always so pure.$h#$e#I quite envy them. Did I ever tell you about my old school days?#$e#It was all a bunch of cliches. Young brats looking down on everyone around them, trying to look different, only to later invite isolation and ridicule.#$b#There weren't many people I could call friends back then.$s#$e#Anyway, that's all in the past now. I'm just glad you care.$h",
+        "Sat4":"Hey, @. What've you been up to recently?#$b#If you're free, you're welcome to come chat anytime. I'd love to spend more time with you.#$e#And if there's anything you'd like to talk about, I'm prepared to listen. Maybe there's something I can help you with?#$e#We're friends after all, aren't we?$h",
+        "Sat6": "We don't often get visitors here, so everyone is very wary of strangers.#$b#If you approach deliberately, some people may even have an adverse reaction. After all, not everyone likes to make friends, especially the grumpy blacksmith.#$e#If you have any issues, or just want to talk to someone, come see me. I'm always delighted to speak with you, @.$h",
+        "Sat8": "I suddenly thought of you while walking on the beach last night.#$b#I'd love for you to accompany me next time...$h#$e#...What about you, @? How often do you think of me?$h",
+        "Sat10": "Out of all traditional spring festivals, the flower dance may just be the most favored. For all the singles in town, it's a great opportunity to express their feelings.$h#$e#Of course, I've only ever wanted to dance with you! It's just that I occasionally feel...$8#$ e#It's nothing. I used to fear that you wouldn't enjoy it, or that I'd accidentally do something out of place.#$b#But now, I don't have to worry about that anymore. You're mine, and I want everyone to see that.#$e#Regardless, you'd much rather dance with me than separate people who love each other too, yes?$h",
+
+        "Sun": "So, you're also here to escape your old life?#$b#We may have more in common than you think! I'd love to talk about this further sometime, @.$h",
+        "Sun2": "Speaking of the other residents, I actually rarely see Sebastian. He's a complete basement hermit.#$b#If you have a need to look for him, it's possible you'd only see him if you loiter around his house every day like Abigail.$h#$e#Although Abigail is close with both boys, her relationship with Sebastian is much closer.$h#$b#She likely doesn't want anyone to interfere. After all, she's a rather obsessive girl.$h",
+        "Sun4": "If Haley says anything about the state of your clothes, please pay her no mind.#$b#Trust me, you always look lovely. You're a hard worker, and she's simply envious of you.$h#$e#There are always people who don't like those new to the community. Don't worry about them, just be yourself.",
+        "Sun6": "Hey, @! It's good to see you! This is for you.[107]$h#$e#I found this yesterday while fishing... Strange, isn't it?$8#$b#Even so, I'm sure you can make more use of it than I can. Hopefully it will lighten your workload...#$e#More leisure time means more time to come chat with me!$h",
+        "Sun8": "@! I was wondering when you'd come around.#$e#It's so nice to see you. My day just became a whole lot brighter.$h",
+        "Sun10": "I know you often have to go to the mines because of your work, but be safe, okay?$s#$b#Maybe you don't care, but I worry about you.#$b#With the possibility that you might get injured, I can't help but be nervous.$s#$e#I'm thinking too much? I hope so too.",
+
+        "summer_Mon": "Now that it's summer, Alex will set up his ice cream stand near the museum.#$b#Haley is often there with him. Everyone thinks they are an enviable pair.$h#$e#Did Alex ask you to send a message to Haley? He's a bit over-the-top, isn't he?$h",
+        "summer_Mon2": "Look! I found a lot of beautiful shells on the beach near my house.$h#$b#This is for you. I want to share this joy with you. [722 718 719 723 392 394]",
+        "summer_Mon4": "Do you find me weird, @?$s#$b#I know I may come off as a bit pompous and... eccentric, but...#$e#I hope you don't mind. It's just that sometimes, facing you, I find it hard to hold back.",
+        "summer_Mon6": "The beach is very nice on summer nights.#$b#There'll be a cool evening breeze from the sea with a taste of freshness in the air... Sometimes you can even catch a rare sea cucumber!$h#$e#If you accidentally stay out too late, you can always rest in my cabin. I won't mind.#$b#We can talk all night long. You know, just as friends do.$h",
+        "summer_Mon8": "Whenever I sit down to write, I can't help but think of you. You're my source of inspiration.#$e#Of course, you mean so much more to me than just that.$h",
+        "summer_Mon10": "You are as radiant as the summer sun, my dear.#$b#You always manage to steal everyone's attention. I mean this in a good way, of course.$h#$e#But, I must admit, seeing the way people stare at you makes me a little jealous.#$b#I can only wonder if I haven't done enough...$s",
+
+        "summer_Tue": "Well, I'll admit, I do spend a few hours fussing with my hair every morning. I can never seem to get it exactly the way I want it.#$e#What do you think? Does it look good?$h",
+        "summer_Tue2": "It's scorching hot outside today!$8#$b#I learned from Alex how to make ice cream... this is for you.[233]#$e#I made sure to make enough for you too when I made a batch myself. You're welcome.$h",
+        "summer_Tue4": "This weather is perfect for lounging on the beach.#$b#It's also good for swimming, or practically anything really. Would you like to join me, @?$h",
+        "summer_Tue6": "@? Why are you here?$8#$e#...Sorry, I... I think the summer heat is making me dizzy.$4#$e#Ah... Do you mind stepping away from me for a little bit?$4#$b#What?! How could you possibly annoy me? Of course you didn't do anything wrong! It's better to say that I'm just...$8",
+        "summer_Tue8": "It's so hot this summer!#$e#But in no way would that stop me from spending time with you.$h",
+        "summer_Tue10": "I wish I could be this close to you all the time.#$b#I feel like if all this happiness continues, I will just melt like ice cream.$h#$e#But we can melt together so that we'll never be apart.",
+
+        "summer_Wed": "You probably wouldn't like it inside my cabin. It's dark and there's spiders everywhere.#$e#Oh, yes, I'm far too embarrassed to let you go inside anyway... I want to make a good impression on you.$h",
+        "summer_Wed2":"Have you noticed how often Abigail visits Sebastian in the mountains?#$b#They make a rather cute couple, don't they?$h#Abigail is quite devoted and, although Sebastian may not want to admit it, it's clear he likes her too.#$b#I envy them a little.$s#$e#I wonder when I'll meet someone like that myself?$h",
+        "summer_Wed4": "A gentle touch of sunshine woke me up this morning. I've never felt so refreshed.$u#$e#But sometimes I think it'd be nicer to wake up at someone's side.$h",
+        "summer_Wed6": "They say love isn't necessary, but it's better to have it than not, right?#$b#That being said, @, is there anyone that you're particularly fond of?$h",
+		"summer_Wed8": "Personally, I love summer. It's a romantic and passionate season.#$b#Better yet, I get to see you on the beach more often.$h",
+		"summer_Wed10": "If there is anything in the world more beautiful than a summer night by the sea, then it must be you, my dear.#$b#Now my only wish is to gaze at you forever.$h",
+
+        "summer_Thu": "It must be satisfying to follow your crop from seed to harvest.#$b#It's as if your essence is infused into the fruit.$u#$e#Naturally, I respect hard workers like you. It is precisely because of you that life here has changed for the better.$h",
+        "summer_Thu2": "There was a time in my life full of frustration and darkness as well, but I ultimately got through it.#$b#Drowning in pain and alcohol doesn't change anything, it's just cowardly.#$b#There are times where you must distract yourself, try something new, or breathe in some new air with a fresh start. Wallowing in self pity will only make things harder.#$e#Life can be difficult, but we all carry the weight.",
+        "summer_Thu4": "It's so nice to have met you, @.#$e#It just occurred to me that I'm truly lucky to have you as a friend.$h",
+        "summer_Thu6": "As much as I love my hair, I have to admit that it makes the summer even hotter.$s#$b#If not for the seafront, I'd fear my cabin becoming a sauna during the month.$s#$e#But I've never thought of cutting it short! Unless you think it'd look better that way?$8",
+		"summer_Thu8": "Some summer nights, I'll walk down the beach to feel the sea breeze brush against me...#$b#When I close my eyes, it feels as though I could take flight and soar to places far, far away.#$e#If not for you, perhaps I'd really do it?#$e#I'm only kidding, don't take that part seriously.$h",
+		"summer_Thu10": "I feel as though my word choice can be too dull at times. Despite all my experience in writing, I still have trouble accurately expressing my feelings for you.$s#$e#The moonlit sea is nowhere near comparable to you, for you enchant me far beyond comparison, and every cicada chirp in the summer night is my longing for you.#$b#No matter how ordinary the greeting, if it's voiced by you, it becomes the sweetest melody.$h",
+
+        "summer_Fri": "Ah! My shoes are full of sand!$s#$e#This is one of the little troubles of living by the sea.#$b#But if you were to live here, I'm sure you'd discover plenty of fun as well.$h",
+	"summer_Fri2": "I like rainy afternoons. They can really help you think.#$b#Unfortunately, my cabin gets awfully humid afterwards... Perhaps I should go out more often?#$e#But if I do that, that means less time to write...$s",
+        "summer_Fri4": "There's always a lot of people at the bar on Friday nights.#$b#It's a good time to get to know people better.#$e#But of course, I hope you'd afford me a little more attention than the others.$h",
+        "summer_Fri6": "Leah has been telling me about her latest art project and it sounds fascinating.#$e#Of course, we're nothing more than friends. My best friend will always be you, @.$h",
+        "summer_Fri8": "It was a real ordeal trying to bring that piano into the cabin, and trying to get it onto the beach in the first place wasn't any easier.#$e#I'm glad Mayor Lewis left it here from a former resident...#$e#Did you like the tune I played to you last time?$h",
+	"summer_Fri10": "I can't imagine life without you anymore, @.#$b#If you were to leave, I'm sure I'd just die right here.#$e#So please, don't leave my side. Stay with me forever.$h",
+
+        "summer_Sat":"Summer is quite a romantic season, don't you think?#$e#Pool parties, champagne with pearly white foam, hot nights, and short-lived love like fireworks...#$b#...It's the perfect setting for writing!$h",
+        "summer_Sat2":"Leah told me about her ex-boyfriend... I don't think she's let it go yet. ^Leah told me about her ex-girlfriend... I don't think she's let it go yet.#$b#Sometimes, when she's woodcarving, she still expresses a somewhat nostalgic look in her work.$s#$e#I really hope they'll get back together. Do you hope so too, @?$h",
+        "summer_Sat4": "Hey, remember when we chatted at the bar?#$b#We should go again, have a drink together and whatnot.#$e#If you get drunk, I promise to bring you home safely.$h",
+        "summer_Sat6": "All the time you put into your farm work simply shows just how much you love what you do. It certainly can't be easy to revitalize land that's been so awfully neglected for so long.#$b#Above all, I feel as if this is where we find hope as people. Why else do we live if not for the things we care about?#$e#I too would be happy to live such a fulfilling life.$h",
+		"summer_Sat8": "Every time I look at you, my heart beats so fast that I can hardly breathe.#$b#Perhaps it's just too hot...$4",
+		"summer_Sat10": "The heat is irrelevant, nothing will stop me from holding you close.#$b#I hope to wake up one day and see you at my side first thing every morning.$h",
+
+        "summer_Sun": "Did you come all this way just to talk to me? You're so kind, @.$h#$b#I'd also like to talk to you more! I seem to always be happy when I'm with you.",
+        "summer_Sun2": "It's so hot isn't it?$8#$e#This is for you. Hopefully it will provide a bit of relief from the sweltering heat. Don't stay outside for too long![233]$h",
+	"summer_Sun4": "Did you notice all the poppies blooming this summer? I heard Penny really likes that flower.#$b#Personally, I wouldn't touch such a thing.$h",
+		"summer_Sun6": "\"Juliet, my sweet flower, I shall strew flowers upon your bridal bed. Oh woe! Your bed's canopy is that of dust and stones.\"#$b#\"Which with sweet perfume I will dew, or if lacking that, I will shower your grave with tears of despair. I shall visit your grave night after night to scatter flowers and weep, and there will never be a moment where I do not long for you!\"#$e#Ah, hello there, @. It's good to see you.#$b#If you were Paris, what would you have done? I wouldn't want to be a side character in someone else's story.$s",
+		"summer_Sun8": "Have you ever wondered what the other side of the Gem Sea is like?#$b#I know there's the Fern Islands...but I'm talking about further afield. It must be flat and silent there, devoid of even the sound of wind.#$e# I'd love to go there with you.$h",
+        "summer_Sun10": "It's great to see you on a day like this, my dear.$h#$b#We could walk along the beach and imagine we're on the other side of the world.#$b#Away from the crowd, leaving only our contemplation and silence. Just the two of us.$h",
+
+        "fall_Mon": "Hello, @.#$b#Although this may be a busy season for you farmers, it's still important to balance work and rest.#$e#If you're tired, come and talk to me for a while. I'd be happy to listen to your troubles.$h",
+        "fall_Mon2": "How is work on the farm? It must be harvest time now.$h#$b#Although the clear autumn skies are beautiful, I wish it'd rain more often.#$e#That way, you'll have more free time!$h",
+        "fall_Mon4": "The kinds of fish you can catch vary throughout the year.#$b#When I reel in the line, I always wonder what type I'll catch next or if I'll be lucky enough to find some drifting treasure.#$e#What do you think about accompanying me next time I go fishing?$h#$b#I could prepare a hearty meal for you with our gains.",
+		"fall_Mon6": "@, have you been busy lately? If there's anything bothering you, just tell me.#$b#I'm always willing to listen to your troubles.$h",
+		"fall_Mon8": "I've heard there are many people who like you now, @.#$e#Whilst those people may have a good eye, I would still prefer if you kept your distance from them.#$b#You shouldn't give people false hope.$h",
+		"fall_Mon10": "You are the person I care about most in this world, @.#$b#I hope for you to be with me, and me alone, forever.$h#$e#Is this being too greedy? Though, you wouldn't want me to be with other people either, now would you?$s",
+
+        "fall_Tue": "The valley is so beautiful in the fall, in both the town and the mountains.#$b#All those colorful fallen leaves and the sweet fragrance of berries in the air...$h#$e#No matter how busy you are, don't forget to rest, okay?",
+        "fall_Tue2": "The autumn scenery makes me a little sentimental. Perhaps I just need to talk with a friend.#$e#Care to join me for a walk sometime, @?$h",
+		"fall_Tue4": "Lately I've found myself having some trouble falling asleep.$s#$e#Maybe it's due to my writer's block... I'm not really sure.#$e#Oh, but thinking of you makes me feel a lot better.$h",
+		"fall_Tue6": "Does work on the farm get difficult?$s#$e#I hope you allow yourself enough time for a well-deserved rest.$s",
+		"fall_Tue8": "I think part of what makes the fall landscape so beautiful is the sorrow that comes with its inevitable death.#$e#Yet, when I talk to you, my heart can only feel endless joy.",
+		"fall_Tue10": "I want to hold you... to take in your addictive scent. I want to feel your warmth and your gentle breath.#$b#I want to adore you and cherish you with everything I have.#$e#Now I'm certain, as long as you're with me, I can continue living.$4#$e#@, you won't leave me, will you?$s",
+
+        "fall_Wed": "Hello, @.$h#$b#Willy caught a lot of crabs today. Please, allow me to share some with you.[732]",
+		"fall_Wed2": "I'm working on a new novel, but I have yet to encounter any great inspiration...$s#$e#Sometimes you must fake it until you make it, as they say. But even then, I'm worried I'll only waste my time.$s#$e#Just what exactly am I missing...?$s",
+        "fall_Wed4": "It's said that, a long time ago, a pirate ship full of gold crashed here.#$b#So when fishing, you'll occasionally find treasure chests.#$e#Willy gave me this as a gift, but I've been busy with other things recently, so...[693]#$e#I hope it can be of use to you.$h",
+        "fall_Wed6": "Hey @, it's good to see you.#$e#Wait, you're leaving already? But I still want to talk to you some more.$8#$b#Don't you think the town is beautiful in autumn? Relax a little bit.$h",
+		"fall_Wed8": "I'm no good at fighting, so I get anxious every time I hear you've gone to the mines.$s#$e#If I order a supply of ore from Clint, can you promise to not go to the mines?$s",
+		"fall_Wed10": "I love the way you smile, @. Please smile at me more.#$e#Naturally, I believe you must look equally as beautiful when you cry.$h#$b#I hope your tears will only flow for me.$h",
+
+        "fall_Thu": "Ah! A little crab seems to have made my shirt pocket its home.$8#$e#This is one of the little troubles of living by the sea.$h",
+        "fall_Thu2": "@! I was just thinking about you.$l#$e#Did you sense it?#$e#How are you doing today?",
+        "fall_Thu4": "Hello, @. Have you been collecting fruits recently?$h#$e#I made this just for you, would you like to try it? I hope you like it.[607 611 238]$h",
+	"fall_Thu6": "@!$h#$b#Would you like to enjoy the autumn view with me?#$e#With you here, the scenery has become all the more beautiful.$h",
+	"fall_Thu8": "I'm really lucky to have met you, @.$h#$e#Ever since we first met, I've felt that you're the only one who can truly understand me.",
+	"fall_Thu10": "...Do you mind if I hug you, @?$4#$e#%Elliott hugged you from behind and took in a deep breath. He held you tight, and when he was finally satisfied, he let out blissful sigh.#$b#It feels like my strength is back... Sure enough, the only thing I needed was you.$h",
+
+        "fall_Fri": "Although I'm not too keen on socializing, I still spend some time at the bar in the evening.#$b#It's very interesting to observe other people's behavior and thoughts.#$e#It's great writing material!$h",
+        "fall_Fri2": "\"There was a time when my ideas, my tastes, and my whole way of thinking made people believe that I was a genius, that I was loved and admired by everyone.\"#$b#\"Nowadays, what was once considered a fact has become nothing more than an elaborate lie.\"#$e#\"And although I have gained some intangible, indescribable rewards through my painful transformation, I have also paid a high price for it.\"#$b#\"One transformation after another, my life has become increasingly more difficult and harrowing, more lonely and more dangerous.\"#$b#\"To be honest, I can no longer rationally desire to continue on this path, for it leads me deeper into a place where the air only grows thinner and thinner - like the smoke Nietzsche describes in his 'Song of Autumn'.\"#$e#So, do you have any thoughts?#$b#By the way, you're a wonderful listener, @.$h",
+        "fall_Fri4": "I have a terrible headache today. I believe I need to give my eyes a rest.$s#$b#But now that you're around, I'm already starting to feel better.$h",
+        "fall_Fri6": "@, we've known each other for a while now, haven't we? May I ask you something?#$b#$q 7011/7012 fall_Fri6_01_old#I was wondering if there's anyone you're interested in right now, perhaps... romatically?#$r 7011 0 fall_Fri6_01_01#There is, but I can't say#$r 7012 50 fall_Fri6_01_02#No, not really#$r 7012 250 fall_Fri6_01_03#Actually, I like you",
+            "fall_Fri6_01_old": "$p 7011#So how's it going between you and that person you like?$h||Actually, @, I've always been meaning to tell you that... Nevermind, I better not.",
+            "fall_Fri6_01_01": "Oh! So there's already someone you like!$8#$b#Who is it? Would you tell me? I could help you.$h#$b#So, when do you plan on confessing to them?$h#$b#...$7",
+            "fall_Fri6_01_02": "...Is that so?$7#$b#Then now I wonder, @, what do you think of me?#$b#It's not that I'm confessing to you or anything. I just want to know your opinion...$7#$e#Basically, there's someone I'm interested in, but they don't have any feelings for me as of yet.$s#$b#...If it were you, what exactly do you like in a person?#$e#Ah, I've asked too many questions, haven't I?$8#$b#Sorry, don't mind me...$s",
+			"fall_Fri6_01_03": "W...What? What are you saying? Like me?$8#$b#Oh, I believe we're misunderstanding each other. Do you mean... like between friends?#$b#If so, I like you too. Whether that be as a friend or something else...$4#$b#...you are the person I cherish most.$h",
+		"fall_Fri8": "The valley feels a lot busier in the fall than it used to be.#$e#I still prefer there being fewer people around. I don't want anyone else to take your attention away.$h",
+		"fall_Fri10": "There's actually one thing that I haven't told you yet.#$e#Since the moment I first met you, I knew you were the one I was destined for, @.$h",
+
+        "fall_Sat": "I wonder if there will be a circus at the fall fair?$h",
+        "fall_Sat2": "Before I came to Stardew Valley, I once met an accordion artist on the street.#$b#He played a foreign piece that I'd never heard before, and it sounded so sad.$s#$e#Music has such an infectious power, it's such a shame I couldn't bring my old piano with me.",
+        "fall_Sat4": "\"On a dull, dark, and silent autumn day, heavy clouds hung low in the sky. I rode alone through the vast, dreary countryside.\"#$b#\"Night fell slowly, but eventually I found myself within view of the melancholy House of Usher. Although I have never seen it as it once was, with just a glimpse, a certain unbearable gloom flooded my heart.\"#$b#\"I looked upon the sparse, simple landscape that surrounded the mansion. The walls were falling apart and the decaying trees had long since turned white. My very body couldn't comprehend the sight. My heart was cooling, sinking, and grew weak with sickness.\"#$e#Hm? Do you like me reading to you?#$b#If it's you, I'm always willing.$h",
+		"fall_Sat6": "What did you say? You received a lot of strange letters? About what?$8#$e#That doesn't sound good. That guy might have bad intentions. Please be careful...$s",
+		"fall_Sat8": "It's starting to get a little colder, isn't it?#$b#Don't let yourself catch a cold, @. You must take care of yourself.#$e#If you got sick, I'd have to take care of you. I just can't help it.$h",
+		"fall_Sat10": "Right now my only dream is to sleep with you in my arms.#$e#No... I have so many things I want to do with you - it's impossible to say that's the only one.$h",
+
+        "fall_Sun": "I have to remember to water my plants every day. Of course, this time I won't use sea water!",
+        "fall_Sun2": "I originally wanted to grow crops on the beach, but all my attempts failed.$s#$b#Would you mind taking this off my hands, @? It isn't of much use to me now.[599 621 645]",
+		"fall_Sun4": "I rewatched \"Jules and Jim\" last night, and there's these certain parts I simply can't resist.#$e#Driving into the water together... Don't you think that was a rather romantic way to die?$h",
+		"fall_Sun6": "It's getting cold, so make sure to keep warm, @.#$e#I'd be worried if you got sick.$h",
+		"fall_Sun8": "A walk in the autumn forest never fails to inspire me.#$e#...Though, I always think, if only I could hold your hand as we walk together.",
+		"fall_Sun10": "I love you, @. I love you and you alone.#$b#...How about you? You don't have your eye on anyone else, do you?$s#$e#It doesn't matter if you do, I won't let anyone else have you.",
+
+        "winter_Mon": "You've come to visit me in the cold?$h#$e#I could do with a respite from my lonely labors.",
+        "winter_Mon2": "It must be rather cold out there, right? I just made some hot coffee. This cup is for you. [395]$h#$e#I hope this can make your work a little easier. Don't forget to rest properly as well.",
+	
+	"winter_Mon6": "Did you know there's a hot spring at the top of the mountain? The warm water must be a delightful respite from this cold weather.#$b#Wait, @... you don't want to go, do you?$8#$e#I heard that Alex sometimes goes there... I wouldn't want you to run into him.$s",
+	"winter_Mon8": "@, you said a while ago that you received a lot of strange letters... You aren't still getting them, are you?#$b#So you haven't received any more? That's good!$h",
+	"winter_Mon10": "The year will come to an end soon...$s#$b#Time always flies by so fast when I'm with you. I can't bear to let you go.#$e#Stay with me a little while longer, okay?$h",
+
+        "winter_Tue": "The other day, I sat at my desk for so long that my legs became numb.$s#$b#Though, the moment I saw you, I forgot all about it.#$e#You make me forget all my troubles.",
+		"winter_Tue2": "@, have you ever felt... trapped?$s#$b#Like you're in a cage which you can't escape from, no matter how hard you try...?$s#$e#What's even more terrifying is that you are the only one who can see it.$s#$e#Sorry, I don't feel well today.$s",
+		"winter_Tue4": "We should go fishing together every once in a while. It's not like I could beat you at the ice fishing contest anyhow.#$e#Oh, not that I'm complaining. I'm always willing to lose to you.",
+        "winter_Tue6": "I came to the valley to find the ivory tower from which my talents could reign supreme. But what I really found was a dungeon of loneliness.$s#$e#You saved me from that. Thank you.",
+		"winter_Tue8": "I'm unsure what I'd be like now if I hadn't met you.#$e#I would certainly be overwhelmed. The whole world is meaningless without you.#$e#...Oh, don't worry, I'm only exaggerating.$h",
+		"winter_Tue10": "I want to hold you in my arms and never let go.$4#$e#You can only belong to me.$4",
+
+        "winter_Wed": "I'd love to have a cup of hot chocolate right now.$h",
+        "winter_Wed2": "A day can never be boring when you follow the whims of your imagination.$u#$e#Ah, I almost started ranting.$8#$e#It's just that when I'm with you, I can't help but pour my heart out.$h",
+		"winter_Wed4": "I haven't been able to write much lately... Perhaps I need some extra enthusiasm.$s#$e#I seem to have poured all my passion elsewhere.$s",
+		"winter_Wed6": "Without emotions, there would be no words to speak.#$e#So do forgive me for being so talkative sometimes.$h",
+		"winter_Wed8": "It's so cold! I just want to stay tucked under the covers all day.#$e#It would also be nice to cuddle up to someone.$h",
+		"winter_Wed10": "I want to kiss you in front of everyone at the Winter Star Feast.#$e#Then, everyone will know that you belong to me.$h",
+
+        "winter_Thu": "Breathe deeply. Do you notice it? It's the smell of the sea.$h",
+	"winter_Thu2": "There's not much to do on a farm in winter, so you should be able to rest.#$b#Or are you using this time to explore the mines?$8#$e#...Don't do that, @. I can't help but fear for your safety.$s",
+		"winter_Thu4": "It's always so cold in winter.#$b#It'd be great to hug someone.$h#$e#Huh? No, no, I didn't mean it like that... I can't hug just anybody.$8",
+		"winter_Thu6": "Thank you for visiting me even on a snowy day, @.$h#$e#I'd like to play a piano piece for you... Do you have a preference?",
+		"winter_Thu8": "I think it must be warm in the library by now.#$e#We can go there for the afternoon... reading side by side.#$b#I want to read to you.$h",
+        "winter_Thu10": "Breathe deeply. Do you notice it? It's the smell of the sea.$h#$e#Whenever I breathe in this distinct, briny scent, it reminds me of my youth. The ocean really left a deep impression on me as a child.#$e#I wish we'd known each other as kids. It's a pity to think of all the time we missed in each other's lives.",
+		
+        "winter_Fri": "The more time that passes, the more I can gradually feel... something. I can't tell what it is.#$b#Sometimes I feel that everything around me is fake.$s#$e#Oh, don't worry, it's just an artistic expression.$h#$b#Would you like to join me for a stroll?",
+        "winter_Fri2": "I have to brush my hair daily. Otherwise, it'll turn into a tangled mess. It's quite the hassle.#$b#I'm still quite surprised I have yet to shave it all off a fit of passion.$8#$e#I suppose I am too vain. I just want to look presentable in front of you.",
+		"winter_Fri4": "This is for you, @.[459]#$b#Don't you think winter is a good time for a bottle of mead?#$e#...Don't worry. If you get drunk, I'll happily walk you home.$h",
+		"winter_Fri6": "Although the winter scenery is beautiful, I can only truly enjoy it with you.#$e#Because we're best friends, aren't we?$h",
+		"winter_Fri8": "Do you like my novel, @?#$e#If you didn't, then my writing would be meaningless.$h",
+		"winter_Fri10": "I think I'm dressed too lightly... I feel rather cold.$s#$e#@... Would you mind sharing your warmth?$h",
+
+        "winter_Sat": "I've been doing little indoor exercises, since it's often too cold to go out.#$e#Hm, you're probably a lot more relaxed now, too. You don't have much work to do during winter, do you?",
+        "winter_Sat2": "There are mornings where all I want to do is lie in bed, or perhaps play the piano, and do nothing else.#$e#I find that the longer I live alone by the sea, the more tempting the urge.#$e#I think I'm just a little... scared.$s",
+        "winter_Sat4": "Every now and then, I wake up in the early morning when it's still pitch black outside my window.#$b#It's uncomfortable, almost eerie, and I can feel nothing but the chill of winter around me.$s#$e#It feels as though I am the only one left in the world...$s",
+		"winter_Sat6": "@, your nose is freezing red!$8#$e#That's so... can I...?$4#$e#Huh? My nose is red as well?$8",
+		"winter_Sat8": "Every now and then I wake up in the early morning, when it's still pitch black outside my window.#$b#It's uncomfortable, almost eerie, and I can feel nothing but the chill of winter around me.$s#$e#It feels as though I am the only one left in the world...$s#$e#But you're with me now, @. You're the sunshine I need.$h#$e#...And as long as I have you, I'll never be alone.",
+		"winter_Sat10": "A year goes by so fast... I hate having to part with you.$s#$e#All I want is to be with you forever, to spend countless years with you just like this.#$b#I don't know what it'll take to make you understand...$s",
+		
+        "winter_Sun":"I wonder if the world is truly controlled by fate.#$b#Like a book, no matter how rich the content, everything has already been written on paper with every person's destiny preordianed. The ending is constant, unchangeable.#$b#Should you sleep happily and blissfully naive? Or wake up in pain, aware of the truth? That is the question.#$e#Hm? Oh, don't worry, I'm only trying to verbalize my thoughts.$h#$b#This is actually the beginning of my next novel. When it's done, I hope you can be the first to read it.",
+        "winter_Sun2":"Some nights I'm in the mood to watch a movie.#$b#I do think watching a movie alone can better convey the emotions the movie wants you to feel.#$e#Though, if it were you, I'd be more than happy to have some company.#$b#Honestly, I'd enjoy doing just about anything with you.$h",
+        "winter_Sun4":  "I really should scrub my floorboards today. I think algae is starting to grow.$s#$e#Oh, don't concern yourself, I can do it on my own.#$b#Your company is more than enough for me.$h",
+		"winter_Sun6": "*mumble*...If it can't be mine, then I'd rather destroy everything.$7#$e#...@? No, I didn't say anything.$8#$e#Nevermind that. How are you doing today?",
+		"winter_Sun8": "If only the snow could drown the whole world...#$e#No one else would bother us...$h",
+		"winter_Sun10": "I feel like a crop on a farm - I just can't live without you.$h#$e#What? You say they can live without you watering them...? Uh...$8",
+
+        "fall_5": "Were you looking for me specifically, @?$h#$e#I'm so happy to see you. Thank you for being with me on such a special day.$h",
+        "fall10_5_2": "@, you came!$h#$b#It's been almost two years since you arrived in Stardew Valley. Time moves so fast, doesn't it?#$e#You know, @, I've liked you since the first time we met.#$b#I want to be by your side every day. I want you to belong to me, forever and truly.$4#$b#...#$b#You know what I'm trying to say, right?$s#$e#I've waited so long but... I'll keep waiting. I love you.",
+        "fall10_5_3": "@, you came.$h#$b#Since today is my birthday, you're giving me a gift, right? If it's an effort to charm me, you should know by now that you've already won my favor.$h#$e#...#$e#...I love you, @. I have loved you since the very beginning. So why do you still hesitate? Don't you love me? Don't you want to live you life with me?$7#$b#How many times do I have to say it before you understand?$7#$e#...Forget what I said. I-I'm sorry, I don't mean to pressure you. I won't do this again.$s",
+        "winter_28": "Another year has passed... Thank you for allowing me to meet you.#$b#Please accept this celebratory gift.[459]#$e#Let's celebrate the New Year together. $h"
+	}
+},
+
+
+//Villager's Dialogue
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Abigail",
+    "When": { "Relationship:Abigail": "Dating", },
+    "Entries": {
+        "summer_16": "Sebastian and I are not a couple! Really, how many times do I have to say it?$a#$e#Don't they know I'm dating you?$a",
+        "fall_16": "Yesterday Sam came to ask me if I like him. What the hell was he thinking?$a#$b#I told him that I didn't write those love letters, but he still didn't believe me.$a#$e#...It's fine. As long as you understand, @. Trust me when I say that you're the only one I love.$s",
+        "winter_4": "When I was walking down the road last night, I felt a little uneasy, as if someone was watching me.$s#$e#I hope I'm just overthinking it...$s"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Alex",
+    "When": { "Relationship:Alex": "Dating", },
+    "Entries": {
+        "summer_5": "Me and Haley? Haha, she's not my type.$h#$b#Who said cheerleaders have to date quarterbacks anyway?#$e#That seems to be the rumor going around though... it's weird. I thought everyone knew about us?$8#$e#Hey, it doesn't matter! You know I only like you, yeah?$h",
+        "summer_23": "I've been fighting for a spot in a tournament recently.#$b#Coach made sure I'll get picked. I can't wait to see all my training pay off.#$e#Come watch my game!$h",
+        "summer_27": "...$s#$b#Sorry, @. I'm in a bad mood today.$s#$e#I... didn't get a spot in that game. But the coach said I wasn't any worse than the others, obviously! Those guys' pitching sucks.$s#$b#It's just... I don't know what happened.$s#$e#I know people like to say I'm all brawn, no brains, or whatever, but that's something I can ignore, y'know? It's still a good thing to be dedicated to sports.$s#$b#But now I...$s#$e#@... Do you think I'm not good enough for you anymore?$s#$b#I-I'm not doubting you, it's just...$s#$b#I need some time to think about another way out...$s#$e#Summer is so beautiful, and it will end one day. Why can't it always be wonderful like this?$s",
+        "fall_8": "Hey @, you know that fortune teller on TV? I heard some really unlucky prophecies yesterday.$s#$b#I know I'm just overthinking it but...$s#$e#@, there isn't anyone else... is there?$s"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "When": { "Hearts:Haley": "0, 1, 2, 3, 4", },
+    "Entries": {
+        "summer_6": "Hey, if I said anything to offend you, I'm sorry. Please don't take it personally.#$e#...$a#$e#What? What are you still bugging me for?$a#$e#If someone sees us, they'll think I'm bullying you again.$3#$b#I didn't even say much, but that guy just...$7",
+        "fall_6_inlaw_Elliott": "Um... @?#$e#I just wanted to say, since you're married to Elliott now, could you ask him to leave me alone? Please?$7#$b#I know I made some rude comments to you in the past, but I really didn't mean anything by it! Honestly, I don't have anything against you!$s#$e#He... He must be good to you. I wish you all the best, okay? I meant it.$7"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Leah",
+    "When": { "Hearts:Leah": "0, 1, 2, 3, 4, 5, 6, 7", },
+    "Entries": {
+        "spring_15": "Hey, are you going to see Elliott today? Tell him I said hi.$h#$e#Hm? I thought you guys were close.#$b#He's always telling me about you.$h",
+        "spring_23": "Tomorrow is the Flower Dance. Have you found a good partner yet?$h#$e#I think Elliott would be willing to dance with me. Or, at the very least, he'd let me down easy.$s#$e#We've known each other for a while now, so he'll probably give it a try.",
+        "summer_7": "I think Elliott has a crush on someone.#$b#He's been looking pretty distracted lately. Sometimes he'll look totally dazed and just randomly chuckle to himself. I doubt he's only thinking of his writing.#$e#Haha! I wonder who he's thinking about?$h",
+
+        "fall_15": "Elliott talks about you a lot! I'm pretty sure he's into you.#$b#From what I know about him, if he still hasn't made a move yet, then he's probably just too nervous.#$b#$q 7013/7014 fall_15_01_old#So how do you feel, @? Do you like him?#$r 7013 25 fall_15_01_01#Yes, I like him too#$r 7014 50 fall_15_01_02#I don't have any feelings for him",
+            "fall_15_01_old": "$p 7013#I really hope you and Elliott work out. I'd be so happy!#$b#You're both good friends of mine.$h||...@, I don't know how to say this, but I'm a little worried about you.$s",
+            "fall_15_01_01": "Really? Then I'm so happy for him!$h#$e#I came here about the same time as him and I always thought that living alone on the beach like that would hurt his mental health.#$b#Ah, this feels like fate! I really hope you two work out. Elliott could definitely use some love in his life.$h",
+            "fall_15_01_02": "...Ah, so that's how it is?$7#$e#Sorry, but don't mention this to Elliott, okay?$7#$e#Even though we're pretty close, I feel like he'd be very, very angry if he found out about this...$s",
+
+		"winter_10": "When Elliott came to see me earlier, he accidentally dropped a letter on the floor.#$b#I didn't mean to peek, but...#s#$e#Oh, all I can say is that it makes for a good horror story!$h"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Leah",
+    "When": { "Relationship:Leah": "Dating", },
+    "Entries": {
+        "fall_4": "@, sometimes I can't believe we're already together.$4#$e#Not to say that I'm unhappy or anything, it's just...$4#$e#I mean, you have to be around someone a lot to understand what they're like, right?#$b#After spending so much time with you, I've come to realize what a wonderful person you are.$h#$e#Even if someone tried to make me believe that my feelings are just spur of the moment, I know that's not true.#$e#I like you, @. I want to spend more time with you.$4",
+        "summer_20": "Elliott and I got into a fight yesterday.$s#$b#At first it was just an argument about a portrait, but then he somehow turned the conversation to you.$s#$e#I've never seen him like that. He was just so... so hysterical. He made it seem as if I did something absolutely unforgivable...$s#$e#I never meant to hurt him and I'd love to stay friends with him but... You already know how much he cares about you...$s#$e#@, I don't know what to do anymore.$s#$e#I really hope time will just wash it all away and he'll give up on this... obsession.$s",
+        "winter_13": "There's something I need to tell you about Elliott.#$b#Um, it's really nothing special. I mean, he looks the same as always and...$8#$e#God, I don't even know how to put it... Let me think.$s#$e#Ever since we started dating, he's been like a different person. It might not be obvious on the surface, but I can feel the change in his demeanor.$s#$b#@, I don't think he's willing to accept this whole thing. He doesn't even see me as his friend anymore.$s#$e#It might sound like I'm trying to pick a fight, but I need you to stay away from him.$s#$e#Seriously, I'm not sure what he's capable of."
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sam",
+    "When": { "Relationship:Sam": "Dating", },
+    "Entries": {
+        "fall_14": "Ah! @, there you are!$8#$b#No... I wasn't thinking of anything bad, I just ran into a problem.$4#$e#Let's put it like this: I have a friend who's really close to this girl.#$b#He had always thought that this girl liked this other guy, so he was happy for them both.#$b#But the other day my friend found out that the girl actually likes him instead...#$b#But since he already likes someone else, he can't accept her feelings.#$b#$q 7015/7016 fall_14_01_old#What do you think I - er, my friend - should do?#$r 7015 0 fall_14_01_01#I think you should talk to Abigail about it#$r 7016 0 fall_14_01_02#What are you talking about? I'm confused#$r 7016 0 fall_14_01_03#I don't think Abigail has a crush on you",
+            "fall_14_01_old": "$p 7015#Abigail said she has absolutely no feelings for me me, not even in her next life.#$b#It's for the best, but did she have to be so harsh...?$s||How about a stroll down to the beach? Elliott told me that the ocean fish have been really tasty lately.",
+            "fall_14_01_01": "I told you it's not me, it's a friend of mine!$a#$b#...But do you really think so? Well, it is better to just be clear, isn't it?#$b#...Well, let's do that! Thank you, @.$h",
+            "fall_14_01_02": "Ah, uh...#$b#It's fine, just forget it.$7#$e#So, never mind that. Where are we going to play today?$h",
+            "fall_14_01_03": "I told you it's not me, it's a friend of mine!$a#$b#...Um? But do you really think Abigail isn't into me?$8#$b#Gah! Let me just say it! If Abigail really liked me, she wouldn't be making fun of my guitar all the time.$h#$b#But then... uh, why does he want me to get the wrong idea...?$7",
+        "winter_21": "@, do you like Elliott?$7#$e#Yeah, I'm just jealous. I wanna know what's goin' on between you two.#$e#It's nothing really. It's just that the way he talks to you makes me a little uncomfortable.#$e#@, I like you. No matter what anyone says, I'm not giving you up to anyone else.$7#$b#Hey, don't laugh, I'm serious...$l"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sebastian",
+    "When": { "Relationship:Sebastian": "Dating", },
+    "Entries": {
+        "summer_16":"You're asking what's going on between me and Abigail?#$b#We're just friends, what the hell are you talking about?$5#$b#If someone told you that Abigail and I are a thing, then they're absolutely full of it.#$e#You know that I love-... don't you?$4#$e#What's even the point of spreading that kind of rumor? I'll have to ask Abigail and see if she knows anything.",
+        "fall_22":"Hey, @!#$b#A-Ah, I called out to you before I even...$4#$e#Um, anyway, I just wanted to warn you about Elliott...#$b#I know you're close with him and I really shouldn't be talking behind his back, but...$7#$e#I don't know what to say, @, I just think he's a little dangerous.#$b#It might sound like an exaggeration, but I think he wants to kill me. Maybe he'd have done it already if he didn't have any concerns.$7#$e#...Now that I think about it, maybe it's just all in my head. But still, promise me you'll stay away from him, okay?",
+        "winter_10": "@, there's something I want to ask you.#$b#...$7#$e#Ah... I really don't know how to say it...#$b#$q 7017/7018 winter_10_01_old#I guess... do you like Elliott? Are you dating him?#$r 7017 -500 winter_10_01_01#Yes, I'm dating him#$r 7018 0 winter_10_01_02#I don't hate him, but I'm not dating him either#$r 7018 125 winter_10_01_03#What!? I only love you!",
+            "winter_10_01_old": "$p 7017#...$a#$e#I'm trying to calm down, @.||@, be careful, okay? Don't get too close to that guy.",
+            "winter_10_01_01": "...So it's true then.#$b#I don't get how you could date two people at the same time. I really don't get it. I feel betrayed, @.#$b#I was going to remind you of something about Elliott, but now it doesn't seem necessary.#$b#Since you're also dating him, I'm in no position to blame him for what he did...#$b#Since I don't want to see you with anyone else either, I can understand how he feels. Make your choice as soon as possible, okay?$s",
+            "winter_10_01_02": "...#$b#It...It just feels like there's something wrong with him, @.#$b#Just last night, Elliott blocked me in the basement and questioned our relationship.#$b#I mean, who the hell is he to ask me that?$a#$b#And the way he spoke... It was as if he'd reach out and strangle me at any second.#$e#Try to avoid him a little bit, okay? I'm afraid he'll hurt you.$s",
+            "winter_10_01_03": "...Oh.$4#$b#I-I'm glad to hear that, @. You can't imagine how happy I am.$4#$b#I wanted to tell you that Elliott probably heard about us dating and...#$b#Last night, he blocked me in the basement and questioned our relationship. I mean, what's wrong with him?#$b#He was acting completely delusional. I just want you to avoid him, okay? I'm afraid he'll hurt you.#$e#Be safe, @... And, I love you too.$4"
+	}
+},
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "When": { "Relationship:Shane": "Dating", },
+    "Entries": {
+        "summer_5":"Sometimes I can't believe you chose someone like me. I always figured there were better options for you.#$e#I thought you and Elliott were really close... Whenever he'd bring you up in front of me, there just seemed to be no end of things for him to talk about.#$b#What...? Jealous? No I'm not!$a#$e#...The hell gave you that impression? Do I look like the kind of guy who gets jealous?#$e#Well, maybe a little bit, but I'm really just embarrassed!$a",
+        "fall_13":"...Uh, @, do you really like me?$s#$b#...It's nothing. I just feel a little inadequate, is all...#$e#$q 7019/7020 fall_13_01_old#What exactly do you like about me? I mean, there are a lot of better people, aren't there?#$r 7019 150 fall_13_01_01#I only love you!#$r 7020 -500 fall_13_01_02#Yeah, I shouldn't have dated you.#$r 7020 0 fall_13_01_03#Did someone say something to you?",
+            "fall_13_01_old": "$p 7019#Don't look at me like that... It's embarrassing...$4||Maybe he was right, I can't keep holding people back like this.#$b#I need to get a grip...",
+            "fall_13_01_01": "...$4#$b#Thank you, @. I mean it.$s#$b#Before I met you, I never thought I could be saved too. You're my little sunshine, and you always will be.#$e#Also, I only... I only love you too...$4",
+            "fall_13_01_02": "...$s#$b#Sorry, @. You're right. You shouldn't have dated me.#$e#Could you just... leave me alone for a while...?",
+            "fall_13_01_03": "Why would you think that? Nobody said anything to me.#$b#I just... think about it a lot. I was wrong. I shouldn't have asked that.$s#$e#Forget what I said today. I won't bring it up again.",
+        "winter_15":"Emily said she got a confession letter from me.#$b#She said I'm a nice guy, but next time I should use less mushy wording.$a#$e#Of course I didn't send it! I'm already dating you, ain't I?#$e#I really don't know who did it. And I read that letter too. It honestly reads more perverse than it does affectionate.$a#$b#Whatever, I need to set this straight... @, who do you think might've done it?"
+	}
+}
+
+]
+}

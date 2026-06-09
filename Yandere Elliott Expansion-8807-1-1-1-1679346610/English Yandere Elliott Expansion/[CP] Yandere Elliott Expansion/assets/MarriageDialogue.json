@@ -1,0 +1,130 @@
+{
+"Changes": [
+
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/EngagementDialogue",
+  "Entries": {
+    "Elliott0": "At last, the big day is almost here. @, can you believe we're finally going to live together?$h#$e#We'll be an enviable pair, and now everyone will know that you belong to me. You are mine alone.#$e#Nothing can keep us apart.",
+    "Elliott1": "I can't wait to marry you, @. You feel the same, don't you?$h#$e#We could treat my cabin like a beach house. We could stop by to walk, fish, or even just look at around.#$b#If it means being with you, I'm willing to do anything. To see your smile everyday... even that's enough for me.$4#$e#You're mine, @, forever and always...$4"
+	}
+},
+
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/MarriageDialogueElliott",
+  "Entries": {
+    "Rainy_Day_0": "Darling, it's raining outside.#$b#As much as I wish you could stay home all day, I know you have things to do.$s#$b#Take this, will you? Once everything's taken care of, hurry and come back to me.[688]#$e#We have plenty to do, I promise.$h",
+    "Rainy_Day_1": "You're awake, @.$h#$e#...Since it's raining, why don't you just stay home today? I'm sure you must be tired.$4",
+    "Rainy_Day_2": "Good morning, my little slacker. I made you breakfast, be sure to finish it![201 211 195 610 239 611 618 649]#$e#I'm planning on just staying home and writing today, maybe I'll watch a movie too. If you don't have any other plans, do you mind joining me?$h",
+    "Rainy_Day_3": "Rainy days remind me of my time by the sea.#$e#As beautiful as the scenery was then, it comes nowhere close to how you make me feel now.$h#$e#@, will you come home early today? I need you...$4",
+    "Rainy_Day_4": "Good morning, @! I got up early today and made some coffee.[395 253]$h#$b#Aren't rainy days just perfect for a cup of coffee? A fine brew can help brighten any morning.$h#$e#Of course, nothing compares to a good morning kiss with you.$4#$e#...I love you, @.$4",
+    "Rainy_Day_5": "My inspiration for writing is like the weather... it comes and goes at random. Today I feel entirely dull.$s#$e#If you stayed here at home a little while longer, I have no doubt that you'll be able to inspire me.$h",
+	
+    "Rainy_Night_0": "On a rainy night like this, it feels like we're the only ones left in the world.$h#$e#Honestly, I'm feeling a little cold... Why don't we just snuggle under the covers for a while?#$b#We can fall asleep together, listening to the sound of rain outside the window.$h",
+    "Rainy_Night_1": "Good evening, @. I was just thinking about you.#$b#What did I do today? All can say is that it takes a lot of work to maintain this rugged physique!$h#$e#Hmm... You're freezing cold. Is it because of the rain outside?#$e#Come, let's go take a hot bath together... you'll warm up.$4",
+    "Rainy_Night_2": "I want you, @.$4#$b#I don't think I'll last another minute without you in my sights.$4#$b#I want to... to touch you, and kiss you. I-...$4#$e#It's getting late, why don't we head to bed early?",
+    "Rainy_Night_3": "Darling, I prepared dinner for you.#$b#After a long day's work, you must be craving a hot meal.[212 232 234 236 228 905 608]#$e#Hm... Shall we eat dinner? ...Or shall we indulge in something else first?$h",
+    "Rainy_Night_4": "Hey, @, I made you something to drink.[614 459 348 350]#$e#And... uh...$4#$b#I want to feed you, may I?$4#$e#...*Kiss*$4#$e#Mmm... you're so sweet, Darling.$h",
+    "Rainy_Night_5": "I consider myself a good writer, but I still can't describe your charm.$l^I consider myself a good writer, but I still can't describe your beauty.$l#$e#All words seem to lose meaning when compared to you. You mean more to me than anything, my love.",
+	
+    "Indoor_Day_0": "Oh, you're awake, @.$h#$b#Here, I have coffee for you.[395 253]#$e#While holding you last night, I fell asleep before I knew it... I always feel so at ease when I'm with you.$4#$e#You know, if we still have some unfinished business, we could save it for tonight...$4",
+    "Indoor_Day_1": "Darling, I made breakfast for you. Hopefully you'll feel energized for the rest of the day![201 204 213 221 239 240 618 648]$h#$b#If you feel tired at any point, come home early and rest, okay?$h#$e#Here, one more thing before you go... Come a little closer.#$e#*Kiss*$4#$e#Have a good day, @. I'll be patiently awaiting your return.$4",
+    "Indoor_Day_2": "To fall asleep with you in my arms every night... it's my greatest joy.#$b#I'm not sure if I'd be able to live without you.$h#$e#So, @, don't ever leave me...$4",
+    "Indoor_Day_3": "I love you, @.#$e#Hm? Oh, there's no special occasion, I simply felt the urge to remind you.$h#$e#Come closer, let me hold you.",
+    "Indoor_Day_4": "Unfortunately, the piano is in no way convenient to move over. But, if you want, we can still visit the cabin to play it.#$e#I love playing the piano for you.#$b#Although I'm no professional, the notes just sound ever so sweet when I look at you.$h",
+    "Indoor_Day_5": "If you find a spider in the house, don't squash it! Just let me know and I'll take the poor thing outside.#$e#It's something I'm used to after living on the beach for so long.#$e#Don't worry about me, those lonely days are in the past now. I'm just happy to be with you.$h",
+    "Indoor_Day_6": "I've had this recurring nightmare that you gave me a buzz cut... You wouldn't ever do that to me, would you?$s#$b#Don't you like the way I look now?$s#$e#I trust you.$h",
+	
+    "Indoor_Night_0": "It's been a long day of work, hasn't it @? Come, lie on my lap.$h#$b#I'll help you relax...$4#$e#It'd be great if you could just stay home and not have to run around all day. That way, I could be with you all the time.#$b#But not everything can work out exactly the way I want it to, hm?$s#$e#*Kiss* So, stay and let's spend a little more time together tonight...$4",
+    "Indoor_Night_1": "I was reminiscing about the days I lived on the beach, so I decided to make a seafood dinner.[212 225 226 242 727 728 730 732]$h#$b#Now that I think about it, all that time living alone really honed my cooking skills. I hope you enjoy it.$h#$e#The hot, delicious food complemented by the sound of cracking wood burning in the fireplace... Every piece of wood burns in a unique way.#$e#And you, my dear. Having you by my side is the life I've been dreaming of.$h#$b#I love you, @.$4",
+    "Indoor_Night_2": "Good evening, my dear. Come closer...#$b#I've been longing for you all day.$4#$e#If you leave now, I'll only long for you even more. So come, let me hold you...$4#$e#*Kiss* I want to stay with you forever.$4",
+    "Indoor_Night_3": "From the brightest winter star to the lustrous sheen of an iridium vein, nothing compares to you, my love.#$e#When I behold thy wondrous face, a precious jewel of form and grace, my heart... torn by the dread of night, is purified with golden light.#$e#When the dark, starry sky envelops us, I will hold you in my arms - and locked under the darkness should we find our own peace.#$e#Poetry is the only way I can describe my feelings for you, @.#$b#Even then, no matter how many lines I write, it never feels like enough.$h",
+    "Indoor_Night_4": "I love the way it feels to kiss you.$4#$e#Mm, just like that... *Kiss*$4#$e#Again... *Kiss*$4#$e#More... *Kiss*$4#$e#Ah... Let's go to bed, shall we?$4",
+    "Indoor_Night_5": "Darling, you're home.$h#$e#Come, let me give you a good hug. You know, I couldn't stop thinking about you the whole time you were away...$4",
+    "Indoor_Night_6": "I never had much success growing plants in my old beach house. Hopefully I can pick up a thing or two by watching you.#$e#In this respect, you are the master and I am only a humble apprentice.#$e#If possible, I hope I could also be of help to you. I don't like seeing you work so hard by your lonesome.$s",
+	
+    "Outdoor_0": "My dear, with you, my wildest dreams have come true.#$b#Just look at this breathtaking view! This is you home, your life, and I can see the fruits of your labor.#$e#I feel so blessed to be a part of such a life.$h",
+    "Outdoor_1": "Fertile soil beneath my feet, fresh air to fill my lungs, and the sun's warmth to delight my skin... Life is going splendidly.#$e#Though, there's nothing greater than having you here by my side.",
+    "Outdoor_2": "I may stay here and write some poetry.#$e#Don't worry about me. I feel endless inspiration just by looking at you.",
+    "Outdoor_3": "If I stay perfectly still, perhaps a resplendent butterfly will bless my nose with a landing.#$e#Slightly tickling... just like when you kiss me.$h#$e#I love it.$h^It's cute.$h",
+    "Outdoor_4": "Darling, may I kiss you?$h#$e#...Sorry my mouth tastes bitter, I had too much coffee. My mouth is as dry as the Calico desert.$s#$e#Unless you don't mind? You like the taste of coffee, don't you?$h",
+    "Outdoor_5": "Hey, @. I found this near the bus stop.[866]$u#$e#When I saw it, I couldn't help but think of you. I think it matches you perfectly.$h",
+	
+    "Good_0": "@... I'm so proud of all your hard work. I'm very lucky to have you.$l#$e#My dear, I love you. There is nothing in this world that could ever take me away from you.",
+    "Good_1": "Wow, you look really handsome today! Did you shave? Your jawline is perfect.$l^Your feminine allure is irresistible today. I can't keep my eyes off you.$l#$e#Then again, when is it not?$h#$b#You have always been perfect in my eyes, my dear.$h",
+    "Good_2": "I can't help but worry about you while you're away, worry about other people attracting your attention, and worry especially about you encountering danger out there.$s#$e#But when I hear that sound of muddy boots on wood, my heart rises from the ash.$h#$e#I wish I could always be by your side.",
+    "Good_3": "I'm practicing meditation. It's good for creativity. It also calms my mind when you're not home.#$e#The most important thing is to rid myself of distractions... If you were here, then it'd simply be impossible.$4#$e#Why? Do you really have to ask that?$4",
+    "Good_4": "Every time I read a love poem, I think of you.$h#$e#I love you, @. I have always loved you.$4",
+    "Good_5": "Be careful out there! I do worry about you sometimes. There are people in the world who would take advantage of you.$s#$e#I wish I could be by your side at all times. I want to shield you from all dangers... to just watch over you like this.",
+    "Good_6": "I was just admiring my wedding amulet... After all, you were still relatively new to town at the time. I was under the impression that you didn't know of the tradition.$h#$b#Ah, well I suppose I haven't been here much longer than you.$h#$e#You've given me many gifts, but this is by far my favorite, my love. It's a treasure that I shall always cherish.#$e#I only worry that I haven't given you enough in return.",
+    "Good_7": "I do realize that you have a lot of responsibilities out there, but I also desire to be by your side at all times.#$b#Is it too selfish of me to feel that way? I believe love is inherently selfish, though.$h#$e#Please forgive me for this petty selfishness. I just love you so, so much.$h",
+    "Good_8": "You know, ever since we first met, I had a feeling we'd be together someday.#$e#Now I know we shall enjoy many, many more days beyond that...$h",
+    "Good_9": "Oh, I'm not bored... I'm just taking time to enjoy all that we have.#$e#It makes me so happy to be under the same sky as you, breathing the same air that you breathe.#$e#I'm yours, @. I love you.",
+	
+    "Neutral_0": "I'm not feeling much inspiration today. Perhaps it's due to your absence?$s#$e#Would you care to spend more time with me today? Truly, I cannot express just how much I need and adore you.#$e#I'll try to help you understand.$h",
+    "Neutral_1": "I have an idea, @. I'd like to write a novel about us.#$b#I'll include all of the fine details to express my love for you.#$b#Then, everyone would know exactly how much we love each other. Not a single person would dare disturb us.#$e#What do you think?#$h",
+    "Neutral_2": "Be careful out there, @.#$b#I do worry about you sometimes. There are people in the world who would take advantage of you.$s#$e#I understand you can handle yourself just fine, but the fact remains that you simply can't predict the true intentions of those people.$s#$b#Hmm... Honestly, I can't say you've always been vigilant about these things, my dear.$h",
+    "Neutral_3": "I remember how you'd always go around and say hello to everyone whenever you visited town.#$b#I'd always watch you do this, and to be honest, I was awfully jealous.#$e#With how gentle you are, people just can't help but fall for you, Darling. I'm sure you understand how that was a problem for me.#$b#Though, you're all mine now, so I suppose none of that really matters.$h",
+    "Neutral_4": "Do you think your grandfather would be proud of what we've done?#$e#Surely he'd be happy to see us together, too?#$e#I'll always be there for you, my dear. I love you oh, so much.$h",
+    "Neutral_5": "@, no matter how many years pass, I will love you just as I always have.
+#$b#What about you? Will you still love me even when I'm old and gray?$s#$e#No matter what, I will never let you go.$h",
+    "Neutral_6": "@, the farm must be difficult to maintain, isn't it?#$b#Promise me you'll rest more often, okay? Don't push yourself too hard.#$e#I really wish you'd rely on me a little more.",
+
+    "Neutral_8": "I wonder if we'll live here all our lives?#$e#Of course, the answer doesn't actually mean much to me. I'm happy wherever I am as long as I'm with you.#$b#I'm just worried that you may eventually feel... unsatisfied...$s",
+    "Neutral_9": "Hey, how about a date at the bar tonight?#$b#You have a lot of friends there, don't you? I'd like to show them just how much we love each other.$h#$e#I want to make sure they know you belong to me.",
+	
+    "Bad_0": "Hey, @.#$b#Where are you going today? Are you going to meet someone else again?$h#$e#I've already told you, the others are no good - I'm the only one you need. They're all going to hurt you in the end, so why won't you just listen?$7#$e#For as long as you're by my side, I won't let anyone else get close to you. I will stop them, no matter what.$7",
+    "Bad_1": "@, @, @~$h#$b#Hm? What's the matter? All I did was say your name.#$e#Y-... You're trembling. Are you really that scared of me?$h#$b#Even if you're sick of me already, I'd never hurt you @, never.$7",
+    "Bad_2": "I've noticed that you've been ignoring me lately, @. It's not pleasant, but that's okay.#$b#I can bear it all as long as you're still with me. I just don't want you to leave.$h#$e#Or are you ignoring me deliberately, simply to see how I would react?#$b#You don't have to do that, @. You know I love you.$h",
+    "Bad_3": "Where are you going? I clearly told you not to go out, didn't I?$7#$b#You're not thinking of leaving me, are you? After all this time, are you really going to kick me out now?$7#$b#It's fine. Even if you leave me, I'll always watch over you. Surely you haven't forgotten those letters, have you?$h#$e#No matter where you are, I will always follow you. Even if you fall into the arms of another, I will never let you forget me.#$b#You know you can't get rid of me, right?$h",
+    "Bad_4": "@, could you just stay inside today?$7#$b#I can't stand to have you out of my sight. It pains me to even imagine you talking to anyone else.$7#$e#As much as I'd like to say I won't let you leave, that's too unrealistic, I'm afraid. It's not like I can really lock you up, can I?#$e#...$7",
+    "Bad_5": "I know you probably don't care about me anymore, @. Though, you must still think about other people too, don't you?$h#$e#You know what I mean. Just know that, if you were to get involved with anyone else, I might just do something you wouldn't want to see.#$e#Oh, not to you, of course. I have absolutely no desire to harm you, I promise.#$b#Mm, well, as for the others...$h",
+    "Bad_6": "Hey, @. I have good news for you.$h#$b#I ordered some chains from Clint and they'll be delivered in a few days. You're going to love them.#$e#Didn't you promise to be with me forever? This way I can watch you all the time.#$e#...I love you, @. I will always love you.$h",
+    "Bad_7": "Hm? What's the matter @?#$b#Oh, I'm fine on my own, don't worry yourself.#$e#Oh, I almost forgot. This is for you. [458]#$b#You're going to give it to someone, right? No need to buy it yourself, I've already got it for you.$h#$e#What are you still standing here for? Isn't there someone you need to be seeing right now?$h#$e#... Have you already forgotten what you said? Let me guess, you don't even remember what I like anymore?$s#$e#Please don't go, okay? I love you, @. I love you more than anyone else.$s#$e#...I love you.$s",
+    "Bad_8": "Where are you going, @? Did you already forget what I told you? If I catch you talking to anyone else, I'll cut their tongue out.$h#$e#Why do you insist on disobeying me like this? Is there someone you want to talk to that badly? Don't you love me the most? Why are you doing things you know upset me?$s#$e#Ah, I see. So are you doing this on purpose, then? You really don't have to provoke me, @. There's no one I love more than you.#$b#Please don't do this again, okay?$h",
+    "Bad_9": "Hold on a minute, @. I have something for you.#$b#...Here.[5]$h#$e#You'll use it, won't you? Kill me with it.$h#$b#I intended to do it myself while you slept, but I just couldn't bring myself to do it.$s#$b#If you plan on leaving me, why don't you just kill me instead?$s#$e#That way, at least I know you'll never forget me...$h",
+	
+    "funLeave_Elliott": "I think I'll walk down to the beach today. It's always nice to see the ocean again.#$e#It reminds me of all the time we spent together, and when we first met... I'll never forget that day.$h#$e#If you happen to finish your work early, would you care to join me? I'd love to watch the ocean with you.$h",
+    "funReturn_Elliott": "I had a nice time at the beach today. I watched the waves come and go, just like old times.#$e#But my favorite place is still by your side.$h",
+	
+    "spring_1": "My new year's resolution is to write, write, and write! I can never stop improving my skills.#$e#Most importantly, I want to include you in my novel, my love. It's the only way I can express my feelings for you.$h",
+    "spring_12": "It's strange, but I often have cravings for pomegranate in the spring.#$b#I think its color is just gorgeous. Pomegranates only grow in the fall, however.#$e#Right along with my birthday.$h",
+    "spring_23": "Tomorrow is the Flower Dance Festival. Save that last dance for me, will you?$h#$e#Please just focus on me, my dear. I look forward to dancing with you tomorrow.",
+    "summer_1": "It's hard to be in a foul mood when the sun is beaming and the butterflies are dancing on a spice-berry breeze.#$b#But of course, nothing makes me happier than to have you by my side!$h",
+    "summer_10": "I was going to grab an extra bottle of ink from my cabin today, but then I remembered the Luau is tomorrow. I'll just do it then.#$b#Remember all the time we used to spend there? I really do miss those times.#$e#But I cherish the present even more, my dear. After all, we're finally together now.$h",
+    "summer_27": "All good things must come to an end, including the joyful days of summer. The key to happiness is to accept change without judgement.#$b#Inevitably, when you find something you don't wish to end, you can only rely on yourself to change fate.#$e#Oh, am I preaching to the choir? Sorry, my dear.$8",
+    "fall_1": "The splendor of fall... a verdant banquet for all the senses to enjoy... It has inspired some of the greatest poetry of all time.#$e#But you, you look especially lovely in the fall, Darling. The way you look as you walk through the leafy forest paths... Ah...$h",
+    "fall_15": "I might set my pride aside and sink my eager teeth into a sloppy, saucy barbecue sandwich tomorrow.#$e#As much as I hate to admit it, I truly enjoy such delicious foods.#$e#Mm, but I much prefer feeding it to you, Love.$h",
+    "fall_26": "The pumpkin ale on Spirit's Eve is my favorite. Sometimes men just have primitive urges...#$e#Oh, and while that's true, I didn't mean it like *that*.$4",
+    "winter_1": "Winter is a great time to read books and play the piano. Remember to pause and enjoy a quiet moment or two.#$e#Remember when I played the piano for you in my cabin? That's when I truly fell in love with you.$h",
+    "winter_7": "I'm a little out of practice, but I plan on entering the fishing contest tomorrow! I'll give it my best shot, but I don't think I can beat you, my dear.#$b#Though, I will gladly concede defeat before you.$h",
+    "winter_28": "Happy New Year's Eve, my dear. Please accept this celebration gift. [348]#$b#I'm so happy to have spent another year by your side. I hope next year will be even better.#$e#I'm truly so fortunate to be here with you, @.",
+	}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/ExtraDialogue",
+"When": { "Relationship:Elliott": "Married", },
+"Entries": {
+    "Spouse_KitchenBlocked": "@, have you been too busy to make dinner lately?#$e#I've prepared something for you, I hope you like it.$h[212 231 649 727 729 730 732]",
+    "Mines_PlayerKilled_Spouse_PlayerMale": "@... You're awake.$s#$b#Do you know just how long you've been out for? Do you have any idea what I was feeling when I saw you?$s#$b#...I won't let you out of my sight again. Absolutely not...$7#$e#I have to protect you, don't I? There's far too much danger in the world for you to be so careless.$s#$b#You're mine. I refuse to stand here and just watch you hurt yourself...$7",
+    "Mines_PlayerKilled_Spouse_PlayerFemale": "@... You're awake.$s#$b#Do you know just how long you've been out for? Do you have any idea what I was feeling when I saw you?$s#$b#...I won't let you out of my sight again. Absolutely not...$7#$e#I have to protect you, don't I? There's far too much danger in the world for you to be so careless.$s#$b#You're mine. I refuse to stand here and just watch you hurt yourself...$7",
+    "SummitEvent_Dialogue3_Elliott": "Meeting you was the best thing to ever happen in my life, @. Your name is written in every line of my poetry.#$b#Remember all those times we spent together? Talking over drinks at the bar, playing the piano in the cabin, boating on the sea, and...#$b#When I'm not with you, I always think back to the burning fireplace at night, the comforting scent of spices wafting from the kitchen, and the warmth of your body enveloping me.#$b#When I wake up in the morning, there will be your sleeping form on my pillow... This was all a happiness that I dared not imagine.$h#$b#Without you, the rest of my days would be empty and meaningless.#$b#Ah, so... here we are now, standing on the top of the mountain.$4#$b#I hope for such times to never end. I love you, @.",
+	}
+},
+
+{
+"Action": "EditData",
+"Target": "Strings/StringsFromCSFiles",
+"When": { "Relationship:Elliott": "Married", },
+"Entries": {
+    "NPC.cs.3985": "@, have you seen {0} today?$h#$b#I heard you gave them a gift. Well? What was it? Did they like it?$h#$e#...Why would you give a gift to someone else? Am I not your favorite person?$h",
+    "NPC.cs.4500": "@, don't you have a little too much stuff at the door?#$b#Well, I'm not complaining. If it's convenient for you, it doesn't matter to me.$h",
+    "PathFindController.cs.4579": "@, I know you're very busy. Do you want me to help tidy up the house?$h#$b#Don't work yourself too hard.",
+	}
+},
+
+]
+}

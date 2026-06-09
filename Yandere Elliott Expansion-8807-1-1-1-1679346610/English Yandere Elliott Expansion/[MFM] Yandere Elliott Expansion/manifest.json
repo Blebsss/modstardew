@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[MFM] Yandere Elliott Expansion",
+	"Author": "RedBalloon",
+	"Version": "1.1.1",
+	"Description": "Make Elliott into a yandere. Several events and mails added.",
+	"UniqueID": "Casual.Yandere.Elliott.Expansion.Mail",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [ "Nexus:8807" ],
+	"Dependencies": [
+		{
+			"UniqueID": "Casual.Yandere.Elliott.Expansion"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+	}
+}

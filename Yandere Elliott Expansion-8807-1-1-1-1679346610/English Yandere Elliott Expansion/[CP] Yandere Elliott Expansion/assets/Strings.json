@@ -1,0 +1,72 @@
+{
+"Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Strings/StringsFromCSFiles",
+    "Entries": {
+        "Event.cs.1257": "I finished writing my book, and it's a suspense novel! Remember when you told me that you like suspense novels?$h#$b#Here it is, '%book', a thrilling tale of deception and intrigue!$u#$b#I can't thank you enough for all the help you've given me. I really don't know how to repay you!$h#$b#Thank you for always being there to encourage me, @.$4",
+        "Event.cs.1258": "I finished writing my book, and it's a romance novel!$h#$b#...You told me once that you enjoyed the genre, and I've been drawing some inspiration from real life lately.$l#$b#Here it is, '%book'. It's about a train stewardess who falls in love with a traveling architect... but he's secretly engaged to the ticket collector's daughter!#$b#I'd love for you to read it. After all, it means a lot to me.$h#$b#Thank you for always being there to encourage me, @.$4",
+        "Event.cs.1259": "I finished writing my book, and it's a sci-fi novel! Remember when you told me you were a fan of sci-fi?$h#$b#Behold, '%book'. It's about a boy who forms a symbiotic partnership with a semi-telepathic lifeform. Together they unravel the dark mysteries of an interstellar cabal.$u#$b#I can't thank you enough for all the help you've given me. I really don't know how to repay you!$h#$b#Thank you for always being there to encourage me, @.$4",
+        "Event.cs.1260": "I finished writing my book!$h#$b#Well, here it is... '%book'. It's about a government land surveyor who visits a tiny, isolated mining community... and discovers some disturbing secrets.$u#$b#Actually, it's partially inspired by you! I hope you don't mind.$h#$b#Thank you for always being there to encourage me, @.$4",
+	}
+},  
+
+{
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "Entries": {
+        "ElliottHouse.1": "It's one of Leah's paintings.",
+        "ElliottHouse.2": "Elliott's desk. It's littered with notes and crumpled balls of paper, one of which has a couple lines scribbled on it that reads:#The moment I laid eyes on them, it was like I was hearing music from heaven.^From that moment on, I knew only two paths were left before me.^Should it all end it failure, I shall be destined to suffer the eternal flames of hell.",
+        "ElliottHouse.3": "There's a knife in the cupboard... I have no idea what it's doing here...",
+	}
+},  
+
+{
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "When": { "Relationship:Elliott": "Dating", },
+    "Entries": {
+        "ElliottHouse.2": "Elliott's desk. It's littered with notes and crumpled balls of paper, one of which has a couple lines scribbled on it that reads:#Even at this very moment, my heart is consumed by feelings of unease.^I swear to you, I wouldn't hesitate to grovel on my knees and beg for the favor of each and every god if it meant you'd never leave me.^After all, unless we're all dead, how else can anything last forever?",
+	}
+}, 
+
+{
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "When": { "Relationship:Elliott": "Married", },
+    "Entries": {
+        "ElliottHouse.2": "Elliott's desk. It's littered with notes and crumpled balls of paper, one of which has a couple lines scribbled on it that reads:#I understand I must be content with what I have at this moment. I must restrain my impulses.^And yet, with every second I spend with you, my greedy heart only grows more and more difficult to satisfy.^What must I do to make you look solely at me? What must I do to ensure you'll never leave me?^If it means making a deal with the devil, then a deal I shall make. Even if the price were to sell my soul, I'd have no regrets.^But even still, my heart is overwhelmed by fear. I don't want to lay waste to all of our progress. I don't want you to view me with nothing but disgust and anger.^@, I can only assure you of this: I will try. I will try to control myself, I promise.",
+	}
+}, 
+
+{
+    "Action": "EditData",
+    "Target": "Strings/StringsFromMaps",
+    "When": { "Relationship:Elliott": "Divorced", },
+    "Entries": {
+        "ElliottHouse.2": "Elliott's desk. It's littered with notes and crumpled balls of paper, one of which has a couple lines scribbled on it that reads:#I have to do this, it's the only way out.^Fear or hate, at least I won't be forgotten by you.",
+        "ElliottHouse.4": "It looks like Elliott once intended to plant something here, but it looks very neglected. There's not much life left in it.",
+        "ElliottHouse.6": "It looks like Elliott once intended to plant something here, but it's been long since neglected. There's not much left of it now.",
+	}
+},  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+],
+}
