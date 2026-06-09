@@ -1,0 +1,937 @@
+{
+"Format": "1.19.0",
+"Changes": [
+//Sebastian pre-marriage dialogue; up to 10 hearts, works with 10-heart platonic mods. 6 hearts can have sexual innuendos/sexual suggestions. 8+ hearts are 18+ dialogue.
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"Entries": {
+	    "Introduction": "Oh. You're the one that's going to live at that old farm, right?#$b#I-I'm...Sebastian. I heard about you from my mom, Robin. The town carpenter.#$b#...$s#$b#I-if you need help with anything...you, uh...can ask her. Or me. I...uh, don't mind. Helping.$s#$b#...Sorry, I'll let you go on your way. Nice...nice to meet you.$s",
+	    "danceRejection": "...I talked a lot of game, but now that you've asked...$s#$b#...I'm gonna have to chicken out. Sorry...$s",
+	    "divorced": "You already fucked up my life and wasted my fucking time.$a#$b#Get the hell away from me and go find someone else's life to ruin, you fucking saboteur...$a",
+	    "Mountain_47_23": "This spot is peaceful and beautiful isn't it?$h#$b#...Kind of reminds me of you and how you make me feel...$l#$b#...I, uh, didn't say anything...Haha...$h",
+	    "Event_cave1": "Not so fast! I want to know what it is.",
+	    "Event_cave2": "Really? It was making a lot of noise!",
+	    "Event_cave3": "It's too dangerous without a sword. But I like your sense of adventure.$h",
+	    "event_garage1": "I'm...glad. Let's make it a date then. Er, let's mark a date down then...$8",
+	    "event_garage2": "...Oh...Sorry for suggesting it then...$9",
+	    "event_garage3": "Don't worry, I'll be right there to save you if you bail.~$8^Heh, if you hold on tight to my waist, there won't be anything to worry about...$8",
+	    "event_city1": "The view is only this beautiful because you're in it. This place used to be the most beautiful thing to me, but...not anymore.$l",
+	    "event_city2": "Haha, spoken like a true emo. You took the words right out of my mouth. It's why I feel such a connection to you.$l",
+	    "event_city3": "...Damn, savage. I had this cute speech prepared and everything. Mood killer.$s",
+	    "event_city4": "Alright, that was so smooth you're about to have my pants slip right off. And then I'll happen to 'slip' right into you...$l",
+	    "spring_2": "What's up?#$b#...Sorry, I'm not good with conversations. Especially with newer people.$s#$b#...Sorry for wasting your time.$s",
+	    "spring_3": "Hey, nice to see you again.#$b#Want to...umm...$h#$e#...Sorry. Just, uh, go about your business. Let's chat tomorrow.$s",
+	    "spring_4": "Oh, you came back to see me?#$b#...Your name is @, right? I'm not very good with names typically.$s#$b#But I like yours, it's neat. I'll be sure to remember it.$h",
+	    "spring_5": "Huh, coming to talk to me again? You're strange, @.$u#$b#I'm...not very interesting. But thanks for talking to me anyway.$s#$e#...See you tomorrow?#$b#...-mutters- Ugh, why did I say that? What if they don't WANT to see you tomorrow Sebastian...?$a",
+	    "spring_6": "It's strange seeing someone new in town, especially someone who talks to me.#$b#Sorry if I am standoffish, people just...make me anxious.$s#$b#...And I don't know why, but I get really fidgety around you. Sorry...Sorry!$s",
+	    "spring_7": "Hey @. Wanna hang out?#$b#...Oh please don't think you have to or anything.$l#$b#Umm...M-maybe another time, actually. I have to get back to my work...Sorry...$s#$b#-mutters- I wish I could just be honest, but noooo, I have to be the most awkward man in history...$a",
+	    "Mon": "What's up, @? Came to chat?#$b#...I, uh, don't really know what to talk about.$s#$b#...Got any hobbies outside of farming?#$b#...Cool, good to know. I'll have to catch you later, @.$h#$b#I...uh...hope we can talk tomorrow?#$b#...-mutters- Holy shit, could I get my act together around them?$s",
+	    "Tue": "Sup, @? Looks like it's another friggin' Tuesday.#$b#...Sorry, that was a bit aggressive. I hope my social awkardness doesn't bother you too much.$s#$b#...Something about you in particular makes me more awkward than usual though...$s",
+	    "Wed": "...#$b#...Oh, sorry, I was kind of lost in my own head for a sec.#$b#What did you want to talk about again?#$b#...Oh, I...uh...wasn't staring at you, I promise...$s",
+	    "Thu": "Kind of wish I wasn't so awkward around you, @.#$b#You seem nice, I just am really bad with talking to people.$s#$b#-mutters- Especially people who make me feel like I've never felt before...$s",
+	    "Fri": "My group of friends and I go to the saloon on Fridays, wanna come with us?#$b#We typically drink and play pool, which I always win at.$h#$b#...Cool, if you come by, I'll see you there.$h",
+	    "Sat": "Let's keep this convo short today. I have a bad hangover.$a#$b#...Ack, that was kind of mean. Sorry. I have a short temper when I'm hungover.$s#$b#...I really need to control myself better.",
+	    "Sun": "You have a cut on your finger, @.#$b#Here, I'll get you bandaged up.#$b#...I...just realized you honestly could have done that yourself.$l#$b#...$s#$b#S-sorry for crossing a line...I'll work on that.$s",
+	    "Mon2": "Oh, @...I wasn't expecting you.$l#$e#...Please tell me you didn't hear anything from outside my door.$s#$b#Get your mind out of the gutter, I wasn't doing that! Jeez...$a",
+	    "Mon4": "@, what's your type?#$b#...Not type of seeds, you dingus!$h#$b#I mean type of...person. Like...romantic interest.$l#$b#J-just asking for a friend. Who thinks you're cute. And attractive...$l#$b#...I AM NOT BLUSHING! I JUST AM...hot. Fuck. Conversation done. Bye.$a",
+	    "Mon6": "Hey @, do you have enough clothes to wear? You're always wearing the same ones.#$e#...If you need any, you can take the ones I'm wearing.#$b#Right now.$l#$b#Off of me.$l",
+	    "Mon8": "...Did you really just ask me if I'm a virgin?#$b#N-no, I'm definitely not a virgin. I've had sex with people a few times. Casual sex, nothing romantic...$s#$b#...$l#$b#...Shit, it's obvious isn't it? Fucking hell, yes, I am.$a#$b#...#$b#...You wanna change that for me?$l",
+            "Mon10": "Um,@, I have to admit something...$l#$b#I've been thinking about you today. And yesterday. A lot...$l#$b#You know...in ways...certain positions and all that...$h#$b#...What's your plan to help me get those thoughts out of my head?$l",
+            "Tue2": "Oh hey @. You caught me at a strange time.#$b#I'm in the middle of writing a song.#$e#Did you think Sam wrote ALL of our music? Ha! Nah, it's 50-50 honestly.$h",
+            "Tue4": "I've been getting into writing more music lately.#$b#...But all the lyrics end up being really...explicit.$s#$b#You want to hear one?! Uhh, maybe another time. None are, uh, polished yet...$l",
+            "Tue6": "You know what, @? It's hard for me to bite my tongue around you.#$b#...Wanna do it for me?$h",
+            "Tue8": "...I can't handle the way you look today.$l#$e#Fucking take me before I take you.$l",
+            "Tue10": "You are the perfect person for me, @.$l#$b#...If anyone takes you away, I'll fucking bury them six feet deep.$h#$b#Haha, just kidding.~ Sort of. Not really.#$b#...#$b#I love you.~$l",
+            "Wed2": "Hi again, @. You must like seeing me as much as I like seeing you.$h#$b#...That, uh, wasn't meant to be as flirtatious as it came out to be...$l#$b#No seriously, I swear! I think you're cool and it would be nice to get to know you.#$b#...-mutters- Holy shit holy shit holy shit did I just admit all of that?!$l",
+            "Wed4": "Sam always is on my case about how bad I am at hitting on people.$s#$b#So can I practice on you?$l#$b#Haha, look at your face! You're beet red!$h#$b#...I am too?! You're imagining things! I am not blushing!$l",
+            "Wed6": "They say you can learn a lot about a person by listening to the lyrics of their favorite song.#$b#So what's yours, @?#$b#...Nice choice, I'll have to listen to it in a different way now, knowing its your favorite.$h",
+            "Wed8": "I really can't stand the way some people look at you, like you're meat.$a#$b#The next twat to look at you that way is getting my fist in their goddamn throat.$h",
+            "Wed10": "Yo, @. Feel free to borrow any of my comics, games, or anime you want.#$b#Just uh...be mindful of the hentai.#$e#...Unless you want to watch it together...?$l#$b#...Although if we did that, you'd find out a lot about my tastes in a short amount of time, hehe...$l#$e#...Then again, we could always just try some of it afterwards together...$l",
+            "Thu2": "Have you hung around Abigail before?#$e#...You're not into her, are you?$a#$b#...Just wondering. That's all.",
+            "Thu4": "Hey...you aren't, y'know, crushing on any of our friends, are you?$s#$b#No, no, I'm just curious.#$e#I'm just the best fit for you and everyone else would just break your heart.$h#$b#I'm saving you the heartache ahead of time, haha.~$h#$b#...-mutters- What the fuck did I just say...?$s",
+            "Thu6": "Do you ever need help on your farm, @?#$b#I'm not experienced or anything, but I would be willing to learn for you.$h#$e#...We can always call it indentured servitude, if you catch my drift, haha.~$h",
+            "Thu8": "Sam says we're going to play one of my songs at our first show.$h#$b#I can't wait for you to hear it. I wrote it for you after all.$l#$b#Just be sure to listen to the lyrics REAL carefully...~$h",
+            "Thu10": "I'm just glad that I don't have to break into your house anymore to sleep next to you.#$b#...Alright, can we just let younger, weirder me go?$a#$b#...Yeah, that was only a little while ago, sure, but I've become at least a little better since then! Right...?#$b#...Oh dear Yoba, please tell me that I've gotten better since then.$s",
+            "Sat2": "Hey @! Wanna come and hang out with Sam and I at our jam session?$h#$b#We're going to practice a new song I wrote! I think you'd like it!$h#$b#...Sorry, that was pretty forward, huh?$s#$b#...Well, feel free to come by anyway.$h",
+            "Sat4": "@, you feeling okay after last night?$h#$b#You really hit the alcohol hard. Too hard; I had to escort you home last night.#$b#You say you don't remember? Oh...well, I'm glad because you made it awkward.$s#$b#You kept telling me to help you get into pajamas...$l#$b#...I kinda ran out the door after that. Sorry. I want to be a good friend, but that's...too much...$l",
+            "Sat6": "@, what would you think if I became a farmer, like you?#$e#...You're right, Emo Farmer sounds like a really bad Country Metal mix band.$h#$b#Don't let me become THAT of all things, haha.~$h",
+            "Sat8": "I can't stop thinking about you in ways I shouldn't...$s#$e#I just want to feel your body against mine. Even if it's just for a moment...$s#$b#...Now I'm all flustered because you walked closer. Stop teasing me like this.~$l",
+            "Sat10": "Hey @. Come here for a sec. I really need to tell you something, but quietly.#$e#...I want nothing more than to just take you, right here, right now. Even if there were people watching.$h#$b#...Don't tempt me like this, I'll actually do it, you know I will.$l",
+            "Sun2": "...Promise you'll spend the most time with me?$h",
+            "Sun4": "I've been playing this dating simulator where everything goes wrong because one of the girls becomes self-aware.#$b#Not going to lie, it's giving me ideas on how to eliminate my own competition...$h#$b#...I am definitely not the Monika of our friend group, excuse you. Rude.$a",
+            "Sun6": "@! I had a dream about you last night!$h#$e#We were in the back room at the saloon and...$h#$b#...It was to help him stock the shelves. Yeah. That's it. It was se-$l#$b#I mean kin-$s#$b#I mean NICE. A very nice dream.$l",
+            "Sun8": "The cool thing about Sunday is that it's a way to benchmark the start of another week of knowing you.#$e#...Of course I keep track of that. I have to remember the day I met my soulmate.$h",
+            "Sun10": "I'm going to demand this very plainly...:#$b#Fuck.$a#$b#Me.$a#$b#Right.$a#$b#NOW.$a",
+            "Fri2": "So @...#$b#Do you plan on coming to the Stardrop Saloon tonight?#$b#I'll buy you a drink if you want! Don't worry, I'm not the type to spike your drink, I promise on my mother's pumpkin soup recipie.$h",
+            "Fri4": "I can't wait to see you at the saloon tonight, @.$h#$b#You always look cute when you're tipsy...$l#$b#...I, uh, didn't mean to say that. Whoops. Haha...$h",
+            "Fri6": "Ready for me to kick Sam's ass again at pool tonight, @?$h#$b#It's really fun to show off in front of you.$h#$e#...Yes, I do pose that way on purpose. Whatever gets you to look at my ass I guess.$h#$b#...Oh Yoba, did I really just admit that?$l",
+            "Fri8": "What happens to you when you've had one too many drinks, @?#$e#Do you get flirty? Do you spill all your secrets?...Do you strip...?$l#$b#...You won't tell me? Boooooooo.~ I guess I'll just have to get you plastered and figure it out for myself.$h",
+            "Fri10": "Tonight, I'm taking you to the back room in the bar when everyone's not looking.#$e#And then I'm going to fuck you like you've never been fucked before.$h#$b#Haha, look at how turned on you are right now. I'm going to make you wait even longer then.~$h",
+            "summer_Mon2": "Great to see you @! I was just wondering if I would run into you today.$h#$b#Since it's so hot, it's hard to hang out with friends...",
+            "summer_Mon4": "Guys like Alex just LOVE to show off during the summer...$a#$e#Stereotypical macho men like him really piss me off I guess.#$b#You say Alex is actually not so bad? Oh...#$b#...Well tell him to put a shirt on once in a while.#$b#Largely because some people like to just stare at him. When I'm next to them. And then I feel really awkward.$a",
+            "summer_Mon6": "I sincerely hate summer. It's such a pain in the ass to stay cool.$a#$b#Especially if you're a techie like me with my two computers and various electronics.$s#$e#...And it's even harder when you're here...$s",
+            "summer_Mon8": "The way you look in swimsuit is downright criminal.#$e#I'm going to have to handcuff you and take you away for such a crime...$l#$b#Where would you be incarcerated? Well, why not to the bed in my room?~$h",
+            "summer_Mon10": "Have you gone to the beach yet, @?#$b#I'll take you there if you want, as long as you wear this swimsuit I found for you...$h#$b#...Aww come on @, it'll make me the happiest man alive.~$h#$e#Alright, alright, you win. You'll have to wear it in the bedroom at least once instead.$h",
+            "summer_Tue2": "By the by @, are you interested in Abigail or Sam?#$b#J-just asking. They're my best friends, so I wanna know...$s#$b#...And I need to make sure that I'm better than them.$a",
+            "summer_Tue4": "Have you had any partners before, @?#$b#...Oh. I guess I'm pretty behind then, huh...?$s",
+            "summer_Tue6": "Feel free to get as comfortable as you'd like. In whatever way you'd like.$h#$e#...I know I'm most comfortable without clothes in this weather. You're welcome to...follow suit...$l",
+            "summer_Tue8": "@, are you hot? How about you take off your clothes for me?#$b#...I don't even care that I said that. I'm locking the door right now. Go right ahead.$h",
+            "summer_Tue10": "@, the only good things about summer are bikinis and hot, sweaty sex.#$e#...And right now, I want both with you.$l",
+            "summer_Wed2": "Hey @. Feel free to stay and cool down. My basement room is great for the summer.$h",
+            "summer_Wed4": "Are you the type to go to the beach often @?#$b#Just curious. I might have to start going to there more. Even though I'll burn instantaneously.#$e#...It'll be worth it though if you're there.$h",
+            "summer_Wed6": "People really relish in the though of a nudist beach.#$b#But man, I don't want to see that many people naked honestly. There's only one person I want to see with their clothes off...$h#$b#...I'm not telling you who, a man has to have at least one secret to remain mysterious.~$h",
+            "summer_Wed8": "Where'd you get that shirt, @?#$b#It looks great on you.$h#$e#...But it would look better off...$l#$b#...And on my bedroom floor. Or yours. I'm not picky.$h",
+            "summer_Wed10": "Fuck...$s#$b#Please get over here right now. I need you.$l#$b#I hope you don't like that shirt, because I'm fucking ripping it off of you to get what I know we both want...$h",
+            "summer_Thu2": "What's your type, @?#$e#...Oh, huh. I wonder if I can live up to that...",
+            "summer_Thu4": "Not judging or anything, but I think Alex only works the ice cream stand because he likes watching people he's attracted to eat it.$a#$e#...I can't judge him because the thought of you licking an ice cream cone has me, uh, hot under the collar...$s",
+            "summer_Thu6": "My mom keeps asking me if we're seeing each other.#$b#...I can tell her we're more than just friends, right...?$l#$e#...Jeez, I was way too excited to ask you that...$s",
+            "summer_Thu8": "I really only go to the beach to see you in a swimsuit, but there, other people get to see you too.$a#$b#I wonder if there's a way for only me to see you in a swimsuit...Like a private beach...#$b#Suddenly I'm craving a Sex on the Beach.$l",
+            "summer_Thu10": "How rough do you like your sex, @?$l#$b#Because right now, I just want nothing more than to fuck you as hard as I possibly can.$h#$e#...If you don't like it that way, I don't mind taking it slow. I'm just...passionate I guess, haha...~$h",
+            "summer_Fri2": "With how this week has gone, I'm gonna need you to buy me a drink tonight.$s#$e#...Yeah, I could buy one myself, but it's more fun to see what you would choose for me.$h",
+            "summer_Fri4": "Hey, @! Wanna play with me?#$e#...And by that I mean Solarian Chronicles. Or a video game. Not, uh...Nevermind.$l#$b#Don't use your imagination. Just a Freudian Slip.$s",
+            "summer_Fri6": "Yeah, definitely going to drink tonight at the saloon.$a#$b#I've been having fights with Abigail and Sam, so kinda need the drink to get through saloon night.$s#$e#...Fights over what? Well, I kinda can't tell you honestly...$s",
+            "summer_Fri8": "There's something sexual about going to the saloon in the summer.#$b#Everyone's sweaty, drunk, and horny.$a#$b#So stay next to me at the bar; the only one who can get sexual with you is me.$h",
+            "summer_Fri10": "Remember that dream I had about Gus' stocking room at the saloon?$h#$b#...How about we make it come true tonight? No one ever goes back there...$l#$b#...And you are way too hot today for me to not do SOMETHING with you.~$l",
+            "summer_Sat2": "@, be honest with me.#$e#Do you have a crush on anyone? Or having a summer fling?#$b#...I'm just curious. A lot of people seem to do that for the summer. Kinda was wondering if I should try it myself...$s",
+            "summer_Sat4": "Are you a motorcycle kind of person, @?#$b#I was wondering if you wanted to make a custom playlist and take a long ride together sometime.#$b#...It sounds like a really good date...$s",
+            "summer_Sat6": "Mind hanging out with me today, @?#$b#I'm...still kinda hungover from last night.$s#$b#I would love it if you could take care of me...$l",
+            "summer_Sat8": "Um, don't be alarmed but...$s#$b#...My mom found the condoms we used.$s#$b#Her reaction wasn't what I expected though. She looked almost...proud? Of me?#$b#I dunno, it was weird.$s",
+            "summer_Sat10": "So I talked with my mom about the whole condom thing, and apparently she thought I was always going to be some basement-dwelling virgin.$s#$b#Like, thanks mom for having faith in me...$s#$b#...It's okay though, up until I met you, I was kinda wondering the same thing, hahaha...$s#$e#...That was super embarassing. I am so glad that we are as close as we are and I can tell you stupid shit like that.",
+            "summer_Sun4": "Sam and Abigail really are trying to get me to go to the beach with them...$s#$b#Would you mind coming with me, @? I'd only feel comfortable taking off my shirt if you're there with me.$s#$b#...You know why I'm kind of terrified...$s",
+            "summer_Sun6": "...I noticed that Abigail can't take her eyes off of you, especially at the beach.$a#$b#What the fuck is her problem?! Doesn't she know that you're only mine?!$a#$e#...Sorry for the outburst. She's my friend, but I guess she's my rival too...",
+            "summer_Sun8": "Thinking about how neither of us have typical jobs, got me thinking about you in a suit for some reason.#$e#...Not gonna lie, you would be sexy as fuck in a suit.$1#$b#But of course, taking you OUT of the suit would be just as sexy.$h",
+            "summer_Sun10": "...Don't believe it until I see it, so I want a demonstration.$h#$b#And I always learned better with a hands-on education,$h#$b#so I need a private session if you hear what I am saying...$h#$e#Oh shit, @, I didn't realize you were here! I was...uh...singing a song I like...$s#$b#...Wanna act out some of these lyrics? I know I do...$h",
+            "fall_Mon2": "Summer sucked, ugh. The only good thing is that you were in a swimsuit at least once.#$b#...$l#$b#FUCK FUCK FUCK FUCK FUCK FU-$a",
+            "fall_Mon4": "...I really have to stop smoking.$s#$b#I'm never going to get a partner if I keep this shit up.$s",
+            "fall_Mon6": "Fall is the season of sweaters and leggings.$h#$b#I can't wait to see your ass in a pair of leggings.$h#$e#...Shit, I didn't mean to say that out loud.$s",
+            "fall_Mon8": "Hey, before you leave, take one of my hoodies with you. You look cold.#$e#Plus, other people can see that we're together. And to not even try.$h#$b#Haha, it's silly, but I can't help but be filled with happiness at the image of you in something that belongs to me.$h",
+            "fall_Mon10": "My mind has gone to some weird places lately, @.#$b#I mean, most of the time its 'what kind of sex would be interesting to try', but occasionally, it just gets so fixated on what your life was like before coming here.#$e#...Would you be up for telling me sometime? I'd be up for listening. Anything to get to know you better.",
+            "fall_Tue2": "For some reason, going to the saloon in fall is one of my favorite things.#$e#...Although beating Sam's ass in front of you at pool is probably number one.$h",
+            "fall_Tue4": "-finger guns-#$b#...Sorry, I kinda suck at this shit. You'd think I would be better at flirting after all this time knowing you.$s#$b#...I can't believe I just admitted to that. I really need help.$s",
+            "fall_Tue6": "The chillier weather is perfect for cuddling and watching movies.$h#$b#Wanna have a movie night with me soon? Name your favorite movie, I'll make sure we have it.$h",
+            "fall_Tue8": "Do you need to warm up @?#$b#...Jump into bed with me, I'll make sure you're warmed up. Won't take very long...$1",
+            "fall_Tue10": "...$l#$b#You have GOT to stop touching me right in the crotch. It doesn't take much to get me going.$a#$e#...Not only do you start playing around more, I now am really fucking horny.$a#$b#You're such a fucking brat...Come here.$h",
+            "fall_Wed4": "I'm an audiophile, and the sound of shoes crunching on freshly fallen leaves is so satisfying.$h#$e#What's a sound you really like, @? I think it's fun to learn weird facts about people like this.$h",
+            "fall_Wed6": "Hey, @...#$b#...Would you ever want to go on a late night picnic with me? Like at the lake right next to my house?$l#$b#It's romantic, it's pretty, and the fireflies make things all the more magical.$h#$e#...Until they try to get into your food. Okay, that part sucks.$s",
+            "fall_Wed8": "Um, @...$l#$b#This is kinda forward, but, uh...your nipples are poking through your shirt.$l#$b#It's really distracting...$l#$e#Put on my hoodie, if I look at you like this any longer, you're not going to have anything covering your nipples anymore...$s",
+            "fall_Wed10": "Everyone has that one spot where they immediately are turned on.$l#$b#...If I tell you mine, will you tell me yours?$h#$b#...If you get anywhere near my neck, you're immediately mine...$1#$e#@! Don't you fucking dare!$a#$e#...Yeah, alright, prepare yourself because it's time for me to get my revenge.~$h",
+            "fall_Thu4": "What kind of costume should I wear for Spirit's Eve...?$s#$b#Hey, @, what's the most attractive costume a guy can wear for Spirit's Eve?",
+            "fall_Thu6": "I've been thinking about Spirit's Eve and how everyone wears costumes.#$b#What kind of costumes do you typically wear, @?#$e#...Want to do one together?$h",
+            "fall_Thu8": "...I know we've been talking a lot about costumes @, but I have to ask...#$b#Are you the type to do roleplay sex in costumes? Because that would be hot as fuck...$1",
+            "fall_Thu10": "Why won't you tell me what you're wearing for Spirit's Eve?!$a#$b#Maybe I wanted to match you or something!$a#$b#...Oh it's a surprise is it?~ Why didn't you say so sooner?$l#$b#...Wait, you're not going to do a bait-and-switch are you?#$b#Tell me it's a 'surprise' and I'm hoping it's something slutty, just for it to be...$a#$b#Y'know, something meme-y. Like a frog or something.$a#$b#If it's a frog, there better be some damn good lingerie under that frog costume...$a",
+            "fall_Fri2": "Hey @. Going to the saloon tonight?#$b#Well, let me know if someone starts making unwanted advances.#$b#Tall emo boy with a knife is probably kinda intimidating to some people...$h",
+            "fall_Fri4": "Don't worry @, if you get too drunk, I'll walk you home.#$b#I know the safest way to get you to your house.$h#$e#Abigail, Sam, and I have had to walk you home more than you think, haha.$h",
+            "fall_Fri6": "If you're wondering, yes, I do purposefully pose the way I do while playing pool.#$b#If I can get you to look at my ass, life is good.$h#$e#...You say you'd do that even if I didn't position myself like that...?$l#$b#...Fuck you, I can't stop blushing now.$s",
+            "fall_Fri8": "The way you and Abigail dance at the saloon is really hot.$h#$b#...Nah, I don't want to see you two dance together.#$e#I'd love to fucking shove her out of the way and dance with you instead.$h#$b#...Shit, now I'm really turned on thinking about it.$l#$b#I'm not playing pool with Sam tonight, I'm more interested in grinding on your body.$l",
+            "fall_Fri10": "Next time you dance in the saloon, I'm going to have to take you to the back room again.$h#$b#I can't begin to tell you how much it turns me on seeing you acting like such a fucking slut.$l#$e#...You do it on purpose to get me to react...? Oh you cheeky brat, you're gonna get it tonight.$l",
+            "fall_Sat2": "Hey @. Don't be too loud, kinda still having a hangover.#$e#I swear, saloon nights are going to lead me to an early grave.$s",
+            "fall_Sat4": "I saw you talking to Sam and Abigail alone the other day...$s#$b#And Alex.$a#$b#And Haley...$s#$e#...I am not letting you out of my sight now.$a",
+            "fall_Sat6": "Ugh...Definitely a hangover Saturday...#$b#Can I just...lay in or lap or something? I'm so out of it today and I just want to curl up and sleep somewhere comfortable...#$b#...I don't even have the energy to be embarassed right now. Your lap. Yes or no?$s",
+            "fall_Sat8": "...I refuse to believe what you said in our group chat the other night.$a#$e#If we're fucking, we are DEFINITELY more than just friends, @.$a#$e#You might as well stop denying it; you're as obsessed with me as I am with you.$h",
+            "fall_Sat10": "You've been more interested in sex lately, I've noticed.#$b#...I think we're starting to get on the same wavelength. Haha, this is going to get to be so fun.~$h#$e#Now if only I could get you to try this new sex fad I heard about online...$h",
+            "fall_Sun2": "Seeing you cozied up in warm fall clothes makes me smile.$1#$b#You're just so damn cute.$h#$b#...$l#$b#...You heard nothing, okay? Nothing.",
+            "fall_Sun4": "You know, @, you're the only one I can text cat memes to that appreciates them, and that's special.#$b#Everyone deserves someone they can text dumb cat memes to.",
+            "fall_Sun6": "My hands get so damn cold coding all day...#$e#Would you be able to warm them up for me?$h",
+            "fall_Sun8": "I've heard people talking shit about me lately...$a#$b#I cannot express how proud I am of myself for keeping you away from all of those creeps. They just want you for your body.$h#$b#And I want all of you...scars and more.$h",
+            "fall_Sun10": "Hey @, I'm coming over tonight okay?#$e#I've been hot and heavy all day thinking about fucking you.$l",
+            "winter_Mon2": "Nice to see you @. Feel free to stay a while and warm up, you deserve it.$h",
+            "winter_Mon4": "Have you been getting any emails lately, @?#$b#...The only emails you have are from someone saying Send Nudes?#$e#...Uh, no, that's definitely not me. Hahaha...ha...$s",
+            "winter_Mon6": "...Yeah I admit it, I was the send nudes guy.$s#$b#But I'm now largely admitting it because why ask for pictures when I can see it in person?$l",
+            "winter_Mon8": "How is it that your layered clothes cover your shape, and you're still the sexiest person I've ever seen?$h#$b#No fair, if I wear that many layers, I look like a really tall potato.$h",
+            "winter_Mon10": "How many licks does it take to get to the center of your Tootsie Pop, @?$l#$b#...$s#$b#I, uh, am asking how many layers of clothes do I have to remove before you're naked...$s",
+            "winter_Tue4": "Don't worry about knocking anymore, @.#$b#It's not necessary when we're as close as we are.$h",
+            "winter_Tue6": "Hey, @. Let me lock the door and you can stay awhile.$l#$e#Time to just hope that Demitrius can't hear us through the floors.$h",
+            "winter_Tue8": "Soooo I soundproofed my room recently.$h#$b#Now we can have rough, screaming sex as loud as we want and no one will hear.$h",
+            "winter_Tue10": "Not going to lie @, I didn't know you were such a screamer.$h#$b#...You didn't expect me to be quite so horny all the time? I mean, fair, I do typically keep my composure up pretty well.#$b#But I've never met someone like you before. You're the only one for me @. You understand that?$s#$b#I will never find someone like you ever again, and I will refuse to do so. I'd rather die than be with anyone else.$s",
+            "winter_Wed2": "Hey @. It's nice that you always come to visit me, especially in this cold weather.#$b#It's cute.$l#$b#...I didn't just say that.$s",
+            "winter_Wed4": "Don't mind me if you come in and I have headphones on. I sing to myself a lot.#$b#...Especially don't judge what I'm singing.$s#$b#...Pft, no, the music genre isn't embarassing. It's...uh...the lyrics. #$b#Sometimes they're kinda raunchy. Or dark. Not much in-between, haha...$s",
+            "winter_Wed6": "I'm working on this game in my free time...#$b#Did you want to be a character in it?$l#$b#...You'd probably be the one that everyone draws really lewd fanart of now that I think about it...$s",
+            "winter_Wed8": "...This might get a little messy I'm sure. Heads rolling for the one I adore.~$h#$b#This might become a little brutal if I'm honest...~$h#$e#-Oh, I really wish that you had better timing. One of my favorite songs is almost over. Wanna listen to it with me?$l",
+            "winter_Wed10": "When are we having that Pokemon Mystery Dungeon night at your place?#$b#There's more than one dungeon I'd want some help with...$h#$b#...If you catch my drift.",
+            "winter_Thu2": "Did you know you have snow on your head silly?$h#$e#Come here, I'll get it off, you dork.~$h",
+            "winter_Thu4": "Hey @...$s#$b#Sorry, I just have been struggling lately, especially when I can't talk to you.$s#$b#If I texted or called you in the middle of the night, would you answer...?$s",
+            "winter_Thu6": "Thanks for always being so kind to me @.$h#$b#...You're the only person who has ever been this patient with me. It means a lot.$h#$b#Sorry, I guess winter has me feeling sentimental. Or sappy. Maybe both, haha.$h",
+            "winter_Thu8": "Honestly @, I wouldn't care how long it took...$h#$b#...I'm going to rip off all of your clothes and make you scream right now. Are you ready?$h",
+            "winter_Thu10": "Ever have sex in the snow?$h#$b#...Wanna try it? Might be...invigorating.$l",
+            "winter_Fri2": "It's going to be a cold walk to the saloon.#$b#Do you need someone to walk with you tonight?",
+            "winter_Fri4": "I understand that you have little to do during the winter in terms of farming...#$b#But please come home earlier from the mines, I'm always worried you're going to pass out of exhaustion down there.$a#$e#...Listen, I live about 5 minutes from the mines, I always keep track of who goes down there. For...reasons. Helping reasons.$h",
+            "winter_Fri6": "Everyone thinks I'm the weird, emo nerd around here.#$b#But honestly, Abigail is wayyy more into anime than I am.#$b#Sam just watches hentai, I think.#$b#I watch some anime, but my focus is typically video games and coding to be honest.#$b#...I'm still an emo nerd? Well, guess I can't fight who I really am deep inside, haha.$h",
+            "winter_Fri8": "Wanna skip the saloon, buy ourselves our own alcohol, and play some games inside tonight instead, @?$h#$b#...And then when we're both pretty drunk, we can stop playing games and fuck hard?$h",
+            "winter_Fri10": "My place or yours?$h#$b#...For after the saloon ya ding-dong. Gotta at least make sure my bedsheets are clean if we're coming over here.$h#$b#...I love how you play stupid. You know that almost every Friday you have hard, drunk sex with me, right?#$b#You better remember it, otherwise, that's some good memories you're missing out on.$l",
+            "winter_Sat2": "@, one of the best hangover medicines is a good coffee.#$b#Need one? I can make you some coffee real quick.",
+            "winter_Sat4": "Ugh, my head hurts after last night...$s#$b#...Wait, how many drinks did I have last night? Please tell me I didn't spill any of my secrets. That's my bad habit when I'm drunk...$s#$e#Oh Yoba, you, Abigail, and Sam have so much ammo against me now. Shit.$s",
+            "winter_Sat6": "Please tell me your hangover is as painful as mine. I could hardly get up this morning.$s#$e#...If you had come over to my place and spent the night, I definitely wouldn't have gotten up this morning for anything.$h",
+            "winter_Sat8": "Damn, you were good last night.$h#$b#Only problem is that you left me a...gift, if you will.$h#$e#If you're not careful, I won't return the underwear you left haha.~$h",
+            "winter_Sat10": "I'm not going to mince words here, but having sex with you is like taking a fucking drug.$h#$b#I can't wait for the day we live together and we can do it all the time, no time constraints or other people to worry about.$h#$e#I would make you orgasm so many times a day...God, the thought makes me want to take you right now.$l",
+            "winter_Sun2": "What kind of present do you want this year for Winter Star, @?#$e#Even if I'm not your secret friend, as thanks for being my friend on the daily, I want to give you something special. I hope that's okay...$h",
+            "winter_Sun4": "Does anyone hit on you @?#$b#...Alex? Why am I not surprised? That guy will hit on anything that has his prefered genitailia.$a",
+            "winter_Sun6": "If you haven't noticed it yet @, I'm pretty protective of you.#$b#If you need anything, just call or text me and I'll come running.#$b#People say I'm pretty fast, so I'll be there in a flash.$h",
+            "winter_Sun8": "Haha, I just had a really bad thought, @.$h#$e#Gotta wonder if anyone has had sex in the Yoba worship room that Pierre and Caroline have in their house on a Sunday.$h#$b#...Wanna be the first with me? I'm always here for a little bit of anarchy...$1",
+            "winter_Sun10": "I can't believe this year is almost over...#$e#I want nothing more than to start my new year off with you, whether we're dating or not.#$b#...Screw having a kiss at midnight, let's take it to the next level and fuck at midnight to seal the deal.$h",
+            "spring_12": "Huh, it's the Egg Festival tomorrow.#$b#I'm not too big on hunting eggs myself, but Abigail LOVES it.#$b#If you're going to be egg hunting, make sure you stay in my line of sight okay? I want to make sure you don't get into trouble.~$h",
+            "spring_14": "Are you friends with Haley, @? Apparently, it's her birthday today.#$b#I more know of her than know her. She was always too cool for someone like me, but I never minded, I don't think we'd be very compatible as friends.#$e#...Pft, me? Have a thing for HALEY?! You have got to be kidding me @. She is wayyyy too bubbly for someone like me. Plus...$h#$b#...Not to gossip, but I hear she likes girls more than guys. But you didn't hear that from me.",
+            "spring_23": "Typically I freaking DESPISE the Flower Dance, but this year, I have plans...$h#$e#...You'll just have to wait for tomorrow to see. But I do know that you'll like what I'm working on. I've done my research...$h",
+            "spring_25": "I'm still jittery after yesterday. Not only did my plan go off without a hitch, but...$h#$b#DID YOU SEE HOW EVERYONE REACTED?! Everyone was so awed by us, it was amazing!$h#$b#I think we made everyone's jaws drop to the floor and then they couldn't pick them back up, haha!$h#$b#Even Demetrius talked to me afterwards and was like 'I didn't expect that out of you, but...it was smooth. Good job Sebastian.'$h#$b#I think my mom cried a little. She hugged me when we got home and wouldn't let go for the longest time.#$b#...I hope you liked it, @. I did all of that rigging for you.$l#$b#...Except Leah busting out her violin at the end. That was all her. I was here for it though.#$b#Maybe Sam and I should recruit her for the band, haha.$h#$b#Thanks for dancing with me yesterday. I had a great time. We busted out some amazing choreography from thin air, too.$h#$b#...I haven't had that much fun in a long time. And I don't think I've felt more connected to a person since I first met Sam. So, uh, yeah. Thanks @.#$b#...I hope you thought it was at least a little romantic. I tried finding your favorite romance song after all, haha.$h",
+            "summer_4": "You going to the beach today?#$b#...Where's your bathing suit?#$b#Oh come on, you know I want to see. Don't tease me like this.$h",
+            "summer_10": "Tomorrow is the Luau, one of the, admittedly, weirdest festivals we have.#$b#...I just think it's weird that everyone puts an item into this giant pot and we all expect it to be good right off the bat?$s#$b#I'd honestly rather put something awful in there and screw with everyone, hehe.$h#$b#...Oh come on @. Don't be such a stick in the mud. I'm, largely, playing with you.$h",
+            "summer_12": "...I don't know how anyone ate that soup and survived.$s#$b#I PUT LAXATIVES AND SURSTROMMING IN THERE! DO YOU EVEN KNOW WHAT SURSTROMMING IS?!$a#$b#@, everyone I know has lived in their bathrooms for the past night except you and me. This is, without compare, the most insidious plan I've ever hatched.$a#$b#...It kinda rocked though, I feel like a badass.$h",
+            "summer_17": "It's Sam's birthday today. I'm supposed to go see him, but...#$b#Honestly, I'd rather spend the day with you. Even though he is my best friend...$s#$b#...You're right, I should go see him. How about we meet in the middle and you come with me?$h",
+            "summer_20": "I sent you something in the mail...$h#$b#If you don't like it, then give it to Abigail and tell her she can go fuck herself.$h#$b#...I think that kinda gives away what it is.$l",
+            "summer_27": "Ah, one of my favorite festivals is coming up, the Moonlight Jellies!$h#$b#I don't know, something about the festival seems so...mythical. Kind of like a book I've read or game I've played.#$b#It's the closest thing to living a life that I've only dreamed about.$s",
+            "fall_8": "...I guess you've heard about the bullshit I've pulled on Abigail and Sam...$s#$b#I don't know what came over me in both situations. I guess even when I punched Alex square in the jaw I was just running off of this primal rage and jealousy.$s#$b#I feel so fucking guilty for all I've done. I know that even though my intentions were normal, I went about everything in the completely wrong way.$s#$b#No guy punches a girl in the face, even if we were love rivals at the time.$s#$b#...No one pulls a fucking GUN on their best friend...$s#$b#...To be honest, I didn't plan on pulling it on him. I had one bullet, I was going to make it count, especially if, after all I've done, you ended up not loving me.$s#$b#I don't know what falling in love with you has done to me, but I have never been this unhinged. Parts of it were SO FUCKING PAINFUL even though we were totally fine.$s#$b#If I were some normal person, there wouldn't have been any pain there.$s#$b#...I'm sorry for everything @. Even if you love me, I'm still so sorry.$s#$b#I put you in so many unsavory situations and put you in the middle of all my friendships where your relationship with these people could have been affected too.$s#$b#I'm glad that, in the end, this turned out okay, but I'm incredibly sick mentally and I need to get help. I just hope that you and Sam can help me with that.$s#$b#...Abigail too, but I know our friendship is in this really fragile state, so I don't want to put that pressure onto her. She deserves some healing time with Haley.$s#$b#Those two are cute together by the way. You really are a good matchmaker, haha!$h#$b#...Thank you for everything, @. Thanks for letting me be my weird self and letting me fall in love with you. You're a single ray of sunshine in a pitch black dungeon.#$b#If you're okay with it, I'd love to still be by your side...And uh...#$b#...Still be that incredibly weird, sexually repressed emo kid with you. Ha, haha...God that felt weird to say. Please don't judge me too hard.$l",
+            "fall_13": "I know it's Abigail's birthday, but please have me come with you to see her.#$b#...I know I ought to trust my friend, especially since she's with Haley now, but shit, I can't help but be afraid she'll try to steal you again...$s#$b#Thanks, @. I'll be on my best behavior, I promise.$h",
+            "fall_15": "Oh yeah, tomorrow is the Stardew Valley Fair...#$b#Mom is excited to show off her wood-working prowess, Abigail is excited for the games, Sam just wants to see our friend from Zuzu City...#$b#...And I just want to go get my fortune read by Welwick for...reasons. Definitely not because I want to see if I get married or anything.$1#$b#Nope, not me, no siree...$s#$b#...Okay, fine, I just want to know if we'll have a beautiful future together. There. You forced my hand.$s",
+            "fall_21": "I look forward to the day I can move out of this musty basement.#$b#The only basement I'd live in is yours, haha. You could even keep me like a slave and I wouldn't care one bit.#$b#...Anything for you, @.$h",
+            "fall_26": "Yes! My favorite festival EVER is tomorrow! You don't know how excited I am!$h#$b#Between the skeletons that always show up, secretly they're my friends, and the creepy atmosphere, you can't have a better holiday.$h#$b#...I'm also excited to see what costume you've chosen. It's not like I'm a sucker for costumes or anything...$l",
+            "fall_28": "How...how could you betray me like this, @?#$b#Don't play coy with me, you know what you did.$s#$b#You definitely let me think I was going to get to see you in a skimpy costume...#$b#...AND THEN YOU SHOW UP IN A FROG COSTUME INSTEAD! You meme'd on me so hard.$a#$b#You got Abby and Haley to show up in skimpy outfits, we all thought you were going to dress skimpy too...#$b#But nope. Giant frog costume. And you pulled out the Big the Cat voice going 'Froggy' all night long.$a#$b#It is ILLEGAL to use the Big the Cat voice under any circumstance.$a#$b#I am crushed, @. Devastated. Betrayed. Backstabbed. Other words that are synonyms to 'emotionally destroyed'.#$b#...At least you made up for it later. I was a fan of what you had on UNDERNEATH the frog costume...$l#$b#Haha, don't give me that look.~ You know I'm a sucker for good lingerie.$h#$b#...Although keeping with the frog theme was kind of hilarious. I was turned on and trying hard not to bust my gut laughing at the same time.$h#$b#Probably why I love you, you're sexy AND hilarious. A deadly combo.$l",
+            "winter_7": "You know what? I'm not really sure how I feel about the Festival of Ice...$s#$b#It just doesn't have much appeal for me, since I don't really fish and building stuff out of snow hasn't been as fun since I was a kid...$s#$b#Sam and I typically just end up in a snowball fight anyway.#$b#I'll be sure to throw a snowball right at your chest so your shirt gets wet, hehe...$h#$b#Goddamn me and my loose lips! I can't keep any thought in my head can I?!$a",
+            "winter_9": "You know, it's my birthday tomorrow right...?$s#$b#I would love nothing more than to get a gift from you...$s#$e#...Especially if you wrap yourself up and let me untie you.$l",
+	    "winter_10": "Thanks for visiting me for my birthday, @.$l#$b#Just seeing you is the best birthday gift I could have asked for.$h#$b#...Now...if you and I spend some...personal...time together, it'll be the perfect birthday.$l",
+            "winter_15": "I can't believe our first year of knowing each other is coming to an end soon, @.#$b#It's...uh...been a ride, huh?$s#$b#...Sorry for all the trouble I've caused. At least you can say that your first year in Pelican Town wasn't boring, haha...$s#$b#...That was such a strained laugh from the both of us. We need help.$h#$b#I'm hoping that next year I can repair the relationships I've screwed up. The only one not completely fucked up was with my mom oddly enough.#$b#...Somehow we got closer this year? I guess she was just really excited for me to meet someone who cared about me so much that wasn't a typical friend.#$b#She made me laugh by saying that originally, she was betting on Abigail to be my first partner. But, the part I liked more came up next.$h#$b#...She said that she was grateful that I met you.#$b#While she wasn't necessarily thrilled about finding those condoms, because who likes finding used condoms, my mom was happy that I was finally showing signs of being excited about living.$h#$b#I...agreed with her. Meeting you has shown me how good the world can truly be if you are surrounded by the right people.#$b#I know I thank you for being with me, romantically or not, all the time, but I truly mean it this time. Thank you. For everything you've done and everything you will do.$h",
+            "winter_19": "Hey, @, can I ask you an honest question for a minute?#$b#...How long was it before you decided that you wanted to stick by my side?$s#$b#...Haha, I guess that's a normal time frame, huh? You definitely weren't the 'love at first sight' type then.$h#$b#For me, it was almost immediate. Something about you just...struck me.#$b#I don't know what it was, but you just had this aura about you that made me entranced the moment I first laid eyes on you.#$b#So, uh, don't tell anyone I said this, but I was so mortified at how I felt after seeing you the first time.$s#$b#My heart beat so fast, my breath became shallow, and I felt like I was going to vomit butterflies.$s#$b#As stupid as this sounds, I was so new to this sensation that I called Dr. Harvey. Yeah, I know.$h#$b#After I told him everything, he just sighed, then laughed so loud, then just said 'Sebastian, you're in love'.#$b#I, uh, didn't believe him. 'You're fucking with me', I said.$s#$b#But he kind of lost the light-hearted tone and asked me 'Sebastian...have you truly never felt this way before?'#$b#I said 'No, that's why I called'. I was confused by what he was saying.#$b# 'Guess you're just a late bloomer then. Really late.' I was really embarrassed by that one. I'm just glad no one else heard it.$s#$b#He reassured me that this was normal. And while it did make me feel better, something didn't feel right.#$b#...After what I did to Alex, Abigail, and Sam...yeah, it wasn't normal.$s#$b#But...the good thing is, now I am more normal. Other than stupidly horny, haha!$h#$b#Okay, done joking around with you. I'll let you get back to your work. Just come visit me later, okay?$h#$b#Have a good rest of your day!#$b#...I love you. Thanks, @. I can love you even just as a friend if needed. I just care about you. Stay safe.",
+            "winter_24": "So, the Feast of the Winter Star is tomorrow, do you know who your, as they call it, secret friend is?#$b#...It's okay, I don't know who mine is either. I just hope I don't get socks again.$s#$b#Or a note that says 'Your mother misses you, come out of your room once in a while'.$s#$b#...Yes, I got that one year. It was fucking Sam that did that, the little shit...$a",
+            "winter_28": "Damn, it's the last day of the year. And onto the next, huh?#$b#You coming to the Saloon tonight to celebrate?#$b#...Or did you want to meet up at one of our houses to 'ring' in the new year?$l#$b#...OH I DIDN'T NECESSARILY MEAN LIKE THAT, OH YOBA, OH YOBA!$l#$b#I don't want to get your hopes up and-$s#$b#...Oh you actually took it like us kissing or having sex? Oh thank goodness.#$b#I'd gladly give you a Mermaid's Pendant in a heartbeat, but I just, uh, am not ready...$s#$b#...Now I'm all flustered. Where the hell are we going tonight so I can change the subject??$l",
+}
+},
+
+//Sebastian rainy dialogue
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"Entries": {
+	"Sebastian": "...Your shirt is...uh...see-through right now.$s#$b#Here, take my hoodie to cover up.#$b#...Haha, I have another shirt on underneath, but I guess now it's my turn to have the see-through shirt.$h#$b#Enjoy the view I guess.$l",
+}
+},
+
+
+//Sebastian extra dialogue
+
+{
+"Action": "EditData",
+"Target": "Strings/Schedules/Sebastian",
+"Entries": {
+	"summer_4.000": "Ugh, I don't want to go to my doctor's appointment...$s#$b#Might be kind of exciting though if you tried to bust into the room though, hehe...$h#$b#Especially if I juuuust happen to be naked...$l#$b#...I'm a leaky faucet. Someone please save me from myself.$s",
+	"Fri.000": "Watch as I completely demolish Sam at pool, @!$h#$b#Be sure to pay close attention to certain...assets...of my technique.$l",
+	"marriage_Fri.001": "We get married and Sam thinks he can suddenly beat me at pool? HA! Good joke pal.$h#$b#I'll always be the best at pool in Pelican Town. And I'm always willing to show off for you, love.~$h",
+	"summer_4.001": "Damn, didn't know you wanted to see me naked that bad.$h#$b#...You know, all you have to do is ask...$l#$b#...-whispers- Psst, if I can get Harvey out of the room for a bit, it'd be kinda fun to do...stuff...in a doctor's office...$l",
+	"marriage_Mon.001": "Mom looked thrilled to see me. It's nice to see her so happy.$7#$b#Once again, we both have you to thank for that. I love you.$h",
+	"marriage_Fri.000": "I'm going to the Saloon tonight dear, feel free to come join us!$h#$b#Typical gang night; me winning at pool, Abigail snogging on Haley, Alex just saying how cute Sam is when he loses...#$b#...Damn, I love our friends. I couldn't be happier with how my life has unfolded.$h",
+	"marriage_Mon.000": "Standing here somehow reminds me of when we were at the lake and I first admitted that I had seen you naked.#$b#God, the look on your face then...I can look back and laugh now, but shit, you were mortified.$h#$b#...Haha, yes, it was actually an innocent coincidence, I swear. I was worried as hell after I saw your scars.#$b#While I was interested in you at the time, I was more concerned as friend to friend. As human to human.$s#$b#I've always been pretty protective of you, but that moment made me even more determined to protect you from anyone or anything.$s#$b#That feeling hasn't changed. I'm going to always protect you. Even if I happen to die before you, I'll protect you in death too.",
+	"rain.000": "Oh...I didn't expect to see anyone else in the rain, let alone you.#$b#...I...guess having some company looking out at the ocean would be pretty great...$l",
+	"winter_16.000": "Do you have enough money to buy yourself something, @?#$b#If you don't, just show me what you want, I'll buy it for you, no matter the price.$h#$b#I'll even haggle if I have to. And I, uh, don't haggle...$l"
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Strings/StringsFromMaps",
+"Entries": {
+	"SebastianRoom.1": "The radio is playing something from his computer. The song is...pretty emo.",
+	"SebastianRoom.2": "A comic book...Oh. It's an R18 comic book. Why is this on the floor?",
+	"SebastianRoom.3": "'Solarion Chronicles: The Game'; Sebastian apparently is the DM and has notes on voice acting techniques.",
+}
+},
+
+//Sebastian bouquet & pendant dialogue
+
+{
+   "Action": "EditData",
+   "Target": "Strings/StringsFromCSFiles",
+   "Entries": {
+      "NPC.cs.3962": "$q 10001 give_flowersA#?!...#$r 10001 0 give_flowersA# [Give Bouquet]",
+      "NPC.cs.3963": "$q 10001 give_flowersB#?!...#$r 10001 0 give_flowersB# [Give Bouquet]",
+      "NPC.cs.3980": "$q 10001 give_pendant#?!...#$r 10001 0 give_pendant# Will you marry me?"
+   }
+},
+
+{
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/Sebastian",
+   "Entries": {
+      "give_flowersA": "Wait...are you serious?#$b#This isn't a joke or something?$s#$b#...Holy shit, yes, of course!$l#$b#Feels good to finally be 'official'...$h",
+      "give_flowersB": "No fucking way...$l#$b#I had this great big speech all planned out...but now I've literally forgotten the whole thing.$l#$b#I'm so flustered and happy @...$h",
+      "give_pendant": "...?!#$b#I...I...$l#$b#...Of course I accept. I'm just...stunned.$l#$b#Not just because you feel the same, but I also just never thought I'd be here...$l#$b#You're amazing @. Thanks for giving me the life I never thought I'd have.#$b#I'll let Lewis know. I'll try to get it set up sooner, but typically it takes 3 days for everything to be confirmed and ready.$h#$b#...I can't wait to be able to call myself your husband.$h",
+   }
+},
+
+
+//Sebastian engagement dialogue
+
+{
+"Action": "EditData",
+"Target": "Data/EngagementDialogue",
+"Entries": {
+	"Sebastian0": "@, I can't believe it! You're marrying me!$h#$b#Holy shit, holy shit...I can barely contain myself, I never thought I'd be engaged, let alone with you!$h#$b#I definitely thought I would have scared you off by now...You're crazy for choosing me.$h#$b#But I'm beyond grateful. I owe you my life.$l",
+	"Sebastian1": "I'm going to make sure we have the most beautiful, unforgettable wedding possible.$h#$b#You deserve only the best. I can't wait...$l#$b#I'm imagining you walking down the aisle now and my stomach is pulsating with butterflies.$h",
+	}
+},
+
+
+//Sebastian marriage dialogue
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogue",
+"Entries": {
+	"Rainy_Day_Sebastian": "I got up just before dawn and took a walk around the farm.$h#$b#Kind of nice to be able to do it freely now instead of being a stalking weirdo...$s",
+	"Rainy_Night_Sebastian": "I just really want to hum you to sleep tonight. Rainy nights make me sentimental.#$b#...I should try writing a lullaby sometime. That'd be nice to do for you.$h",
+	"Indoor_Day_Sebastian": "Ugh, do you have to leave today?$s#$b#What if I just want to carry you back to bed and we stay there all day?$h#$b#...And maybe have sex too.$l",
+	"Indoor_Night_Sebastian": "#$c .5#Ever since you came into my life @, I couldn't imagine life without you.$h#$e#I really enjoy the fact that my day begins and ends with you.$h",
+	"Outdoor_Sebastian": "Honestly, I never would have pictured myself here. But...it's a perfect fit.#$b#My life went from completely void of hope to picturesque in such a short time. And it's all thanks to you.$h",
+	"spring_Sebastian": "Never hesitate to ask me for help if you need it on the farm, love.$h#$b#I'll burn like a motherfucker, but y'know, worth it anyway.#$b#I'll risk giving up being porcelain for you.~$h",
+	"summer_Sebastian": "Dearest, please don't make me go outside during the day this summer.$s#$b#I'm really not in the mood to die by heatstroke. Or third degree sunburn...#$b#...Yeah, yeah, I know I said I'd help you...$s#$b#Dang it, I was kind of hoping you'd forget, just for summer...$s",
+	"fall_Sebastian": "I really ought to steal my mom's pumpkin soup recipie and try making it for you.#$b#...Don't rub it in that my cooking escapades usually go south super quickly. Rude.$h#$b#Nonetheless, it's my favorite dish, and I want to share that happiness with you.$l",
+	"winter_Sebastian": "Can we just curl up and do nothing together today?#$b#It's too cold to leave the house, and all I wanna do is hold you for hours.$s#$b#...And steal your body heat, hehe. Thanks for being my personal heater.$h#$b#...Listen, if you ever get too cold, there's always our usual method of warming up, if you catch my drift...$l",
+	"spouseRoom_Sebastian": "#$c .5#Do I code my game, read comics, write slutty songs, or watch something today...? Hey, 'something' doesn't necessarily mean porn...Doesn't discount it though either, hehe.#$e#Love, I'm hungry, but I'm too lazy to go to the fridge. That requires 'effort' which I am fresh out of. Help.$h",
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Strings/Characters",
+"Entries": {
+	"MovieInvite_Spouse_Sebastian": "You know I'm a sucker for going to the movies with you.$h#$b#...Don't worry, no dick in the popcorn this time. Unless you want me to do it that is...$l",
+}
+},
+
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+"Entries": {
+	"Rainy_Day_0": "I never seem to mind the rainy days, especially nowadays.#$b#You are my sunshine, the only sunshine I truly need.[787]$h",
+	"Rainy_Day_1": "Hey now, don't go out wearing that shirt in this weather.$a#$b#It'll be see-through and clingy in no time. If you need something thicker, take any of my clothes, okay love?#$b#No one is allowed to see my spouse's hot body except me.~$l",
+	"Rainy_Day_2": "Good morning sunshine, here, I think %pet had their own adventure last night.[575 769 767 84 66 78]$h#$b#I think they take after you, kicking monster ass and bringing home the goods.$h"
+,
+	"Rainy_Day_3": "A nice, dark, rainy day...#$b#Wanna stay inside with me today dear? We can play some games, read some books, watch something...$h#$b#...Maybe have ourselves some slow, sensual sex afterwards?$l",
+	"Rainy_Day_4": "Morning @, looks like you won't have to water the crops today, haha!$h#$b#I guess that just means you have some extra time this morning to spend with me.~$h#$b#...Don't give me that look, I wasn't...necessarily, meaning we do THAT.$l#$b#...I'm not opposed to it, mind you. But I'm also okay with us just talking over a nice breakfast.$l",
+	"Rainy_Night_0": "I'm officially going to quit smoking. I'm not going to die on you early, okay?#$b#I couldn't bear to hurt you like that. You don't deserve to have that sort of pain, no one does.$s#$b#...Yes, I'm going to quit cutting too. I've stopped for a while now, all thanks to you.#$b#...I love you. Thanks for giving me a reason to get up in the morning.$l[537]",
+	"patio_Sebastian": "Heya, if you need me, I'll be working on my bike today.#$b#If you want, after I'm done, we can go take a nice ride together.#$b#...Go make us a playlist and we'll ride later. We can just scream-sing songs all ride long, like we typically do.$h#$b#Those days are my favorite.~$h",
+	"Rainy_Night_1": "Remember how I said I was working on a game? Well, it's almost finished!$h#$b#Thanks to you, I can focus on it full time. I can't thank you enough for that @.#$b#...Yeah, you're still the really hot character. Still calling that all your fanart will be hella lewd.$h#$b#...Strangely though, I don't think I'm going to mind.$l",
+	"Rainy_Night_2": "Sorry about dinner, I royally screwed it up. This is all I managed to get before you got home.[395]$s#$b#Maybe one day I'll be able to treat you to a really great meal. In the meantime...$s#$b#...You'll just have to deal with my mediocre cooking that typically ends in disaster, haha!~$h#$b#At least I haven't destroyed our house! And %pet sure likes my screw ups...Free food for them.$h",
+	"Rainy_Night_3": "Welcome home @! How was your day today? Do anything exciting?$h#$b#...Dang, that sounds nice. Sometimes, I want to join you on your exciting days like these.#$b#But unlike before, I respect your space now. You deserve to be able to go with or without me to do these things.#$b#...But I wouldn't mind going to the mines with you sometime. You know me, I love geodes and rocks. Especially obsidian and frozen tears.$h",
+	"Rainy_Night_4": "I heard this old myth that witches can turn children into doves...$s#$b#...It...makes me really uncomfortable. Almost makes me wonder if I was going to be a dove child once.$s#$b#...You better not ever do that if we have children. I would never, EVER forgive you...$a",
+	"Indoor_Day_0": "You know, before we met, I wanted nothing more than to go to the city permanently.#$b#But when I saw your face for the first time...I knew you were it. I couldn't leave Pelican Town now.#$b#I think the ability to be completely anonymous in a sea of faces drew me into the city...#$b#...But honestly, that would just be more lonely than I already was.$s#$b#You solved all of my issues by dating and then marrying me.$l#$b#...Thanks for saving my life @.[74]",
+	"Indoor_Day_1": "Morning...-yawns-... want some coffee?[395]$7#$b#Sleep didn't come easy last night. Body decided to have an anxiety attack randomly...$s#$b#I spent most of the night staring at you, trying to calm down and think of how lucky I am.$l#$b#It's nice to be able to just focus on you and not have to worry about...well, anything else.#$b#At least after I did that for a bit, I finally was relaxed enough to sleep.$h",
+	"Indoor_Day_2": "Sometimes, old habits or urges try to come back, like taking night rides on my motorcycle.#$b#But...I try to not do that anymore.#$b#Thinking of leaving you alone at night really gets under my skin.$s#$b#...And honestly, I just belong at home with you anyway.[337]$7",
+	"Indoor_Day_3": "Did you have a nightmare last night or something?#$b#You were mumbling a lot. Part of me was pretty worried.#$b#...Part of me just thought it was cute. But it was cuter that when I kissed your cheek and it all stopped.~$l#$b#Almost as though I was your knight, chasing away the demons.$h",
+	"Indoor_Day_4": "Have I become more talkative since we moved in together?#$b#...Well, okay, other than with you. I always had loose lips around you.$h#$b#...Huh, that's good to know I guess? You're rubbing off on me, you damn social butterfly.~[645]$7",
+	"Indoor_Night_0": "Welcome back, did you have a good day? [395]$h#$b#...#$b#It's amazing how beautiful the world is from our house. Heh, I like saying that. 'Our house'...$h#$b#I used to picture this life all the time. But honestly? It's better than any of my dreams.$h",
+	"Indoor_Night_1": "Ugh, I drank too much caffiene too late in the day, now I'm not tired. [395]#$b#...Guess we can just have some late night sex to tire me out?~$l",
+	"Indoor_Night_2": "Is it weird that part of me liked...uh...stalking you, because it got me out of my house?$s#$b#It was just so suffocating living there, especially once you moved into town.#$b#The moment my family realized that I had a crush on you, it was OVER. They all wouldn't leave me the hell alone.#$b#Between Demetrius trying to 'analyze' my emotions, Maru constantly poking fun at me, and my mom just being nosy, I went crazy.$a#$b#It doesn't make anything I did okay mind you, I was fucking stupid, but it was the weirdest form of catharsis.$s#$b#I hung out in that tree a lot. I liked sitting in it playing video games and watching you work...",
+	"Indoor_Night_3": "Hey @! Look out the window! Bats!$h#$b#I think they're so cool. Kinda cute too, but I just always found them interesting.#$b#Speaking of bats, one dropped fruit on our porch today. Here.[613]",
+	"Indoor_Night_4": "To me, it's crazy that I went from always wanting to be in this house with you, to now always being in this house with you.$h#$b#...Where did I watch you from the most? Uh...$s#$b#...Well there's that tree over there, that one had the best view of the farm as a whole...$s#$b#Then there was the cave...I typically hung out around the entrance when I thought you would catch me...#$b#And weirdly enough, that broken down building. There was enough debris for me to hide in, but I could still be comfortable.#$b#...It's so embarassing admitting this stuff to you now...$s[395]",
+	"Outdoor_0": "My body is telling me to do SOMETHING outside, but my brain is blank.#$b#Help me out, what should I do today? Other than help out on the farm, because I already planned on that, haha.~$h",
+	"Outdoor_1": "I used to have to force myself to get out of my damn basement back home, but that's all changed now.#$b#Now I'm almost excited to go outside? What have you done to me, @?!$h",
+	"Outdoor_2": "It's nice to be able to watch you from the porch. You're so beautiful while you work.$l#$b#That hasn't changed. The only thing that's changed is I don't have to watch you from a tree anymore, haha.~$h",
+	"Outdoor_3": "Part of me is worried about losing my edge now that we're married.#$b#I have to stay strong in order to protect you, y'know?#$b#...Maybe I should work out with Alex or something. Or pick up boxing. That might be fun.",
+	"Outdoor_4": "Hey dear, would you be interested in raising slimes?#$b#I think they're kinda cute. And they make some pretty good money too.#$b#...Okay, largely I think they're cute and I want one as a pet.$l#$b#You know me, I am now the pet whisperer and I can't get enough of them.$h#$b#I want to have everything as a pet dang it.$h",
+	"OneKid_0": "You know, I didn't expect to be a father honestly. My brain stopped at being married.#$b#I'm actually pumped to be here, I'm going to be a good father to %kid1!#$b#Guess it's time for me to do some reading on parenting so %kid1 doesn't have the same kind of parents I had...",
+	"OneKid_1": "Maybe when %kid1 is a little older, I'll get a sidecar for the bike and we can all go for a ride.$h#$b#We'll just have to not scream sing as much. Which I'll miss, but maybe we can scream sing as a family, haha!$h",
+	"OneKid_3": "Don't forget to give %kid1 a kiss tonight. And tuck them in. And read them a book...#$b#...I'm now being a protective father. Dang. I'm just super protective of everything I love.$h#$b#...Also, don't forget to kiss me goodnight too okay?~$l",
+	"TwoKids_0": "Good morning...Me and %kid2 had a...fun morning.#$b#They spilled the chocolate milk all over my shirt again. And laughed about it.$s#$b#Then %kid1 made fun of me for it too...$a#$b#...Why do our kids bully me when all I do is love them? Guess they got that wild streak from me, hehe...$h",
+	"TwoKids_1": "I hope %kid1 and %kid2 are nice to each other. I would hate for them to have the same relationship that I had with Maru.#$b#I know it was all my fault, but still, I just worry...$s",
+	"TwoKids_2": "I've been thinking lately about my father and how horrible he was...$s#$b#...I'm not like him, am I?$s#$b#...Good. I just want our kids to have a bright future.#$b#I don't want them to go through what I did. They deserve better.",
+	"TwoKids_3": "Honestly, nothing makes me more proud than looking at our family, @.#$b#You're a great parent and spouse, we have two beautiful children, and the most picturesque farm out there.#$b#I'm honestly the happiest man on the planet. No, in the universe. Even parallel universes.$h#$b#I wouldn't trade this for anything. Thank you.$l",
+	"Good_0": "Hey, look me in the eyes for a sec.#$b#Don't ever forget that you're the best thing to happen to me.$l#$b#And that you're the sexiest person in the entire universe.$l#$b#And that you're incredibly talented and have the world ahead of you.$h#$b#...And that you're great in bed.$l#$b#Now get your sexy ass out there and show everyone how badass you are.[336]$h",
+	"Good_1": "Come over here real quick, @.#$b#...You're sexy as hell. You better go outside before I take you back to bed and treat you like the royalty you are.[74]$l",
+	"Good_2": "You always look sexy, even when you're covered in mud, hay, and whatever else...$h#$b#...My brain just went to sex in the mud.#$b#What the hell brain?#$b#...You'd be up for that? Well shit, what are we waiting for?$l",
+	"Good_3": "Hey @, you know that marrying you is the best thing to ever happen to me, right?$l#$b#Because it is. And I will keep repeating that. I love you, through eternity.$l",
+	"Good_4": "Don't worry about leaving me alone anymore, @.#$b#I swear I'm not as crazy as I was before. I trust you and I'm slowly trusting other people more around you.$h#$b#Don't forget all those self-defense moves I taught you though, okay?~[74]",
+	"Good_5": "I've really mellowed out a lot once we got married.#$b#I used to be so angry, so uncontrollably emotional...$s#$b#And when you came into town, I was so fixated on you. My emotions were even more out of control.#$b#But now...I'm just content all the time. You're bringing out the best in me, thank you @.[537]$l",
+	"Good_6": "Going out to the mines today? If so, don't forget a weapon.#$b#And food.$h#$b#And boots.$s#$b#And protective gear.$a#$b#And... -he goes on for a while, but you kind of stopped listening to the dork-[237]",
+	"Good_8": "Can we just stay inside and watch something? Or play some games?$h#$b#I'm really in the mood to just cuddle and sleep.$l#$b#...Oh come on, I'm not always about having sex, give me a little bit of credit.$h#$b#...Ugh, you're right. If you offered, I wouldn't be able to resist...$s[336]",
+	"Good_9": "I don't really need friends. You're the only person I need in my life. Is that weird?#$e#I guess I'm not like most people... Or you're just that special.[337]",
+	"Neutral_0": "I guess I'm still pretty awkward around people.$s#$b#I spend a lot of time avoiding others because I just want to get home to my safe place.",
+	"Neutral_2": "Let's catch up about our days in bed tonight, okay?#$b#Just...having a day where talking is difficult...",
+	"Neutral_3": "What are you going into town for today?#$b#...I can do that for you instead if you'd like?#$b#...What? No, I trust you, I just...$s",
+	"Neutral_4": "I'll take care of the indoor chores today since you'll be taking care of the farm, right?#$b#...No problem. Gotta balance our duties afterall. Just weird feeling like a housewife...",
+	"Neutral_5": "How are our finances? I'll work extra if needed to make ends meet.$s#$b#...Well...the work I could find wouldn't be glamourous, but it would pay the bills...$s#$b#...If I'm going to be honest, yes, I would just do male camming, okay? Like I said, not glamourous, but it would make us money...$a",
+	"Neutral_6": "Are you going to go see your friends in town today?#$b#...Have fun, I'll just be here.#$b#Missing you...$s",
+	"Neutral_8": "Don't worry if I'm staring out into space a lot. Just been in a weird mindset lately.#$b#...Kind of just being introspective about life I suppose. No worries, I just probably need updated meds.$s",
+	"Bad_5": "...Please leave me alone. You're suffocating me. Like chlorophorm over my goddamn face.$a#$b#Just...find something else to do.$s",
+	"Bad_6": "Fucking hell, if I knew you were going to be like this, I would have never fallen for you in the first place.$a#$b#You're reminding me of Abigail when we were fighting with how much you're pissing me the fuck off.$a#$b#I seriously regret meeting you.",
+	"Bad_7": "I'd almost rather commit suicide than stay here one more goddamn day...$s#$b#...Almost wondering if my father should have just fucking killed me at this rate.$a#$b#Or I should have shot myself in the fucking head...$s",
+	"Bad_8": "Wanna see what you've done?$h#$b#...Yeah, started cutting again. Bordering on just stabbing myself in the stomach at this rate.$a#$b#You are the biggest mistake I've ever made.$h",
+	"funLeave_Sebastian": "Hey love, I'm going to head out for a bit today, gotta switch up my routine for a change.$h#$b#Can't wait to see you tonight! Have a great day @, I love you!$h",
+	"funReturn_Sebastian": "Welcome home @.~ Did you have a great day today?$h#$b#My day went well, but I missed you like crazy. I'm so glad that you're home.$h",
+	"spring_1": "Ughhhh...I'm hella hungover...$s#$b#Happy New Year, can we just say 'screw this shit' and stay in bed instead...?$s#$b#...Alright, alright, I'm getting my ass going...$s#$b#...Slowly.#$b#Maybe I can seduce you back to bed hehe...$l",
+	"spring_12": "Oh yeah, the egg festival is tomorrow isn't it?#$b#Ready to beat Abby again at the egg hunt? If you're losing, come find me, I'll sneak some eggs into your basket, haha.~$h",
+	"spring_23": "Aww shit, tomorrow's the Flower Dance isn't it?$a#$b#Man, that jumpsuit bunches up awkwardly and makes me super self-conscious...$s#$b#...Wait, it makes my ass look good? Never mind, the jumpsuit has redeemed itself.$l",
+	"summer_1": "Time to invest in the highest SPF sunscreen possible.#$b#We both know I am NOT made for summer. I burn like a motherfucker.$s#$b#...You can see my freckles if I'm out under the sun?#$b#...They're cute? Well shit...Alright, just for you, I'll get JUST ENOUGH sun...$l",
+	"summer_10": "Oh yay, time for me to poison the town again.$h#$b#KIDDING! KIDDING!$h#$b#The only way the town is getting poisoned is if I make yet another disaster of a dish and add it in.#$b#How about you just give me a really good melon to throw in there? Make it safe for all of us, haha.$h",
+	"summer_27": "There's a cooler breeze wafting through the valley today...#$b#Ready to see the jellyfish tonight? I love this tradition so much. It's the most magical of them all.#$b#...Well, other than us celebrating our anniversary. That's a festival to us.$h",
+	"fall_1": "My favorite time of year has arrived. Look at how beautiful the farm is...#$b#...I don't think I've ever felt this at peace before than in this moment.$l",
+	"fall_15": "I wonder if they'll have another fighting tournament set up this year.#$b#After my spectacle that was last year, Lewis was actually considering it apparently.$h#$b#All I want to do is help you win games, hang out with our friends, and beat Alex at the strength test.$h#$b#...Rebecca? Who's Rebecca?#$b#...Oh wait, that bitch from Zuzu who is obsessed with me is going to be there.$a#$b#...Yay. Looking forward to it.#$b#...More like looking forward to finding a dumpster to dunk her in...$a"
+,
+	"fall_26": "Yesss Spirit's Eve is tomorrow! You know, my favorite time of year?$h#$b#At least we're doing matching outfits this year. If you did another frog meme on me, I think I'd die inside.$h",
+	"winter_1": "Ooof, it's quite cold this morning. Happy winter.$s#$b#What's the plan for this season? I know we don't have much to tend to this time of year.#$b#Well other than us having a lot of sex to keep warm, haha.$l#$b#Kidding love, kidding!...Sort of.$h",
+	"winter_3": "Looking at you all bundled up makes me want to just pick you up and hug you.$l#$b#...Hey now, don't you start running away! You know I'll chase you!$h#$b#And when I get you, I'm going to make you cuddle with me and watch a really dumb rom com!$h",
+	"winter_7": "Hi dear, are you going to enter the fishing contest tomorrow?#$b#I think it's going to be a lot harder for me to help you versus the Egg Festival.$h#$b#...Maybe I'll pay Vincent and Jas to get rowdy and throw snowballs at your competition. Or Sam...Or all three of them.$h",
+	"winter_10": "Goooood morning my love! What's today?~$h#$b#Yeah-huh, it's my birthday! Sooooooo what did you get me?~$h#$b#...Awww, honey, you're the absolute best. I love you.~$l#$b#...Can we add birthday sex onto that list? That'd be great.$l#$b#Because daaaaamn I want to treat you to something good for my birthday, hehe.$l#$b#I mean, it makes a great birthday present for me too anyway. Win-win.$h",
+	"winter_28": "Hey, take this to celebrate for tonight. [346]$h#$b#It's been an amazing year because of you, thank you. I can't imagine my life without you and I'm glad I don't have to.$h#$b#Let's make sure next year is just as happy as this one has been.$l",
+	}
+},
+
+
+//Sebastian edited festival dialogue
+
+      //Egg Festival
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Hey @. Please don't duck behind any buildings looking for eggs. I don't want someone to ambush you back there and harm you. Or worse.$a#$b#If anyone ever did, tell me okay? I hope they like eggs down their throat, shell and all...$h"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "Hi sweetheart, have fun searching for eggs! I'll keep my eye on you just to be safe.$h#$b#...Also come find me later, I'll give you some extra eggs to help you win, hehe.$h"
+          }
+       },
+      
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring13",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "Hi sweetheart, have fun searching for eggs! I'll keep my eye on you just to be safe.$h#$b#...Also come find me later, I'll give you some extra eggs to help you win, hehe.$h"
+          }
+       },
+      
+      //Flower Dance
+
+{
+   "Action": "EditData",
+   "Target": "Strings/StringsFromCSFiles",
+   "Entries": {
+		"Event.cs.1623": "Honey... do we really have to?#$b#This damn suit is giving me a wedgie...$s#$b#...Hey now, there are children here, you can't talk about my ass like that.$l#$b#...Alright, alright, let's go...$s",
+		"Event.cs.1633": "I knew you couldn't resist my carefully laid plan!$h#$b#You're going to love this, I promise.$u#$b#Now then, let's show everyone the best flower dance they've ever seen!$h",
+}
+},
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "I have three things to tell you. One; have I told you that you look gorgeous today?$h#$b#Two; I'm going to beat the shit out of all the people who are giving you bedroom eyes right now.$a#$b#And three; I secretly rigged the music to be a song I know you like and would be romantic as fuck.$h#$b#Now, do you want to be my partner for the dance?$l"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "[bows] Milady, would you do me the kindness of being my partner this Flower Dance?$h#$b#...Don't you dare fucking laugh, I spent way too long practicing this for you, you dork."
+          }
+       },
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/spring24",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "[bows] Milady, would you do me the kindness of being my partner this Flower Dance?$h#$b#...Don't you dare fucking laugh, I spent way too long practicing this for you, you dork."
+          }
+       },
+      
+      //Luau
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Hehe, I put something completely fucking disgusting in the soup.$h#$b#Don't eat any of it okay? Unless you want to be shitting your brains out later...#$b#...I definitely did it because I wanted revenge on everyone for treating you like a slab of meat all the time, okay?$s#$b#...I don't really care what you say, a lot of people give you THAT kind of look. Sorry you don't notice, but I do.#a#$b#They'll be regretting their decisions soon enough, haha.~$h"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "No dear, I did NOT put laxatives in the soup this year.$s#$b#...I didn't put surstromming in the soup either.$s#$b#I actually put something normal in for once.#$b#It was your favorite food. Because I'm a nice boyfriend like that.$h"
+          }
+       },
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer11",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "No dear, I did NOT put laxatives in the soup this year.$s#$b#...I didn't put surstromming in the soup either.$s#$b#I actually put something normal in for once.#$b#It was your favorite food. Because I'm a nice boyfriend like that.$h"
+          }
+       },
+      
+      //Jellies
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "You know what? The way the candlelight dances around you and bounces off of your hair makes you look completely magical...$1#$b#Yeah, I'm not forgetting this night for a long time. Wish I had a camera.$h#$b#...And no, not to take awkward sexual candid photos of you. I'm done with that phase. Leave me aloneeeeeee.$s"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "Wanna watch the jellies together, sunshine?#$b#I think nothing would be more romantic in the entire world than this night together...$l"
+          }
+       },
+      
+    
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/summer28",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "Wanna watch the jellies together, sunshine?#$b#I think nothing would be more romantic in the entire world than this night together...$l"
+          }
+       },
+
+      //Fair
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Ugh, we just got here and I can see men wanting to swarm you and take you for themselves.$a#$b#Give me a moment to crack my joints, punch some bitches, and I'll meet you at the fortune teller's tent, okay?$h#$b#Gotta make sure that we're both on the right track to a pretty life together, right?$h"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "Hey sweetheart, did you want to go play some games together? I'll try to win you some extra Star Tokens to buy whatever you want.$h#$b#...Also watch me beat Alex at the Strength game. It's my favorite side hobby.$h"
+          }
+       },
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall16",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "Hey sweetheart, did you want to go play some games together? I'll try to win you some extra Star Tokens to buy whatever you want.$h#$b#...Also watch me beat Alex at the Strength game. It's my favorite side hobby.$h"
+          }
+       },
+      
+      //Spirit's Eve
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Hey @! Want to go through the maze together?$h#$b#...Noooo, I wasn't planning on trying to seduce you into a hidden corner where no one would find us...Not me.$h#$b#...But do you want to do that? I have some places picked out.$l"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "Alright, I got my butterfly knife and my fists. Looks like you and I can go into the maze together.#$b#...You should know by now @ that I am paranoid by nature about other people doing horrible things to you.$s#$b#...Alright, I'll trust you to go alone. But call me if you need me, okay? Love you and have fun!$h#$b#Me? I'm going to chill with my Skelebros. I named this one Papyrus.$h"
+          }
+       },
+     
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/fall27",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "Alright, I got my butterfly knife and my fists. Looks like you and I can go into the maze together.#$b#...You should know by now @ that I am paranoid by nature about other people doing horrible things to you.$s#$b#...Alright, I'll trust you to go alone. But call me if you need me, okay? Love you and have fun!$h#$b#Me? I'm going to chill with my Skelebros. I named this one Papyrus.$h"
+          }
+       },
+
+      //Festival of Ice
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Would it be a bad prank if I shoved Sam and Abigail into the freezing water...?$s#$b#...I just want to show my dominance I guess.$s#$b#-sighs- Fine, I'll just pelt them with snowballs instead like a boring, normal person would...#$e#-sticks his tongue out at you in defiance-$a"
+          }
+       },
+      
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "You absolute dingus, you didn't bring your coat did you?$a#$b#Alright you brat, get over here under my coat. I'll keep the both of us warm.$h#$b#...Except now we're a literal target for a Sam-Abigail joint snowball attack. What have you done?!$h"
+          }
+       },
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter8",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "You absolute dingus, you didn't bring your coat did you?$a#$b#Alright you brat, get over here under my coat. I'll keep the both of us warm.$h#$b#...Except now we're a literal target for a Sam-Abigail joint snowball attack. What have you done?!$h"
+          }
+       },
+      
+     //Winter Star
+
+       {
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+            },
+          "Entries": {
+             "Sebastian": "Merry Winter Star @! I, uh, got you something. Left it in your mailbox.$h#$b#...You just have to promise me now that you'll wear it for me sometime, okay?$h#$b#No, you gotta give me your answer right now, otherwise the fun of it is ruined!$h#$b#Haha, in all seriousness, I got you a few things. I swear only one of them is sexy.$h#$e#...My mom says that she hopes I got you a bouquet.$s#$b#MOM WOULD YOU STOP TRYING TO EMBARASS ME?!$a"
+}
+},
+ 
+{    
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+            "Language": "en",
+            "Relationship:Sebastian": "Dating"
+            },
+          "Entries": {
+             "Sebastian": "I just want to thank you @. I'm incredibly grateful for you and your love.$l#$b#And while I do love the sexier things in life, it's much better to simply have you by my side.$h#$e#...And my mom says she's hoping I got you a Mermaid's Pendant.$s#$b#THANKS MOM FOR EMBARRASSING ME LIKE THIS AGAIN. WHAT IS WITH YOU??$a",
+}
+},
+
+{
+          "Action": "EditData",
+          "Target": "Data/Festivals/winter25",
+          "When": {
+            "Language": "en",
+            "Hearts:Sebastian": "11, 12, 13, 14"
+            },
+          "Entries": {
+             "Sebastian": "Ha ha! There is no way my mom can embarass me this year!$h#$b#We have the perfect life together, @, there's nothing she can say to embarass me.$h#$b#...MOTHER PLEASE.$a#$b#Never mind. She asked when we were giving her grandkids. Or more grandkids.$s#$b#MOM, HOW DO YOU MANAGE TO DO THIS EVERY DAMN YEAR?!$a",
+}
+},
+
+//Sam's dialogue
+
+{
+"Action": "EditData",	
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+                        "spring_10": "Man, what kind of spell have you put on Seb, @?#$b#The man won't stop going on and on about you. Honestly, it's kind of adorable?$h#$e#Either way, keep making my best friend happy @. Know I appreciate it!$h",
+                        "spring_25": "Holy shit. AND I DO MEAN HOLY SHIT.$h#$b#What came over you and Sebastian yesterday?! You guys took everyone's attention by having the most beautiful dance I think I've ever seen?#$b#AND TO A SONG THAT SOMEONE PUT INTO THE STEREO INSTEAD OF THE NORMAL SONG TOO! How in the world did that happen?!$h#$b#...No way. NO FREAKING WAY! Seb rigged the WHOLE THING and didn't tell you?!$h#$b#YOU TWO LITERALLY PULLED THAT BEAUTIFUL DANCE OUT OF YOUR ASSES?!$h#$b#...And this is why the two of you are my best friends. Y'all magical.$h#$b#...Wait, did he tell Leah to play the violin? Because she was good. I'd love to have her in the band.#$b#...SHE ALSO JUST JUMPED IN AND DID THIS IMPROMPTU?! WHAT IS GOING ON IN PELICAN TOWN?!$8",
+                        "summer_1": "Alright, I gotta ask you something Captain Popular.#$b#Which of our pals are you going to date? Because as your best friend, I have to know.$h#$b#...You're not incredibly sure, but you're thinking more of going with Sebastian? I mean, good call.#$b#Considering the fact that I've never seen him flirt or be in a relationship, I have nothing to go on though.$s#$b#Abigail would be a good girlfriend honestly, but if you are set on Seb, I think he would also be a good fit.#$b#Thinking about the way he talks about you, yeah, he'd be super protective and he'd probably give you anything you'd want in life.$h#$b#Don't tell him I spilled his secrets to you, but the man is absolutely devoted to you. I think he'll do anything you ask of him.$h#$b#You tell him jump, he'd say 'how high'? Seb's never been that kind of guy before.#$b#Seeing him like this though makes me so happy for him. I've never seen him more excited to be alive.$h#$b#...Can I tell you something? Promise me you won't tell ANYONE, not even Sebastian.#$b#...But Sebastian tried to commit suicide last year. I'm the only one other than Dr. Harvey who knows though.$s#$b#His family was out of town...And I came over one day and found him passed out on the floor, vomit everywhere.$s#$b#He tried to overdose on his medication by mixing it with alcohol. And he's never been a huge drinker. He'll drink one or two at the Saloon on Fridays and that's it.$s#$b#I called the doctor right away and I literally carried him to the clinic. They pumped his stomach and when he came to, he asked me if he died.$s#$b#...I cried so long, @. I didn't want to lose my best friend. It felt atrocious that he was going through so much pain and I couldn't help him.$s#$b#After he was released, he acted like it didn't happen. He refuses to talk about it, even to me.$s#$b#I...respect his decision to not talk about it, but I can't help wondering what set him off? Why did he do this?$s#$b#...I hope that, in the end, you do choose him. He's not necessarily the easiest person to talk to, especially because he's so awkward, but he cares so much about other people.#$b#He likes to pretend he doesn't, but if anyone asked him for help, he'd drop what he's doing and help them. It's one of his best qualities.#$b#...Please be kind to him, @. Otherwise, I'm going to help Robin break your house. Just sayin'.$a",
+                        "summer_8": "Hey @. Has Sebastian been...stalkery with you lately?$s#$b#I'm just curious because he...ugh, I really don't want to say any of this. Some of what he says makes me sick...$s#$b#The guy talks so fast when talking about you and the things he plans on...ugh...$s#$b#...On doing with you. Or to you. I'm not sure which.$s#$b#He's obsessed with you to a point that I'm scared for you.$s#$b#It's not like him at all to be like this, he's always been so polite to people. Not...$s#$b#...Whatever the fuck he's thinking now. That shit isn't polite. It's kinda fucked.$s#$b#I'm sorry, I don't think I can bring myself to tell you all the things he's said. I'm honestly about to vomit just thinking about it.$s#$b#If you need help, you have my number. Call me. Please. I would die if anything happened to one of my best friends. Accidental or not.$s",
+                        "summer_12": "Ugh...I feel so awful after the Luau yesterday...$s#$b#My family and I have just taken turns visiting the restroom all night long...$s#$b#Except Vincent, he's somehow okay. Don't ask me how.#$b#...Wait. No, please no. SEBASTIAN DID THIS?!$a#$b#That prick. What did he do, @?!$a#$b#...HE PUT SURSTROMMING IN THERE?! THAT'S WHY THERE WERE SO MANY BONES?! What is WRONG with that man?!$a#$b#Like I can get behind the laxatives, that's kinda funny, even though I now hate bathrooms, but that disgusting fish is so rude.$a#$b#...-sighs- Alright, considering how Sebastian has become, your explanation makes sense.#$b#Of course he was trying to get revenge on the town, because in his head, every person that looks at you wants to jump your bones.#$b#I don't LIKE the situation, but it does suddenly make sense.#$b#...Somehow though that soup didn't taste too bad all things considered. Kinda wonder what overpowered that damn evil fish.",
+			"summer_15": "I just came by to tell you @ that Seb's calmed down a lot. He still really loves talking about you, but it's been more...normal guy talk than before.#$b#But, if you don't mind, can I ask you something?$s#$b#Is he talking shit about Abigail and me...? I just get these really angry vibes from him anymore. Kind of claustrophobic to be honest.$s#$e#...I thought so. He does know that you and I are just friends, right? Like, no offense, but you're not my type for romance.$s#$b#I'll try talking to him. I can't guarantee anything about Abigail, because we all know that she does indeed have a huge crush on you...$s#$b#But I want my friendship with him to be stable again. I miss him.$s",
+                        "summer_18": "Yo @! I was able to talk to Seb finally. But, uh, there was a problem...#$b#He socked me real fucking good, right in the jaw. Honestly I had no idea he was as strong as he is. Fucking bastard...$a#$b#-sighs- He did though kind of break that weird daze he's been in after he punched me. Seb nursed my jaw, got me ice and a compress.#$b#I know he's protective, and incredibly possessive, of you, but man, he hasn't been in the right mind.$s#$b#Watch yourself and Abby okay? I love the both of you like siblings, I don't want Seb to do anything fucking stupid again.$a",
+                        "summer_21": "Woah, you okay @? All the color is drained from your face!$8#$b#...Oh fuck. Now I get why.#$b#I can't believe Abigail is bullying you into going fucking skinny dipping with her.$s#$b#She bitches about how Seb is your personal stalker, but she's out here being an absolute asshole right now.$a#$b#-sighs- No offense to her, but she's acting like you're some kind of reward for beating a boss in a game.$a#$b#You're a person, not a trophy. Sebastian at least doesn't see you that way.$a#$b#Sure, he gets possessive with you, but the relationship with you is his end goal. Abigail's end goal is just beating Sebastian.$a#$b#In my opinion, that's a huge difference in respect towards you.#$b#...You're going to go through with it? Pft, suit yourself. I don't know what good it's going to do other than piss Seb off.#$b#...You're afraid of what will happen if you don't go? Oh. Shit. Didn't think of that.$s#$b#...What do you think would happen, if you don't mind me asking...?$s#$b#She'll try to get into a fight with him? Likely. But this is just going to make Sebastian make the first move.#$b#At this point, they're both headstrong about fighting to get with you. I wish I could help, but both of them aren't listening to me...$s#$b#...As much as I hate to say it, if they fight, it's their own faults. We should just let them do it.#$b#...I'm sorry this is bothering you so much. I can't imagine being in the center of a love triangle. I don't envy you.$s",
+                        "summer_26": "You wanted to talk to me, @?#$b#Oh, so you decided that you wanted Abigail to stop pursuing you, huh?#$b#Probably a good idea considering how tense everything between those two has gotten...But what's your plan?$a#$b#You're going to set Abby up with someone else? Where in Pelican Town are we going to honestly find a replacement?!#$b#...Wait. HALEY?! YOU'RE GOING TO SET HER UP WITH HALEY?!$h#$b#...Haley, world's most unlikely lesbian. Or whatever her sexuality is.#$b#Okay, so you're going to talk to Haley tomorrow and let her in on this plan, assuming she's in?#$b#Where do I fit into this, other than being an insider to the plan?$s#$b#...I get to act like I'm setting them up? Oh hell yeah, I'll take that!$h#$b#On the first day of fall, I'll get them introduced. That should make Abigail really happy.#$b#Not only does she love fall, but getting an official girlfriend on Fall 1? Best fall ever for her, haha!$h",
+                        "fall_7": "@...I...I'm sorry.$s#$b#Seb...Sebastian tried to pull a gun on me. He's never been like this. Not once. He's hated firearms as long as I can remember.$s#$b#...He didn't hold it on me for long though. He started breaking down, crying. I've...only seen him cry once. About his worthless father.$s#$b#He asked me a strange question. He asked me why love hurts so goddamn much. I'm assuming he's talking about you, even though you guys seem to be in a perfectly fine relationship. Probably relatively flawed, but you and him both seem happy.#$b#I told him that love has to hurt otherwise it isn't worth fighting for. I hugged him so tight @. I couldn't bear to see him like this.$s#$b#It's not your fault @. On the contrary, it's Sebastian's. He's the one who can't control himself, whether it's his mental health or just a simple lack of social skills. I told him if he wanted, I would go with him to Dr. Harvey's and get him evaluated.$s#$b#...He wanted you to come too. Can you? It would mean the world to both of us.#$b#...Haha, you think I have a crush on Sebastian?! You kidding me?! Nah fam, I have my eyes on someone else.$h#$b#Or no one sometimes. I'd probably be more into, like, Penny...Or Alex even. I don't really know if Alex is into guys though.$h#$b#Anyway, thanks for everything @. You're a good friend. And hopefully, one day, a good partner for Sebastian.$h",
+                        "fall_14": "Glad you stopped by @! I have something exciting to tell you!$h#$b#YA BOI AIN'T SINGLE ANYMOREEEE! Yes, yes, hold your applause. I know you're proud.$h#$b#I think you'll be pretty shocked at who it is too. Their name starts with 'A' and ends with 'lex'.#$b#...DING DING, it's gridball boy himself! WHO WOULD HAVE THOUGHT HE WAS INTO GUYS?!$h#$b#I know I sure didn't expect it. I thought I was going to be crushing on him until I found someone else to crush on.$l#$b#I couldn't be happier with this though. Everyone's all hooked up in our group and it's awesome?$h#$b#I'm just really happy with how things have gone. I was worried for a while that everyone was going to be enemies at the end...$s#$b#But thankfully, it all worked out in the end. Everyone got with someone that they care about and we're all still friends.$h#$b#Thanks @ for moving here. Sure, things were kinda rocky for a bit, but I couldn't imagine our lives without you.$h",
+                        "fall_17": "YO DID YOU SEE THE ABSOLUTE ENVY IN REBECCA'S EYES YESTERDAY?!$h#$b#Homegirl out here really pissed off that she didn't end up with Sebastian and he only has eyes for you.#$b#When Sebastian walked off to visit the fortune teller's tent, she BITCHED UP A STORM ABOUT YOU!$h#$b#'What do they have that I don't?! Why didn't Sebastian choose me?! I'M SO MUCH BETTER THAN THEM SEBASTIANNNN!'$h#$b#Oh man, I busted out laughing at some point. I couldn't help myself.$h#$b#Especially considering he watched you the whole time and any time she talked to him, he just interrupted her to talk about you.#$b#One time, she was like 'Sebastian, they're ugly and fat' and Sebastian, COLD HEARTED ASS HE IS, turned to her and said '...Are you talking about yourself again?'$h#$b#STONE COLD KILLERRRRRR!$h#$b#He then was like 'You're lucky to breathe the same air as @, Rebecca. You insult them one more time and there won't be any way for you to steal that air away anymore.'$h#$b#The look on her face after that was that of a broken woman. Typically, I would smack Seb for making such a comment...#$b#...But man, Rebecca was asking for it. No one insults my best friend like that and gets away with it.$a#$b#I gotchu broski 'til the end.$h",
+                        "fall_28": "YOUR SPIRIT'S EVE COSTUME PAL. OH MAN. I HAVEN'T LAUGHED THAT HARD IN AGES!$h#$b#Sebastian just stared out into the middle distance, almost as though he was afraid of you doing this to him.$h#$b#The frog suit was legit the funniest thing you could have done.$h#$b#...You say he was hoping for something slutty? Yeah, he totally would. That makes your choice 50x more funny.$h#$b#I talked to him while you were in the maze and boy, what he said was great.$h#$b#Seb was like 'I can't believe @ did this to me...They punked me so hard. They told me I'd love it. And I love frogs, but I love slutty costumes more...'$h#$b#I told him I'd play him the world's smallest violin. Then he slugged my shoulder. Worth it.$h",
+            "winter_24": "Yooo @! The Feast of Gift Giving is tomorrow!$h#$b#So, what did you get me? Kidding, kidding! Unless...$h#$b#Okay, actually kidding this time. What did you get Sebastian this year? A Karma Sutra book?$h#$b#...Aww, you got him voice acting lessons and some better recording equipment for music? Okay, that's cute. Get out of here.$l#$b#Kind of makes me wonder what he got for you...#$b#...#$b#...Probably that Karma Sutra book I mentioned earlier. Calling it now.$h#$b#...What did I get Alex? I got him a mini fridge for his ice cube trays so poor Evelyn has more fridge space.$h#$b#So stupid, but I have a feeling he's going to lose his shit at it. I guess it's the small things, haha!$h",
+}
+},
+
+//Abigail's dialogue
+
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+                        "spring_8": "Hey, @!~ Good to see you!$h#$b#I've been enjoying your company over your first week here. You're pretty cool.#$b#Kinda hope we can hang out more. Maybe tackle some of the mines together?#$b#We could always bring Sebastian along...Well...Maybe.$s#$b#I dunno, I think I want to hang out with you on my own. No other friends necessary.$l#$b#Not to put you on the spot or anything, but would you be down with that?$l#$b#...Awesome, well then just hit me up whenever you're ready to kick some monster ass! I'll be ready!$h",
+                        "spring_14": "Oh hi, @. Did you know today is Haley's birthday?#$b#She and I aren't friends or anything, but I kind of want to get her something?#$b#The problem is that her tastes are the complete opposite of mine. How in the world does a goth girl know what to get the preppy, cutesy Barbie girl?$s#$b#...Wait, you say that she likes Amethyst? Not loves it or anything, but thinks they're pretty?#$b#SOLD TO THE LOCAL GOTH. I'm off to the mines right now! Thank you, @!$h#$b#...Why am I trying so hard to impress her? HAVE YOU SEEN HER?! She's so hot!$h#$b#...Oh shit, I, uh...Don't tell anyone I said that, alright?$a",
+                        "spring_25": "I don't think I have ever been attracted to a dance before, but hell, the way you and Seb danced yesterday at the Flower Dance was...was...#$b#Sexy? But not in a sexual way? Like, holy shit I wish that were me? Get you a partner who dances with you like this?$h#$b#...Nah, you've gotta be shittin' me.#$b#SEBASTIAN ALLEN, WORLD'S LEAST SUCCESSFUL MAN AT ROMANCE, ARRANGED THE WHOLE THING BY HIMSELF?!$7#$b#...Oh Yoba, how am I going to top that and win your affection...?$s#$b#...YOU HEARD NOTHING. Okay? Okay. I'm going to go ponder my life.#$b# And maybe go interrogate Sebastian because, holy shit, that was one of the most romantic advances I think I've ever seen.$a",
+                        "spring_28": "So glad you're here, @! I have to tell you something super important.#$b#Come closer so I can whisper it in your ear.$l#$b#...We need to hang out this summer. Like, all summer long.$h#$b#Teehee! We're good friends now, so I wanna hang out as much as possible!#$b#Beach dates always are the best. Who doesn't love seeing their hot friends in hot swimsuits?$h#$b#...Well, I just admitted that I think you're hot, cool. Good job Abby.#$b#Oh well. Just gonna put it out there I guess. Do what you will with that info.#$b#But that aside, let's hang during this summer okay? Gaming, beach, doesn't matter to me!$h#$b#Just don't let me get a tan. I'm too beautiful with a porcelain skintone to ruin it by turning into a purple Haley.$h",
+                        "summer_6": "Hey @! Have you noticed Sebastian stalks you?$s#$b#I was just wondering because I am pretty dang sure I saw him following you multiple days in a row.$s#$b#And not once a day, but like, all day long.$s#$b#I'm kind of wondering how often he does this. I mean, I have a crush on you, yes, I'll admit that, but I wouldn't dream of doing that kind of stuff?$a#$b#...You guys have talked about this already? Really?$7#$b#How are you okay with what he's doing? Are you okay? Has he threatened you?!$a#$b#...No? Sorry, but I just can't believe you. Sebastian is kinda fucked in the head...$s#$b#Take care of yourself today, don't work too hard.",
+                        "summer_12": "@, please do me a favor and in my obituary, don't talk about how I died sitting on a toilet.$s#$b#Make up some badass story about how I had my guts spewn by some hellish abomination. I don't want to go out on the porcelain throne.#$b#Whoever put laxatives in the soup is an asshole. What's worse is that I think I had extra in mine? Somehow?#$b#My family got hit bad, but uhhhhhh, I was hit WAY WORSE.$s#$b#...I...I don't know what to say.$a#$b#I want to wring Seb's throat, but I also kind of get it? I might have done the same, but not as bad?$a#$b#...Maybe I'll give him a swirly and we'll see how much he likes bathrooms after that.$a#$b#...Fucking prick...$a",
+			"summer_14": "Well, the last time I saw Sebastian went real fucking well...$a#$b#We started to argue about the two of us both having a crush on you.$a#$b#It started by him staring me in the eyes, with this cocky grin on his face, and he said 'you know I've stayed the night at their house'.$a#$b#Then he stared harder, almost digging into my soul, and asked me if I had a huge crush on you too.$s#$b#I told him that yeah, I did.$a#$b#I wasn't going to play games with him on that one. And he fucking screamed like a banshee at me.$a#$b#Told me that I need to leave you alone as you weren't interested in me and never would be.$a#$b#Kinda funny considering we had that sleepover the other day. ANYWAY, I told him to calm the fuck down.$a#$b#The only person who could answer if you were interested in him or me was you,$a#$b#and you weren't here to defend yourself. There was no need for us to fight about it.$a#$b#He seemed to snap out of his rage state and apologized.#$b#I accepted it, but told him to not fucking talk to me like that again because it was bullshit.#$b#He nodded, we made up by playing Journey of the Prarie King, and it was all good.#$b#I just wanted to keep you in the loop, especially considering you're at the center of all this.#$b#I'm not going to stop trying to develop our relationship, whether it blooms into romance or not.#$b#Unless you tell me that you don't want me to do that anymore, that is. None of that is up to Sebastian to control.",
+                        "summer_20": "Listen, I have to be blunt here for a sec @.$3#$b#Are you just playing Sebastian and I? Because it feels like both of us are on even footing for getting your heart.$3#$b#And, truth be told, I want to win. I want to be your partner.$3#$b#So who is winning?#$b#...#$b#...Really...? Well, I have one last trick up my sleeve. Let's go skinny dipping at the lake by Sebastian's house, you and me.$3#$b#At this point, I'm sure Sebastian has frickin' tried to strip in front of you. So now it's my turn.$a#$b#No, no, you can try to cover for him all you want, but whether he has or not won't change my mind.$a#$b#Are you a chicken shit, or not?#$b#...#$b#Ha! Good! See you at the lake, 8pm tomorrow night.#$b#No backing out!~$h",
+                        "summer_27": "Hey @...Tch, be careful. I'm really sore today.$s#$b#...Sebastian punched the SHIT out of me last night. He's never been the violent type, especially not towards women.$s#$b#...I knew though why he punched me. He caught us skinny dipping in the lake the other night.$s#$b#Honestly, I should have seen this coming. And, well, no offense, but I had it coming if I was going to disrespect his feelings like that.$s#$b#I'm going to tell you something that you CANNOT tell Sebastian I told you, but...#$b#He's never had a significant other before. Personally, I almost thought he was asexual until you came along.$s#$b#He's always been incredibly quiet, shy, and really terrible with his emotions.$s#$b#His mom, while she loves him, just cannot figure out how to connect with him and his dad is a rotten piece of shit.$s#$b#Demetrius, while nice to most people, really seems to pick on Sebastian. And Sebastian takes that anger out on Maru, poor girl.$s#$b#Seb is 25 and doesn't know a damn thing about relationships except what media he's consumed. I have always felt bad for him.$s#$b#So when he showed interest in someone for the first time ever, and it just happened to be you, I got a little jealous because I too was intrigued by you.#$b#But I was a bad friend for getting in his way honestly. I have it in me to find someone else other than you. But Sebastian...he doesn't.#$e#Unless you decide that he's not for you, I think he'll stay by your side no matter what happens.",
+                        "fall_5": "You are the legit best friend EVER @!$h#$b#...Okay, you're playing SO dumb right now. Thanks for hooking me up with Haley ya dingus! I have thought she is hot as fuck for the longest time, but I totally thought she was straight.$l#$b#I cannot begin to tell you how elated I was when Sam came up and was like 'Yo Abby, I got someone for you to meet if you know what I'm sayin' and it was MOTHER FUCKING HALEY.$h#$b#What magic did you pull to get her to join the dark side?...The lesbian side I mean. She is the most unlikely lesbian, but I am here to have a preppy girlfriend.$h#$b#You and Seb now have competition for the hottest couple in all of Pelican Town. Bitches.$h",
+                        "fall_15": "Hey @!~ Time for Gossip With Abigail! Your favorite time of day!$h#$b#How are things going with Sebastian? Good I hope.#$b#Please tell me he's still a creep, because after our fight, I now find his weirdness amusing.$h#$b#...What a virgin, haha!$h#$b#...Wait, you guys have had sex? Welp, I take the virgin part back. He just still acts like one.$h#$b#Anyway, just wanted to report that Haley and I have also had our nighttime rendezvous. She's damn good too.$h#$b#Soooooo because I have to know, since I'm one of your best friends and all...#$b#...Is the basement dweller any good?$h#$b#...Holy shit, really? Weeb on the streets, senpai in the sheets. Never would have guessed from him.$h#$b#Looks like we got the best ending, both of us have banging sex partners!#$b#...Literally. $l#$b#Okay, I'll let you get back to work. I'll text you later!~$h",
+                        "fall_17": "That moment when Sebastian somehow ends up in a fight with some random people from out of town, and we turn it into an event...#$b#Weirdest Stardew Valley Fair I've ever attended. I did though win quite a bit of money from betting on Sebastian to win.$h#$b#The only people who put money on him to win was me, Alex, Sam, and Haley. So we got quite the betting pot to split.$h#$b#Do you know why he was fighting random guys at first? Other than the guys that just wanted to try and beat him?#$b#...Oh Yoba, he just wanted to beat up a group of guys that were giving you the up-and-down? Sounds about right for Seb.#$b#Ah well, Seb made me rich, so I don't give a damn what his reason was, haha! Thank you Sebastian and your jealousy complex!$h",
+                        "fall_28": "Can we talk about the fact that you TOTALLY pulled Haley and I into wearing slutty costumes JUST for you to do a 180?#$b#And it was somehow WAY MORE WORTH IT than the three of us wearing slutty costumes?! Sebastian was a broken man seeing you in a frog suit.$h#$b#There is no bigger joy than watching a man getting blue-balled by meme costumes. Ahh, so satisfying.$h#$b#He was torn between his three loves; you, frogs, and sexy Spirit's Eve costumes. Nothing could have been sweeter, other than his tears.$h#$b#Thank you for making my Spirit's Eve, especially since they put FREAKING SPIDERS in the maze...$a",
+            		"winter_24": "Alright, time to spill it @. What did you get me for Winter Star?$h#$b#Just joshing you if you didn't get me anything! Well, unless you're my secret friend, then I'll be kinda peeved.$h#$b#I got Haley and I matching bracelets. It's cutesy enough to match her style, but neutral enough to match mine.$h#$b#I'm so curious what she got me, being the fashionista that she is...#$b#But what did you get Seb? Something kinky?$h#$b#...Okay, listen, that's adorable. He's going to love it, trust me.$l#$b#Now then, did he do something equally adorable for you, or did he just pick you up some lingerie...?$h#$b#...It's sad that we both said 'lingerie' at the same time.$h#$b#Ah well, whatever makes you guys happy, I'm happy.#$b#Even though Seb and I REALLY fought badly earlier in the year, I'm so grateful we're all still friends. I love all of us.#$b#...Yes, secretly I'm glad he punched me in the face. Don't rub it in, @! Ya jerk!$h",
+}
+},
+
+//Haley's dialogue
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+                        "spring_25": "I am handing my Flower Dance Queen crown over to you.#$b#Do you really have to ask me why? I wish you could have seen you and Sebastian dancing yesterday. It was beautiful.$8#$b#I actually looked over at Robin and she was crying. I don't think I've ever seen a woman more touched by her son coming out of his shell.$7#$b#...Wait, you're telling me Sebastian arranged that all by himself?#$b#He found the perfect song, rigged it to where it would play for the dance, AND you guys had no pre-planned choreography?$4#$b#I'm...impressed. Wow. I never would have expected him of all people to be such a hopeless romantic.#$b#Be careful or I might steal him for myself if he's really that cute, teehee.~$h#$b#Kidding, kidding! He's not my type. Closer than Alex or Sam, but still not my type.#$b#...You on the other hand...$h#$b#Just teasing you. Look at you blushing right now! You're so cute!$h",
+			"summer_3": "Hey, @. I just have to be honest with my feelings for a moment if you don't mind.#$b#I really have a thing for you. I don't really plan on pursuing it any further though.$h#$b#You're just, like, this cute little summer crush if you will, teehee.$h",
+                        "summer_12": "I'm so glad that I had a bad feeling about the soup this year. Emily hasn't left the bathroom all night.#$b#I just kind of hear her softly crying because she's so fed up of being in there.#$b#...-sighs- I am somehow not surprised that Sebastian is the one that did this. Did he tell you why?$a#$b#Well, other than the fact that he is anarchy incarnate at times.$a#$b#...Ah. Okay, while I do not condone his actions, it is kind of cute?$l#$b#The guy really has a thing for you doesn't he?$h#$b#Awww, maybe I wanted you to myself.~ Teehee, just kidding.~$h#$b#...You really should visit Dr. Harvey for that chronic blushing disorder you have!$h",
+			"summer_27": "Hi @, you said you had a question for me?#$b#...Pfft hahaha! Why are you asking my sexuality? Is it really that important?$h#$b#If you must know, I'm pansexual, but I typically lean more towards women or feminine people. But why are you asking me about that?#$b#...Ahhhh, I see where you're going with this. Well, I'll say this, I am always up for trying anything at least once. We'll see where that will take us this time I suppose, haha.~$h",
+			"fall_5": "You know @, you could succeed as a matchmaker.#$b#Abigail is the absolute CUTEST and even though we dress totally different, having someone to talk about fashion with, other than my weird sister who has some...interesting tastes in fashion, has been amazing.$h#$b#She doesn't know it yet, but I'm going to ask her to do a style swap with me for a day next week as a date. Seeing her in pink with her purple hair is going to kill me.#$b#I love my little goth girlfriend.$l",
+}
+},
+
+//Robin's dialogue
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+                        "spring_25": "...I'm still crying from yesterday, @. I never thought I would see my son that happy.$s#$b#Thank you so much for giving him a chance. I don't know if you have a crush on him or not, but I'm grateful for you caring about him at all.$s#$b#Most people don't think much of Sebby. He's so shy and quiet, but has quite the temperment when he's stubborn or angry. He is definitely my son in that regard, haha.#$b#...His father's shadow lingers over him and...I think he has PTSD over what happened.$s#$b#It's not my place to say what happened, I'm sure he'll let you know in due time.$s#$b#...$s#$b#...I haven't been the best mom to him. I haven't shown him as much love as I should have, especially considering what happened.$s#$b#I just saw his father's genes in him and...I just...froze. Every time I saw something that reminded me of his dad, I locked up and ran.$s#$b#...Does he hate me, @? I would if I was him.$s#$b#...He doesn't? He talks highly of me? Even after all that I've done to him...?$s#$b#...He's a wonderful son. He doesn't get along with Maru or Demetrius, but we do tend to judge him and shut him out a lot.#$b#He's just lonely and heartbroken...Which is why yesterday touched me so much.$s#$b#He's never shown interest in someone like this. Not just in that romantic, puppy love kind of way either. He seems genuinely interested in you in every way.$h#$b#I hear him talk to Sam and Abigail about you all the time. And you seem so good to him, you're patient, you listen to him, and you give him second chances if he messes up.#$b#...Don't worry, I have noticed how...awkward he is. As his mom, I think it's kind of adorable but also slightly embarassing, haha.$h#$b#I know he arranged the whole thing. Little does he know I secretly helped.#$b#I could hear him working on getting things arranged, especially getting frustrated on choosing the BEST song.$h#$b#I talked to Lewis and he let this happen. But no one else knew. Just Sebastian, Lewis, and me.#$b#Leah on the other hand, just has good timing. No one told her anything, haha!$h#$b#...Thank you, @. Please keep treating my son so well. If I can be truthful with you for a moment, I think he's in love with you.#$b#...If you break my son's heart, I'm breaking your house, are we clear? $a",
+                        "summer_12": "...My son fucked with the soup, didn't he?$a#$b#-URP-...I am kicking his ass later. You might not want to be around tomorrow morning. Just saying.$a",
+}
+},
+
+
+//Alex's dialogue
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+                        "spring_15": "Hey @! I saw you hanging around with that emo hermit guy. What's his name again...? Sebastian...?#$b#Man, you must have weird taste, haha. What's he like? I haven't even had a chance to talk to him before.#$b#...Huh, neat. He's definitely not my kind of pal, but that's okay. I'll stick with Haley and Sam.#$b#...And you if you're more into the sporty type, hehe.$l",
+                        "spring_25": "Woah, I didn't know you or the emo kid were such good dancers.$h#$b#I was kind of confused, so I just stood around, but you and him seemed to know what was going on.#$b#Wanna let me in on that knowledge pal?$h#$b#...Huh? You didn't actually know what was going on, you just really liked that song?#$b#HUH? EMO BOY SET THAT UP JUST FOR YOU?$7#$b#...Damn, Sebastian is one smooth operator. That was fucking good.#$b#And here I thought I was super smooth for the ladies, but man, hermit boy beat me there.#$b#Guess I got more to learn, huh? Welp, time to sharpen up my romance game. Don't want Sebastian of all people to show me up!$h",
+			"summer_9": "...Oh, hey @...$s#$b#...Sorry, Operation Summer has been a huge bust. Just figured out that Haley isn't even INTO most men, let alone me. Even though she hung around me a lot...$s#$b#...I guess there's always Penny or Emily...And...$s#$b#...No, I'm going to stop there. Thanks for letting me vent a bit @.",
+                        "summer_12": "Please kill me. The soup yesterday has made me live in my bathroom...$s#$b#Who is the asshole that put bones in the soup? I hate them so much...$a#$b#...If I wasn't so sick, I would kick that emo fuck's ass, but...ugh...$a#$b#...Sorry, bathroom run. Bye.$s",
+                        "summer_16": "Man, Sebastian is actually fucking strong...$s#$b#...Motherfucker decked me not long after you and I talked last. I was under the impression that since he just sat holed up in his room all the time that he'd be weak, but I guess rage does a lot for a man.$a#$b#...He was telling me to stay away from you. I guess he really, REALLY has a thing for you.$a#$b#I mean, I don't blame the guy, you're hot, but shit bro, I have barely even flirted with you.$s#$b#And even then, it's friendly, kind of in a joking among friends kind of way?$s#$b#Don't know what is going through the guy's head, but hey, tell him that we're just pals. Friendly neighbors or something.$a#$b#Unless you wanted to be with me, I didn't have any intentions of trying to get in your pants or anything. I ain't that type of guy.$a#$e#...Thanks @. Now don't tell anyone that I lost in a fight to the basement dweller, okay? It's kind of embarrassing...$l",
+			"fall_10": "Hey @...I..uh..$l#$b#...I have a weird question for you. Just, no judgement and keep it between you and me, alright?$l#$b#...Is Sam into guys? Like...guys like me...?$l#$b#I-I just...$s#$b#Okay, yeah, I have a crush on him. I think he has one on me too, but...#$b#You're his best friend. You'd know better than anyone, right?#$b#Could you tell me? Please? So I don't look like an idiot asking him...$l#$b#...Wait...Really?#$b#No way.#$b#NO WAY!$h#$b#Oh man, I think I'm on cloud nine! You just made my day! I'm going to go ask him out right now.$h#$b#You're awesome, @. Thanks for having my back. I know we're not really close, but I like you.#$b#Not like that obviously, haha! Too late now sucka!$h",
+                        "fall_17": "I...I'm losing my edge, @.$s#$b#I was trying to show off in front of Sam at the strength game, and...$s#$b#I did fine mind you. I did a great job! But...#$b#...Then SEBASTIAN of all people struts up, rolls up his sleeve, throws me a cocky smile...$a#$b#...AND HE BEAT MY SCORE. IN ONE SWING.$a#$b#AND THEN HE DID IT AGAIN IN FRONT OF YOU! EFFORTLESSLY!$a#$b#...$s#$b#...You say that I shouldn't be concerned? Sebastian is just naturally strong?#$b#Do you know his secret?#$b#...I should just ask him? Huh, maybe I should. He is one of Sam's best friends after all...#$b#Hmm, I really should try to get to know Sam's friends better. I guess after Sebastian slugged me that one time, I'm still bitter, haha.$h#$b#Thanks for cheering me up @. I'll just have to get stronger by using his secret against him!$h",
+             }
+},
+
+//Added Events
+
+
+//Surprise for the farmer
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+			"120612/y 1/f Sebastian 1000/v Sebastian/t 600 800": "spring_day_ambient/64 15/farmer 64 16 2 Sebastian 64 18 2/skippable/pause 800/move Sebastian 0 2 2/jump farmer/emote farmer 8/pause 800/faceDirection Sebastian 0/speak Sebastian \"I...uh...can explain...?$s\"/pause 800/textAboveHead Sebastian \"Shit...\"/pause 3000/speak Sebastian \"So weird to see you here. On your front porch. Right after I walked out your door, haha...$h\"/pause 800/speak Sebastian \"...How do I even begin to explain myself?$s#$b#I'm here to check on you. Make sure you're safe from monsters and weirdos.$h#$b#You know, like Alex and Abigail.$h#$b#...I mean...uh...$s\"/move Sebastian 3 0 2/pause 800/speak Sebastian \"Okay...I break into your house. A lot. Almost every night.$s#$b#I don't do anything nefarious...I...just...$s\"/pause 800/speak Sebastian \"I say hi and pet %pet before...\"/emote Sebastian 12/pause 1000/speak Sebastian \"...Before I lay next to you. For hours. Sometimes all night.$l#$b#For some reason, I can only sleep if I'm in the same room as you. I'm always afraid of you being with someone else at night.$s#$b#I try to leave before you get up in the morning, today though, I got up a little late.$s\"/move Sebastian -3 0 0/speak Sebastian \"I didn't want you to find out, honestly. It's not only embarassing, but I just...\"/pause 800/speak Sebastian \"I didn't want you to hate me. I don't know why I do what I do, @. I just really, REALLY care about you. You're all I think about.$s\"/pause 800/speak Sebastian \"...I'm sorry if that freaks you out. It's not my intention to hurt you, or do something against your will, I swear.$s#$b#Something about you is so damn special that I cannot control myself.$s#$b#I'm doing stupid shit because I cannot get enough of you.$l\"/pause 500/speak Sebastian \"Just please don't hate me. I couldn't bear it...$s\"/pause 1100/message \"You shake your head back and forth. You tell Sebastian that what he did was very wrong, but something inside of you can't stay mad at him and his...obsessive ways.#You tell him to call or text you before he comes over next time. You guys can then decide if he is allowed to stay the night.\"/emote Sebastian 60/pause 800/speak Sebastian \"You're too kind, @. Thank you. But, uh...Do expect me to come over. A lot. Assuming that's okay with you, hehe.$h\"/pause 800/emote Sebastian 28/pause 1000/speak Sebastian \"...I've got to work on being less of a creep around you.$s\"/pause 500/end",
+           }
+},
+
+//Abigail's moves
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+			"120613/y 1/f Abigail 1250/v Abigail/t 800 1200": "spring_day_ambient/64 15/farmer 64 16 2 Abigail 64 18 0/skippable/pause 800/speak Abigail \"Yo! Just wanted to swing by the old stomping grounds and see ya.$h\"/faceDirection Abigail 2/pause 800/speak Abigail \"Seriously though, you're doing a bang up job. This place looks great!#$b#Big difference from when I used to just wander through here aimlessly.\"/faceDirection Abigail 0/pause 500/speak Abigail \"Anyway...I was curious if I could...come in? Or we could hang out?$l#$b#On our own by the way. No Sam or Sebastian. Kinda getting annoyed with Seb anyway.$l#$b#...Why am I annoyed with Sebastian? UGH he just...$a\"/pause 300/emote Abigail 12/pause 1300/faceDirection Abigail 2/move Abigail 0 2 2/pause 800/speak Abigail \"Listen, Sebastian and I are basically in a head-to-head battle for your heart.#$b#And goddamn it, I'm going to win. I'm going to beat him because I'm a better person.$a#$b#I don't stalk you.#$b#I don't get mad when you talk to other people.#$b#I don't talk about you incessently to the point that everyone is freaked out by it.$a\"/pause 800/faceDirection Abigail 0/move Abigail 0 -2 0/pause 800/speak Abigail \"No, I actually respect your boundaries.#$b#I just honestly think you would be better off with someone normal.#$b#Sebastian isn't normal. That man has massive issues that only therapy can fix.$a#$b#Can you imagine baby-sitting him all the time? UGH, that would suuuuck.$h#$b#At least I know how to properly take care of myself and socialize with others.#$b#I don't need JUST YOU to survive, haha. God, he's so fucked up.\"/pause 800/message \"You remind Abigail that her and Sebastian are supposed to be friends. Why is she disrespecting him so much?\"/pause 800/emote Abigail 12/pause 1300/speak Abigail \"UGH why are you taking HIS side?$a#$b#I'm just being honest about him so you can make the RIGHT decision.$h#$b#I wouldn't be surprised if he collected panties at this rate.$h#$b#And jacked off to inappropriate photos he's taken of you.#$b#I wouldn't do any of those things.$l\"/pause 800/message \"You ask Abigail why she has thought about this all so much. And you're 99% sure that Sebastian does NOT collect underwear.#What is Abigail's fixation on making a smear campaign on Sebastian?\"/pause 500/emote Abigail 16/pause 1300/emote Abigail 12/pause 1300/speak Abigail \"I'm just...just...$a#$b#I'm warning you that Sebastian isn't good for you, okay?$a#$b#I'm the better choice. End of story.$a#$b#I'll see you later.$a\"/faceDirection Abigail 2/move Abigail 0 2 2/faceDirection Abigail 1/faceDirection farmer 1/move Abigail 15 0 1/warp Abigail -100 -100/pause 1800/globalFade/viewport -1000 -1000/message \"You're bothered by Abigail's aggressive and judgmental attitude towards Sebastian and yourself.#You're not a trophy. You're not a prize to be won.#...Why is Abigail starting to hate her own friend?\"/end",
+           }
+},
+
+//Sebastian & Farmer talk
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+			"987654321/y 1/u 20/z summer fall winter/v Sebastian/t 1900 2300": "nightTime/48 27/farmer 44 25 1 Sebastian 48 26 1/skippable/move farmer 4 0 1 /pause 2000/faceDirection Sebastian 0/pause 1000/speak Sebastian \"Hey @, uh, don't be mad, but...$s\"/faceDirection Sebastian 1/pause 500/faceDirection farmer 2/pause 800/speak Sebastian \"I had seen you undressing at your farm the other day. Sorry, I use your farm as a shortcut sometimes...$s\"/pause 800/speak Sebastian \"But seeing you undress isn't really my point, even if I liked it.$s\"/faceDirection Sebastian 0/emote farmer 56/pause 500/emote Sebastian 12/pause 900/speak Sebastian \"...Shut up...$l\"/faceDirection Sebastian 1/faceDirection farmer 1/speak Sebastian \"Anyway, I had noticed you had some scars in weird places. A lot of them. If you're okay with it...can I ask what kind of scars they are?$s\"/faceDirection Sebastian 0/pause 500/faceDirection farmer 2/pause 800/emote farmer 40/pause 1200/speak Sebastian \"...I kind of thought so...$s\"/faceDirection Sebastian 1/pause 800/playMusic echos/speak Sebastian \"...Have you ever noticed I don't take my hoodie off almost ever? Well...there's a reason for that.$s#$b#...I have self-harm scars all over. Fresh, old, it doesn't matter. They're there and I recoil at the thought of anyone seeing them.$s\"/pause 1000/shake Sebastian 1000/pause 1500/faceDirection Sebastian 0/pause 800/speak Sebastian \"My home life, no, my entire life in general, is kind of fucked if you haven't noticed. Guess I was born under the wrong star or something.$s#$b#Some of it, mostly my relationship with Maru, is my fault, but...I'm just so angry.$s\"/pause 800/speak Sebastian \"That anger turns into self-loathing which turns into self-injury to cope with the thoughts of how screwed up I am.$a#$b#I hardly have any friends, never really have honestly. I am a cringy loser to most people, and I'm the absolute worst at talking to anyone. Especially if I don't have anything in common with them.$s\"/faceDirection Sebastian 1/pause 800/speak Sebastian \"There's a girl from Zuzu City that Sam is friends with, I think her name is Rebecca, that says I'm super attractive, but...I just don't understand or see it.#$b#Not like being attractive can save my tainted personality...$s\"/pause 800/speak Sebastian \"Sam and Abigail, they're so patient with me, and it's the only reason why we're friends.$s#$b#They could have dumped me ages ago for being an absolute moron, but they never gave up on me.$s\"/pause 800/faceDirection Sebastian 0/pause 800/speak Sebastian \"...You're the first person in a long time who has done that too. But...if I can be kind of honest for a sec...$s#$b#...I haven't met someone who completely captivated me like you before. You're just...special, in every way.\"/pause 800/speak Sebastian \"...I asked about the scars because I was hoping I finally met someone who understood all my self-loathing and inability to control how much I hate myself.$s#$b#And...I guess I finally have.$s#$b#...Sorry for dumping my entire life's story on your lap, @. But...thanks for listening. I appreciate you more than you know.$s\"/stopMusic/pause 800/emote farmer 20/pause 1500/end",
+		}   
+},
+
+//Sebastian & the sad anniversary
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+            		"456987123/y 1/u 24/z spring fall winter/v Sebastian/t 1200 1700": "ocean/12 38/farmer 12 29 2 Sebastian 12 39 2/skippable/move farmer 0 7 2/faceDirection Sebastian 0/pause 500/speak Sebastian \"Hey, @. How are you doing today?\"/pause 500/move farmer 1 0 2/move farmer 0 3 2/pause 1000/faceDirection Sebastian 2/speak Sebastian \"...Sorry I'm not as positive today. Kind of a rough day honestly...$s#$b#It has multiple sources I suppose. Today is the anniversary of my father...leaving...$s\"/pause 800/emote Sebastian 12/pause 1000/speak Sebastian \"No, I should be honest.$s\"/playMusic echos/pause 800/speak Sebastian \"My father was arrested years ago. I was seven at the time and my mom had just met Demetrius at the college she was attending.\"/faceDirection farmer 3/pause 1000/faceDirection farmer 2/pause 800/speak Sebastian \"She never cheated on my father, my mom is a good soul. But my father didn't see it that way. He was possessive to the point that it got dangerous for my mom.$s#$b#One day, Demetrius had actually just came over to return a textbook he borrowed from my mom when my father...tried to murder him and my mom.$s\"/emote farmer 16/pause 500/speak Sebastian \"...I was there. I...saw the whole thing. No seven year old should have to see that nor be tasked with what I had to do.$s#$b#...I was the one that called 911.$s#$b#...Mom was traumatized and Demetrius had some knife injuries, but luckily, they came out okay.$s\"/pause 800/speak Sebastian \"My mom got with Demetrius not long later, with Maru coming soon after that.\"/pause 1000/emote Sebastian 40/pause 500/speak Sebastian \"I was always seen as lesser after my father was tried. I was the child of a murderer. Mom spent less time with me and more time with Maru. Maru was normal; she was smart, she was kind, and she was funny.$s\"/pause 1000/speak Sebastian \"...And her father wasn't a fucking wife-beating, child abusing, attempted murderer...$s\"/pause 800/speak Sebastian \"I became a shell. Little did anyone know that I stopped talking for a good year after that. Not unless a teacher forced me to speak, which wasn't often since most people ignored me anyway.$s\"/pause 800/speak Sebastian \"...Sometimes I feel like my father's DNA is in me, writhing around like a worm on concrete.$s#$b#When I see you with other people, I feel like it's him coming out through me. I get so irrationally jealous...$s\"/pause 800/faceDirection Sebastian 1/faceDirection farmer 3/pause 500/speak Sebastian \"I still don't understand him, and I hope I never will understand or feel exactly how he felt.$s#$b#Everything about him has tainted my life ever since that night.$s#$b#Everyone looks at me and sees him. It's why I dye my hair too. I want nothing to do with his genes.\"/faceDirection Sebastian 2/pause 800/speak Sebastian \"...I just want to not be like my father. I want to fall in love, make a family, do something I love, and have a happy life...$s#$b#But I worry sometimes.\"/faceDirection Sebastian 1/pause 500/speak Sebastian \"I worry that I'm going to lose to my DNA. Please don't let me do that @.$s\"/pause 500/speak Sebastian \"...Promise?\"/pause 800/globalFade/viewport -1000 -1000/message \"You offered up your pinky to Sebastian. He smiled, laughed a little, and the two of you pinky promised that this would never happen to him.\"/end",
+		}
+},
+
+//Sam is NOT happy with his friends
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+            		"120614/y 1/e 120613/v Sam/t 1000 1800": "ocean/12 38/farmer 11 39 2 Sam 12 39 2/skippable/pause 800/emote Sam 16/pause 1300/speak Sam \"You're fucking kidding me?! Abigail SAID that nasty shit?!$a#$b#I can't fucking believe her. This is bullshit...$a\"/pause 800/shake Sam 2000/pause 2500/speak Sam \"Are you okay, @? Seriously, this has GOT to be killing you.$s#$b#I cannot imagine the pain this is putting you through...$s\"/pause 800/speak Sam \"I think what bothers me most is that Abigail is so wrong about Sebastian.$s#$b#They used to be really close, but as they got older, a weird rift started to form.#$b#I think, in a weird way, Abigail thinks Sebastian is holding her back. And Sebastian has no idea Abby thinks that.$s#$b#Abigail started to really hit her stride, she became this blossoming person who everyone likes, even if they think she's weird.#$b#You can't help but like her.#$b#But she started to disrespect Sebastian and his boundaries. She literally forced him to go to a huge party with her.$a#$b#You wanna know what happened? Abigail left him alone the whole party. Sebastian knew NO ONE.$a#$b#He kinda flipped honestly. He texted me saying he just found this cat at the party and couldn't stop petting it. His anxiety flared so bad.$s#$b#After they left, he went home and had an anxiety attack all night. He couldn't sleep. People scare the SHIT out of Sebastian.$s#$b#You know what Abigail said the next day? 'I was trying to get you laid.'$a#$b#Seriously. That was her concern. Sebastian having sex with some stranger for a night.$a\"/emote Sam 12/shake Sam 2000/pause 2500/speak Sam \"Seb isn't that kind of guy. He just wants someone who fucking understands him and doesn't try to change him.$s#$b#Abigail does nothing BUT try to change him, until she just gave up. And sort of gave up her relationship with him.$a#$b#And now, she wants to shit-talk him just because she wants to 'win'?$a#$b#WIN?! UGH!$a#$b#She royally pisses me off much anymore. I get along with her just fine, but I also am more in-line with what she wants out of people.$s#$b#She's starting to become the bully that she used to hate. The kind she had to defend Seb from.#$b#He's always been the tall, awkward kid. He could definitely defend himself if he wanted to, but Sebastian just took it.$s#$b#Abby and I used to step in and fend people off...Seb could just sit there, covered in food or spitballs, and just wait for it to end.$s#$b#Then he'd clean himself off and just move on like nothing happened...$s\"/pause 1000/speak Sam \"If there's one thing I'm weirdly grateful for, it's actually Alex.#$b#No one really talks about it, but Alex kind of defended Seb a few times. He'd get pretty pissed at any of his jock friends if they picked on Seb.#$b#Actually, the whole gridball team stopped picking on Sebastian. And if Alex caught it in the hallway, he'd yell at people to 'cut that shit out'.\"/pause 1000/speak Sam \"I don't think Seb really remembers much of it though. Quite possible he just kind of blocked high school out.$s#$b#I don't think Alex gets enough credit sometimes. He's actually a really nice guy, just a bit dumb and full of himself, haha!$h\"/pause 800/emote Sam 28/pause 1300/speak Sam \"That's why everything with Abigail bothers me. Half the shit she's saying sounds like the bullshit people would spew about Seb in high school.$s#$b#Now she's turning into one of THEM just because she's, what, jealous?! It's fucking stupid.$a#$b#I know Seb is possessive and has some really bad behaviors he needs to iron out, but at least his intentions are good.#$b#He just likes you. You're the only one he's ever fallen for. He wants to be with you because you show him kindness he hasn't ever known.#$b#Abby is just jealous that Sebastian is 'beating' her at something. And she hates it.$a#$b#It just makes my blood boil over. I can't believe she's being such a...such a...$a#$b#...I really shouldn't say this, but she's being a royal cunt right now.$a#$b#That stays between you and me, got it?\"/pause 1000/faceDirection Sam 3/faceDirection farmer 1/pause 800/speak Sam \"Just keep me in the loop, alright? I'm going to try and get this shit under control.$s#$b#I'm going to protect my friends, all three of you, the best I can.#$b#Or at least I'm going to try my hardest. I just have this feeling shit is going to start kicking off soon...$s\"/pause 1800/end",
+		}
+},
+
+//Sam talks about Sebastian's music
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/SamHouse",
+			"Entries": {
+			"147258369/y 1/u 18/z summer fall winter/v Sam/t 1000 1900": "jaunty/-1000 -1000/farmer 4 15 1 Sam 17 16 2/skippable/viewport 17 16 true/move farmer 8 0 0/doAction 12 14/move farmer 0 -2 1/move farmer 4 0 2/faceDirection Sam 0/pause 500/speak Sam \"Yo! How are you doing @?#$b#I'm mad chillin', you know me. Not much phases me, haha!$h\"/move farmer 0 3 1/faceDirection Sam 3/pause 500/speak Sam \"So you know that Seb and I both write music, right? Well Seb's been picking it up more lately.#$b#It's almost like he has a muse...\"/pause 800/textAboveHead Sam \"-coughs-YOU-coughs-\"/pause 1200/speak Sam \"Some songs are very similar to his old style, very melancholy and used as a way for him to vent. But then...\"/emote Sam 40/pause 800/speak Sam \"Then there are these new songs, and I was taken aback at how...uh...$s\"/emote Sam 28/pause 1000/speak Sam \"Raunchy...they are.$l#$b#I know Seb pretty well, and he has NEVER been like this before...I actually didn't know he had this bone in his body, haha.$h\"/pause 800/speak Sam \"I should say that even though these songs are what I call 'ho music', they are dope as hell. There are some mad beats in there!$h\"/pause 500/emote farmer 40/pause 1000/speak Sam \"...Am I shocked by this behavior? Yeah actually. Even at the typical peak horniness in a teenager, Seb never really showed any of that.#$b#I'd be out trying to hit on anything that had legs and would talk to me, while Seb just kinda watched?$h\"/pause 500/emote farmer 56/pause 500/textAboveHead Sam \"Hey, at least I'm honest.\"/pause 2000/speak Sam \"I have this friend Rebecca that has the absolute HOTS for Seb, okay? She hits on him 24-7 when we're in Zuzu City.#$b#AND THIS MAN LITERALLY IS UNBOTHERED. She'll be like 'has anyone told you how hot you are Sebastian?'#$b#And he'll just turn to her and say '...nah'.#$b#THEN, she'll be like 'well I think you're super hot' and dude, his response is gold.#$b#He typically responds, with the most stone face I've ever seen mind you; 'neat I guess'.$h\"/emote Sam 56/emote farmer 56/pause 800/speak Sam \"WHO USES THE WORD NEAT WHEN BEING HIT ON?$h\"/pause 800/emote Sam 28/pause 800/speak Sam \"So to see him this, uh...If you don't mind me being blunt - horny -  is...weird.$l#$b#Seb is a really attractive dude, so for him to go this long and NOT have some significant other is bonkers.$s#$b#But he just never showed interest. He could have guys and girls fawning at his feet and he'd probably respond with 'please move, I'm trying to walk where you're laying'.$h\"/emote farmer 56/pause 800/speak Sam \"But you...You awoke something in him. It's like a tornado with how sudden and destructive it is.#$b#...Oh, I don't mean to make it sound so negative! It's the opposite, I think it's great! My best friend is finally falling in l-$h\"/pause 200/jump Sam/pause 700/speak Sam \"I SHOULDN'T SAY THAT HE'LL KILL ME.$s#$b#You didn't hear that last part. Cool? Cool.$h#$b#Anyway, come listen to us at our Saturday jam sessions at my house. You can hear for yourself what he's written. See ya!$h\"/pause 500/end",
+		}
+},
+
+//Abigail comes to visit and finds something shocking
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+			"06101392/y 1/f Sebastian 1500 Abigail 1500/v Abigail/t 600 1200": "none/-1000 -1000/farmer 21 4 1 Sebastian 22 4 3 Abigail 9 11 0/skippable/viewport 10 10 true/playSound doorClose/move Abigail 0 -2 0/faceDirection Abigail 1/pause 800/emote Abigail 8/pause 800/speak Abigail \"What the...?!$a\"/pause 800/emote Sebastian 20/pause 800/speak Sebastian \"Good morning @...~$h\"/pause 800/emote Abigail 12/pause 800/speak Abigail \"Oh HELL no, I'm not doing this shit.$a#$b#If you want to be with him, fine, then I'll just have to become completely irresistable...$a\"/pause 500/shake Abigail 1000/pause 2000/move Abigail 0 3 2/playSound doorClose/warp Abigail -100 -100/pause 500/emote Sebastian 8/pause 1000/speak Sebastian \"Hey, @...Did you hear your door open?\"/emote farmer 40/pause 800/speak Sebastian \"...Must have just been %pet. Well, I probably should go. My mom is going to wonder where I've been all night...\"/pause 500/globalFade/viewport -1000 -1000/message \"You followed Sebastian to your door to say goodbye, but he found one lone flower, stomped on, on your front porch.#You both looked at each other confused before he left.\"/end",
+		}
+
+},
+
+//Outside the Saloon on a Friday...
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+			"6661013/y 1/u 26/z spring fall winter/v Abigail Sebastian/t 2000 2300": "nightTime/-1000 -1000/Sebastian 48 71 1 Abigail 50 71 3/skippable/viewport 54 72 true/pause 500/speak Abigail \"Why did you bring me out here Sebastian? What the hell do you want?$a\"/pause 800/speak Sebastian \"You know why I called you out here Abigail. Stay the fuck away from @.$a#$b#You know that their destiny is to be with me.$a\"/pause 500/textAboveHead Abigail \"DESTINY?!\"/pause 3000/speak Abigail \"Sebastian, you're fucking delusional!$a\"/speak Sebastian \"And you're fucking drunk off your ass every Friday! You'll do ANYTHING to get @ to grind on you at the jukebox!$a\"/speak Abigail \"And it's somehow MY fault that they like to dance with me?!$a\"/speak Sebastian \"I also fucking caught you guys going SKINNY DIPPING in the goddamn lake by my house!$a\"/pause 800/emote Abigail 40/pause 1500/speak Abigail \"You uh...saw that...huh?$s\"/speak Sebastian \"Kinda fucking hard not to when not only did you guys do it right by my house...$a#$b#...You fucking did it at the time I'm always out smoking. Like it was on purpose!$a\"/pause 800/shake Abigail 1000/textAboveHead Abigail \"HAHAHA!\"/pause 3000/speak Abigail \"Yeah, holy shit you're delusional. I'm going to cry I'm laughing so hard.$h\"/pause 800/speak Sebastian \"What the FUCK did you just say?!$a\"/speak Abigail \"Oh, you want me to say it LOUDER?!$a#$b#YOU'RE JUST AS DELUSIONAL AS YOUR FUCKING WORTHLESS FATHER!$a\"/speed Sebastian 5/move Sebastian 2 0 1/fade/playSound clubhit/showFrame Abigail 53/move Sebastian -2 0 3/pause 3000/speak Abigail \"You...you fucking punched me in the face...$s#$b#What the fuck is wrong with you Sebastian...? You've never been like this...$s\"/faceDirection Sebastian 1/speak Sebastian \"Don't fucking mention my father. He's dead to me.$a#$b#...And you've been a real shitty friend. This is the one time I fall in love with someone...$s#$b#...And YOU of all people are fucking it up. I'm not doing myself any favors, but you...$a#$b#...You have options. You have had other loves in your life. You're charismatic, you can easily find another.$a#$b#This is my first time falling in love with anyone...How could you...Ugh...$s\"/pause 800/speak Sebastian \"...Now would you kindly fuck off and go find someone else to steal? Fucking relationship wrecker...$s\"/move Sebastian 0 -10 0/warp Sebastian -100 -100/pause 2000/emote Abigail 40/pause 1000/speak Abigail \"...I'm not...$s#$b#...I'm not a relationship wrecker...$s\"/shake Abigail 5000/speak Abigail \"Sebastian...you're...you're...$s#$b#...$s\"/pause 800/speak Abigail \"...What if he's right...?$s#$b#...What if I have been a shitty friend...?$s\"/pause 3000/end",
+		}
+},
+
+//Your reward for 10 hearts
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/BathHouse_Pool",
+			"Entries": {
+			"336699/f Sebastian 2500/v Sebastian/t 1700 2300": "none/-1000 -1000/farmer 13 23 2 Sebastian 9 29 1/swimming farmer/swimming Sebastian/skippable/viewport 13 27 true/pause 2000/playSound slosh/move farmer 0 6 3/pause 700/speak Sebastian \"Oh...I didn't expect anyone to show up, let alone you, @.$l#$b#Despite living around the corner, I don't come here often.#$b#Probably because of my image issues, you know the vibes.#$b#Anyway...Why not come closer?$l\"/pause 500/playSound slosh/move farmer -3 0 3/positionOffset farmer -1 0/pause 1200/speak Sebastian \"Have I ever told you how stunning you are?$l#$b#...Hah, well even if I have, I'm going to say it again, and again. Every day I'm with you.$l\"/pause 800/speak Sebastian \"Are you...getting uncomfortably hot...?$l#$b#...Don't look at me like that. I know it's a bath house but...$l#$b#I'm just...overheating...I guess...$l\"/pause 500/message \"Sebastian's breathing is becoming heavy. But, he's not in pain or distress...?\"/pause 500/speak Sebastian \"...@...$l#$b#You know what I want, don't you...?$l\"/emote farmer 8/pause 800/showFrame farmer 46/faceDirection farmer 3/showFrame Sebastian 40/faceDirection Sebastian 1/globalFade 0.010/viewport -1000 -1000/message \"Well, you figured out very quickly why Sebastian was breathing like he was.#He seduced you in the bath house and the two of you had your own brand of fun.#Thankfully no one walked in. That would have been awkward.\"/showFrame farmer 1/faceDirection farmer 3/showFrame Sebastian 1/faceDirection Sebastian 1/positionOffset Sebastian -1 0/viewport 13 27 true/globalFadeToClear 0.010/pause 1000/emote farmer 20/emote Sebastian 20/pause 800/speak Sebastian \"Haha, we sure didn't help the temperature, but I'm happier than I was when I first came here alone.$l#$b#You and you alone can make me feel this elated, no matter what we do.$h#$b#You truly are my soulmate, the only one for me.#$b#I will be with you, through eternity and beyond. I promise on my life.\"/pause 800/end",
+		}
+},
+
+//Robin notices your relationship with Sebastian
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"Entries": {
+			"852369/f Sebastian 1500/p Robin": "jaunty/5 17/farmer 6 24 0 Robin 5 17 3/skippable/move farmer 0 -3 1/move farmer -1 0 0/move farmer 0 -3 0/pause 200/faceDirection Robin 2/speak Robin \"Sooooo, I have noticed that you have been seeing my Sebby pretty often...$h\"/pause 800/emote farmer 60/pause 500/emote Robin 20/pause 1300/speak Robin \"Sorry, I can't help but be excited. My poor son hasn't had the best luck with socializing.#$b#I've always just wanted him to find someone who understands him so he can be happy.#$b#He deserves more than what he's gotten. I love my boy, he's honestly so sweet and helps me out a lot.#$b#He likes to ask if I need help with anything and he'll sometimes help me with jobs.#$b#Sebby is a smart man, and pretty handy too, even outside the mechanic realm.#$b#Perfect husband material. -winks-$h\"/emote farmer 60/pause 500/emote Robin 56/pause 1300/speak Robin \"I'm just messing with you, @!$h#$b#I like to tease people who I have an affinity for. And I also love to tease my son.$h#$b#It's so cute @, he'll talk about you and just gush about how amazing, and talented, and kind you are.#$b#Then I'll just respond with 'Awww, my Sebby-Webby has a cwush!~' and he loses it.$h#$b#Typically likes to say 'FUCK OFF MOM' and pout on his way to the fridge. It's adorable.#$b#Then he'll flip me off as he walks down to his room.$h#$b#I flip him off back haha!$h\"/pause 1000/speak Robin \"Seb and I have a unique relationship that I think Maru and Demetrius don't understand.#$b#Demetrius and Maru operate in harmony, almost in sync sometimes. Maru and I are just sweet to one another.#$b#But Seb and I give each other hell all the time. And they think Sebastian is being disrespectful to me.$s#$b#He's not, it's just how he communicates sometimes. And he just likes to joke around. When you get to know him, he's a bit of a clown.#$b#A tall, awkward, emo clown.$h\"/emote farmer 56/pause 1300/speak Robin \"I'm just happy that someone else enjoys his company that's more on his level.#$b#Sam is very good with Sebby, and Abigail used to be. She suddenly just started to get...kind of pushy with Seb.$s#$b#Trying to change him and all that. He's just not social and that's okay.$s#$b#He's just fine the way he is. I wish he'd come out of his room more often, but I understand why he doesn't.#$b#I actually understand him more than I guess I ever realized before. And I think I have you to thank for that @.#$b#Thanks for making me cherish what I have with my son more. And thanks for making me realize that he's just fine the way he is.$h\"/pause 900/end"
+}
+},
+
+//You made some choices on a Friday night
+
+{
+"Action": "EditData",
+			"Target": "Data/Events/BusStop",
+			"Entries": {
+			"374657/f Sebastian 750/t 1600 2400/d Mon Tue Wed Thu Sat Sun/r 0.4": "nightTime/-1000 -1000/farmer 33 23 3 Sebastian 33 24 3/skippable/viewport 19 21 true/move farmer -3 0 3 continue true/move Sebastian -3 0 3 continue true/pause 1500/speak Sebastian \"Aaand another week where I end up walking you home after saloon night.$7#$b#You've gotta slow down on the alcohol.$h\"/move farmer -3 0 3 continue true/move Sebastian -3 0 3 continue true/pause 1500/emote Sebastian 12/pause 1500/speak Sebastian \"Listen...I like you and all, but stop trying to hold my hand...$l#$b#...That is not an invitation to try getting me to carry you either.$s\"/move farmer -3 0 3 continue true/move Sebastian -3 0 3 continue true/pause 1500/message \"You ask Sebastian to help you into different clothes when you get home.#Damn, that was awfully forward of drunk you.\"/pause 500/emote Sebastian 60/pause 1000/speak Sebastian \"I...I am not doing that. Sorry. That's really screwed up to do with someone who is drunk...$s#$b#You're really making me flustered right now, you know that...?\"/pause 500/emote farmer 32/pause 1000/textAboveHead Sebastian \"-sighs-\"/pause 2000/move farmer -3 0 3 continue true/move Sebastian -3 0 3 continue true/pause 1500/speak Sebastian \"@, I...I...$s#$b#...Ugh, you're not going to remember this anyway, considering how drunk you are...$a#$b#...Well, whatever.$s#$b#Hey, @...I kind of have a thing for you.#$b#So you teasing me like this is like dangling catnip in front of a cat.$s#$b#I just really, REALLY want to hold your hand, or carry you...$s#$b#...Or kiss you like you tried to do to me at the bar...$l#$b#...But I just can't do it. I have to know that SOBER you likes me the same as DRUNK you...$s\"/pause 800/move farmer -3 0 3 continue true/move Sebastian -3 0 3 continue true/pause 1500/speak Sebastian \"...I really wish I knew if you liked me. My heart splits apart a little more each time you pull this stunt...$s#$b#It's almost like...torture.$s#$b#...Melodramatic, I know. But...my point still stands.#$b#...If you happen to remember anything from this conversation, just at least remember this...$s#$b#...I'm going to be here for you. Whether that's walking your drunken ass home...#$b#...Or watching you fish at the pier in the rain...$7#$b#...Or seeing you coming in and out of the mines...$7#$b#...And occasionally rescuing you from the mines, you idiot...$a#$b#...I'll be here. Waiting for your sign.\"/pause 800/move farmer -6 0 3 continue true/move Sebastian -6 0 3 continue true/pause 800/globalFade/viewport -1000 -1000/message \"Sebastian was right. You didn't remember jack from last night.#The only thing you remember is that he'll be waiting for you.#For what, you can't remember to save your life.\"/end",
+		}
+
+},
+
+
+//Edited vanilla event dialogues
+
+{
+"Action": "EditData",
+"Target": "Data/Events/Mountain",
+"Entries": {
+		"384883/f Sebastian 1000/t 1100 1700": "spring_day_ambient/-1000 -1000/farmer 12 27 1 Sebastian 18 26 2/skippable/specificTemporarySprite sebastianGarage/showFrame Sebastian 33/animate Sebastian false true 100 32 32 32 36 32 32 36 36 36 36/positionOffset Sebastian 24 16/viewport 18 25 clamp true/move farmer 5 0 0/playSound clank/move farmer 0 -1 1/pause 100/playSound clank/pause 600/playSound clank/pause 300/playSound clank/pause 800/stopAnimation Sebastian/showFrame Sebastian 35/animate Sebastian false false 100 32 33 34 35/playSound dwoop/pause 500/speak Sebastian \"Oh, hey @! You surprised me.$8\"/pause 800/faceDirection farmer 0/emote farmer 8/pause 400/speak Sebastian \"Oh yeah, I guess you haven't seen my motorcycle before, have you? Kind of surprised I haven't shown it to you before now.$8\"/pause 900/showFrame Sebastian 32/animate Sebastian false false 100 35 34 33 32/pause 500/faceDirection farmer 1/animate Sebastian false true 200 32 32 32 36 32 32 36 36 36/pause 600/playSound clank/pause 600/playSound clank/pause 300/pause 800/playSound parry/pause 800/playSound clank/playMusic echos/pause 2000/glow 80 70 255 true/pause 1000/speak Sebastian \"You know, I tend to take drives at night outside of the valley.$8\"/pause 800/speak Sebastian \"There's nothing else like it, blazing along the empty stretch of road toward the faint city glow...$9\"/pause 200/playSound clank/pause 500/playSound clank/pause 200/speak Sebastian \"...I really want to get the hell out of dodge. Take the basics, my bike, and never look back...$9\"/pause 900/playSound clank/pause 900/stopAnimation Sebastian/playSound Milking/pause 1500/stopGlowing/playMusic spring_day_ambient/speak Sebastian \"Alright, oil's changed.$8\"/pause 1200/showFrame Sebastian 35/animate Sebastian false false 100 32 33 34 35/playSound dwoop/pause 1900/speak Sebastian \"$q -1 null#Hey...I could...teach you how to ride, if you were interested...?$8^Hey...I'd...love to take you on a ride someday.$8#$r -1 10 event_garage1#That sounds like a fun date.#$r -1 -10 event_garage2#No thanks. That sounds stupid.#$r -1 0 event_garage3#I'm scared of motorcycles.\"/pause 900/viewport move 1 -1 8000/pause 4000/globalFade/viewport -1000 -1000/end",
+		}
+},
+
+{
+"Action": "EditData",
+"Target": "Data/Events/Mountain",
+"Entries": {
+		"384882/f Sebastian 2500/t 2000 2400": "nightTime/-1000 -1000/farmer 18 35 0 Sebastian -100 -100 0/skippable/specificTemporarySprite sebastianOnBike/viewport 17 28 clamp true/pause 1000/move farmer 0 -5 0/speak Sebastian \"Glad you came by, @. I was about to take a ride.#$b#Hop on...I wanna show you something.\"/pause 1000/move farmer 0 -1 0/move farmer 1 0 0 true/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/pause 8000/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Sebastian 16 18/positionOffset farmer 0 16/playMusic spaceMusic/viewport 15 14 clamp true/pause 10000/faceDirection Sebastian 3/speak Sebastian \"That's Zuzu City in the distance...\"/pause 600/faceDirection Sebastian 0/speak Sebastian \"When life becomes too much, I'll drive out here and think.$s#$b#...Sometimes though, I'll just come out here and think of you.\"/pause 1000/faceDirection Sebastian 1/pause 600/animate Sebastian false true 110 16 17 18 19 20 21 21 21 21 21 21 21 21 22 23 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/pause 1000/faceDirection farmer 1/pause 1800/faceDirection farmer 0/pause 800/speak Sebastian \"$q -1 null#So, what do you think?#$r -1 0 event_city1#The view is beautiful.#$r -1 10 event_city2#It makes me feel a sort of beautiful melancholy.#$r -1 -10 event_city3#I don't get why this would help you.#$r -1 10 event_city4#There's something here more beautiful than the city...\"/stopAnimation Sebastian/pause 600/faceDirection Sebastian 0/pause 3000/speak Sebastian \"It's strange...The city used to give me an idea of where my future could be.#$b#...But now...I look at it and only feel anxiety.#$b#The only time I feel truly at peace is when I look at you.$l\"/pause 500/pause 900/speak Sebastian \"@...?$s#$b#From the moment I saw you, I knew that I was in trouble.#$b#I immediately was smitten with you, you essentially moved into my mind like you owned it.$l#$b#No one has made me this infatuated, let alone feel this desired.#$b#You know what I'm trying to say, don't you?$l\"/pause 700/faceDirection farmer 1/emote Sebastian 40/pause 800/faceDirection Sebastian 3/pause 2000/showFrame Sebastian 40/pause 600/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 18 26",
+		}
+},
+
+
+{
+"Action": "EditData",
+"Target": "Data/Events/SebastianRoom",
+"Entries": {
+		"2794460/f Sebastian 500/p Sebastian": "Hospital_Ambient/-1000 -1000/farmer 1 1 2 Sebastian 9 4 3 Robin -100 -100 2/skippable/doAction 1 3/removeTile 1 3 Buildings/removeTile 1 2 Front/playSound keyboardTyping/showFrame Sebastian 24/animate Sebastian false true 100 26 27 26 27 26 27 26/viewport 6 6 true/move farmer 0 4 1/move farmer 5 0 1/pause 1000/speak Sebastian \"Oh, shit, wasn't expecting someone to visit. Give me a sec...\"/pause 500/playSound keyboardTyping/pause 1000/question fork1 \"#He's busy... I should leave.#Stay put.\"/fork didntLeave/move farmer -2 0 3/speak Sebastian \"Oh, please don't leave...$u\"/pause 300/faceDirection farmer 1/stopAnimation Sebastian/speak Sebastian \"I'm sorry for making you feel awkward. I had to finish this line before I lost my train of thought...$s\"/pause 500/move farmer 2 0 1/switchEvent sebastianRoom",
+		"didntLeave": "pause 5500/stopAnimation Sebastian/speak Sebastian \"Okay. Sorry about that, I just needed to finish what I was working on, otherwise, it would have been lost to the ether.$h\"/switchEvent sebastianRoom",
+		"sebastianRoom": "resetVariable/move farmer 0 2 1/playSound mouseClick/move farmer 3 0 0/playSound mouseClick/move farmer 0 -1 0/playSound mouseClick/move farmer 0 -1 0/pause 500/faceDirection farmer 0/question fork1 \"#Ask him what he's working on.#Compliment the decor in his room.\"/fork decor/pause 500/stopAnimation Sebastian/speak Sebastian \"I'm a freelance programer, typically for games...Although most of them are...special kinds of games...$l\"/switchEvent enterRobin",
+		"decor": "pause 500/stopAnimation Sebastian/speak Sebastian \"Pft, you call my nerdy shit 'decor'? Hah, you're funny. That's what I like about you.$h\"/switchEvent enterRobin",
+		"enterRobin": "pause 500/playSound mouseClick/pause 100/playSound mouseClick/pause 500/playSound Pickup_Coin15/pause 300/emote Sebastian 40/speak Sebastian \"Ugh, really Sam? He sent me an IM saying he wants to come over.#$b#He should know better than to come over under these circumstances...$s\"/pause 500/playSound doorClose/warp Robin 1 1/move Robin 0 4 1/speak Robin \"Ohhh, visiting my son are you, @?\"/faceDirection farmer 3/textAboveHead Sebastian \"Mom, what the hell?!\"/pause 2000/emote Robin 56/pause 3000/move Robin 4 0 1/speak Robin \"Sebby, I know you don't like it when I come in here...#$b#Especially when you have...'special' friends over...$h#$b#But Abigail came up to me at her father's store and asked if you were busy today.\"/pause 200/emote Sebastian 28/speak Sebastian \"Did you tell her I'm working today?\"/speak Robin \"I did mention it, but she said she'll probably stop by anyway.\"/emote Sebastian 12/speak Sebastian \"...Why does no one take my job seriously?$s#$b#When Maru works at the clinic, everyone gives her respect to do her work. Does everyone think I'm playing some game or watching online cat videos?!\"/faceDirection farmer 0 true/move Robin -4 0 0/move Robin 0 -4 0/warp Robin -100 -100/playSound doorClose/pause 500/faceDirection farmer 0/resetVariable/question fork1 \"#Ask him about his career goals.#Ask him why he doesn't want to see his friends.\"/fork noFriends/pause 500/speak Sebastian \"My biggest goal right now is to just get out of this hellhole...\"/emote Sebastian 40/speak Sebastian \"You know, If I'd gone to college I'd probably be making six figures right now... but I just don't want to be part of that corporate rat race, you know?#$b#Well, and I guess I just feel more comfortable hidden behind the computer than dealing with people face-to-face.$s\"/emote Sebastian 28/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/speak Sebastian \"I don't really want to ask you to leave, but I really need to get this module done before tomorrow...$s#$b#Sorry...Feel free to come back and visit later though.$h\"/animate Sebastian false true 100 24 24 24 24 24 24 24 24 24 24 25 26 27 26 27 26 27 26 25 24 24/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end",
+		"noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"...I don't mind having friends, but mine are a bit...overbearing sometimes. I'm not the best with conversation.$s#$b#Sam and Abigail both live off of social stimulation. They're nice to me, but just...a bit high energy sometimes.#$b#Maybe that's why I like computers so much...They're engaging, straightforward, and unselfish. They don't ask me to be someone I'm not.\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"I don't really want to ask you to leave, but I really need to get this module done before tomorrow...$s#$b#Sorry...Feel free to come back and visit later though.$h\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end",
+}
+},
+
+
+{
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"Entries": {
+		"29/f Sebastian 2000/t 1200 2300/w rainy": "rain/12 38/farmer 12 29 2 Sebastian 12 39 2/skippable/move farmer 0 7 2/faceDirection Sebastian 0/pause 400/speak Sebastian \"@?\"/pause 500/move farmer 0 2 2/speak Sebastian \"What are you doing out here in the rain?#$b#...Guess I don't have a lot of room to talk, huh?$h\"/pause 500/faceDirection Sebastian 2/pause 200/move farmer 1 0 2/move farmer 0 1 3/pause 500/faceDirection farmer 2/pause 1000/playMusic echos/pause 1000/speak Sebastian \"The horizon looks ominous, the clouds are almost black...\"/pause 2000/speak Sebastian \"...Honestly, sometimes, I hope they just sweep me away.\"/faceDirection farmer 3/pause 800/faceDirection farmer 2/pause 1000/speak Sebastian \"I know it's dark, but...I just can't help but feel so insignificant.$s#$b#Like no one would miss me if I were to disappear.#$b#This weather keeps people at bay, and I can just have some damn peace and quiet...#$b#...Then those cloudy thoughts start to rise again...$s\"/faceDirection Sebastian 1/pause 400/faceDirection Sebastian 2/pause 400/speak Sebastian \"But when I look at you, all of that disappears.#$b#I'm at peace.\"/pause 2000/emote Sebastian 28/speak Sebastian \"I know the point of being in the rain is to get soaked, but...#$b#We're both pretty drenched.$h\"/pause 900/showFrame Sebastian 39/animate Sebastian false false 300 37 38 39/pause 300/playSound cast/pause 280/specificTemporarySprite umbrella/pause 800/speak Sebastian \"Here... There's room for two.$7\"/pause 500/faceDirection farmer 3/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/pause 800/faceDirection farmer 3/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/pause 800/faceDirection farmer 3/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/faceDirection farmer 2/pause 3500/end"
+}
+},	
+
+       ]
+}

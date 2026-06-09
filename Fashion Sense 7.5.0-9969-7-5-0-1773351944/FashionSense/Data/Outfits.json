@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "normal",
+    "Author": "[74]Nerd[74]",
+    "Version": 3,
+    "IsBeingShared": true,
+    "IsGlobal": false,
+    "AccessoryOneId": null,
+    "AccessoryTwoId": null,
+    "AccessoryThreeId": null,
+    "AccessoryIds": [
+      "None",
+      "None"
+    ],
+    "HairId": "None",
+    "HatId": "None",
+    "ShirtId": "None",
+    "SleevesId": "PeacefulEnd.FashionSense.LocalPack/Sleeves/Default (Short)",
+    "PantsId": "None",
+    "ShoesId": "Override Shoe Color",
+    "BodyId": "None",
+    "AccessoryOneColor": null,
+    "AccessoryTwoColor": null,
+    "AccessoryThreeColor": null,
+    "AccessoryColors": [
+      "4294967295",
+      "4294967295"
+    ],
+    "HairColor": "4278849832",
+    "HatColor": null,
+    "ShirtColor": null,
+    "SleevesColor": null,
+    "PantsColor": null,
+    "ShoesColor": null,
+    "AppearanceToMaskColors": {
+      "Sleeves": [
+        {
+          "B": 118,
+          "G": 110,
+          "R": 24,
+          "A": 255
+        }
+      ],
+      "Shoes": [
+        {
+          "B": 25,
+          "G": 68,
+          "R": 143,
+          "A": 255
+        }
+      ]
+    }
+  },
+  {
+    "Name": "flowe danc",
+    "Author": "[74]Nerd[74]",
+    "Version": 3,
+    "IsBeingShared": true,
+    "IsGlobal": false,
+    "AccessoryOneId": null,
+    "AccessoryTwoId": null,
+    "AccessoryThreeId": null,
+    "AccessoryIds": [
+      "wabi.wabiswardrobe/Accessory/Checkered shirt",
+      "None"
+    ],
+    "HairId": "None",
+    "HatId": "None",
+    "ShirtId": "None",
+    "SleevesId": "PeacefulEnd.FashionSense.LocalPack/Sleeves/Default (Short)",
+    "PantsId": "TiaoTiao.FS.Chineseclothing/Pants/简单古风下裙 马面",
+    "ShoesId": "PeacefulEnd.FashionSense.LocalPack/Shoes/Default (Short)",
+    "BodyId": "None",
+    "AccessoryOneColor": null,
+    "AccessoryTwoColor": null,
+    "AccessoryThreeColor": null,
+    "AccessoryColors": [
+      "4290488894",
+      "4294967295"
+    ],
+    "HairColor": "4278849832",
+    "HatColor": null,
+    "ShirtColor": null,
+    "SleevesColor": null,
+    "PantsColor": null,
+    "ShoesColor": null,
+    "AppearanceToMaskColors": {
+      "Pants": [
+        {
+          "B": 184,
+          "G": 154,
+          "R": 25,
+          "A": 255
+        }
+      ],
+      "Accessory": [
+        {
+          "B": 187,
+          "G": 170,
+          "R": 62,
+          "A": 255
+        }
+      ],
+      "Sleeves": [
+        {
+          "B": 118,
+          "G": 110,
+          "R": 24,
+          "A": 255
+        }
+      ],
+      "Shoes": [
+        {
+          "B": 255,
+          "G": 255,
+          "R": 255,
+          "A": 255
+        }
+      ]
+    }
+  }
+]

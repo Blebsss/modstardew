@@ -1,0 +1,148 @@
+Hi there! Thanks for downloading my mod!
+Please note that this is my first time attempting to do anything coding related, so if there are hiccups, please let me know!
+Please consult the here and the included readme for a spoiler free guide as to what is going on with this mod and my suggestions!
+
+----------------------------------------------------
+THINGS TO NOTE
+
+Trigger Warnings: There is talk of body mutilation, cutting, stalking, possessive/obsessive behavior, attempted murder, child abuse, dark/rough sexual talk, and a physical fight between a male and female character. (While the fight is one simple punch by the male, I wanted to include this as a warning for those who are not comfortable with this. It's for storytelling, nothing more.)
+While almost none of this is discussed in graphic detail, I want to be forthright with what is in this mod for those who are NOT comfortable with the above. The most intense is the sexual talk.
+***********
+There is A LOT of cursing. There is A LOT of sexual innuendos and, later on, actual sexual talk. I tried to not go into a lot of graphic detail however. This is not suggested as a mod for streaming due to the 18+ dialogue. (However, I guess if you can put videos of a game like House Party on YouTube, you could probably get away with this mod...? I don't know. Please be smart and use your own discretion for streaming/video purposes. You do have my full permission to showcase this mod at any time.)
+************
+This mod assumes that you will pursue Sebastian as your partner. There is NOT branching paths at this time. I am planning on an Abigail branch in the future.
+However, it is suggested you DO NOT date Sebastian until mid fall or Winter. Otherwise, parts of the story won't make as much sense. I suggest the Platonic Relationships to still see 10 Heart dialogue without dating Sebastian. This mod was built for either, but it is more interesting in my opinion with the Platonic mod.
+************
+Please talk to the following characters daily (or frequently) in order to not miss their dialogue!
+Sebastian
+Abigail
+Sam
+Haley
+Alex
+Robin has two spots of dialogue: the day after the Flower Dance and the day after the Luau. Will expand her in the future.
+************
+This mod has LGBT+ themes in it as well, as two characters (Sebastian and Abigail) are pursuing your hand in love. There are also two other LGBT+ couples later in the story.
+************
+ALL CHARACTERS INVOLVED ARE 18+ IN MY EYES FOR THE MOD. Here are the ages mentioned, or I have decided on, for this mod:
+Abigail: 23
+Sam: 25
+Sebastian: 25
+Haley: 24
+Alex: 23
+Maru: 18 (she is not involved in any part in this mod, but her age is sort of relevant for one part of Sebastian's story)
+**************
+At this time, I have not edited the event for the Flower Dance, so I suggest that you use your imagination for how it goes. (I haven't had the opportunity to really play with that yet.)
+Do be sure to at least grab your favorite romantic song and play it during the dance to get the best effect. ;)
+...Or find a great meme song to really fuck up the narrative. Because I'm always here for a good meme joke. Please tweet at me your song choices for my mod. (I'm @solariancomic on Twitter.)
+
+Big shoutout to Isa and their Yandere Sebastian mod for getting me interested in working on my own mod! PLEASE GO CHECK OUT AND DOWNLOAD THEIR MOD!! https://www.nexusmods.com/stardewvalley/mods/5064
+
+----------------------------------------------------
+Suggested Mods to Pair With This Mod:
+
+Platonic Relationships (VERY SUGGESTED!): https://www.nexusmods.com/stardewvalley/mods/4668
+Three Heart Flower Festival Dance Partners (VERY SUGGESTED!):
+https://www.nexusmods.com/stardewvalley/mods/500
+Mobile Phone (VERY SUGGESTED!):
+https://www.nexusmods.com/stardewvalley/mods/6523
+True Love Abigail Dialogue Expansion (this mod's way of writing Abigail is brilliant and fits with how she is in my mod):
+https://www.nexusmods.com/stardewvalley/mods/6674
+CJB Cheats Menu (for futzing around with relationship values to see other dialogue I've included that you might not see on a typical playthrough):
+https://www.nexusmods.com/stardewvalley/mods/4
+Stardew Valley Expanded (while not referenced or necessary, I think it just helps with general world-building):
+https://www.nexusmods.com/stardewvalley/mods/3753
+Canon-Friendly Dialogue Expansion for All Friend-able Characters:
+https://www.nexusmods.com/stardewvalley/mods/2544
+OhDavi's Anime Portraits (not necessary, just built this mod using these portraits, so my emotion choices match best with these):
+https://www.nexusmods.com/stardewvalley/mods/1839
+
+----------------------------------------------------
+Overview
+
+This mod provides a story to spice up year one in Pelican Town. This mod DOES NOT contain marriage dialogue or schedule changes at this time. It is largely focused on being a dialogue & event mod. Sebastian has dialogue for every day at every 2 heart levels per season. There is also set dialogue for him, Sam, Abigail, Haley, Alex, and Robin on certain days of the year. These are typically LONGER than a usual conversation in SDV, so please keep that in mind! Sebastian also has new dialogue for before each festival, during each festival, and after each festival. Most other characters also have post-day festival dialogue as well! 
+Please see the below section for a guide as to which set days have dialogues and events!
+
+-------------------------------------------------------
+Sebastian Overhauls
+
+Sebastian goes from incredibly shy and nervous to a downright horny bastard. Really honed in on the nerdy and socially inept/awkward parts of Sebastian's character. Basically basement dwelling virgin Sebastian. You're welcome?
+Here are the list of events:
+4 heart event - Impossible to miss
+Spring 20 - 7pm - 11pm at the Mountain
+Summer 24 - 12pm - 5pm at the Beach
+6 hearts and also 6 hearts with Abigail - Also impossible to miss; BE SURE TO HAVE THE FIRST HOUSE UPGRADE BY THIS POINT!
+Summer 26 - 8pm - 11pm at the Town
+Secret 10 Heart event - Go to the most unlikely places for Seb to be
+List of specific day dialogue:
+Spring: 12, 14, 23, 25
+Summer: 4, 10, 12, 17, 20, 27
+Fall: 7, 13, 15, 21, 26
+Winter: 7, 9, 15, 19, 24, 28
+Each season has it's own 2, 4, 6, 8, and 10 heart daily dialogues. (Which are recycled weekly, just kinda how SDV dialogue works.)
+
+----------------------------------------------------------
+Sam Overhauls
+
+Sam is basically the farmer's best friend in this case. Enthusiastic music dork. I wanted to flesh him out a bit and give him more of a really chipper best friend vibe. A bit of a shit-head though, can't take that away from him.
+He has one solo event with the farmer:
+Spring 18: 10am to 7pm at Sam's House
+List of specific day dialogue:
+Spring: 10, 25
+Summer: 1, 8, 12, 15, 22, 26
+Fall: 6, 14, 17, 28
+Winter: 24
+He does not have any changes to his regular dialogue pool.
+
+-------------------------------------------------------------
+Abigail Overhauls
+
+Abigail is the uninhibited, spunky girl best friend. Who also has a huge crush on you. Made her a bit of a sarcastic spit-fire with a heart of gold, just a more emphasized version of her original self.
+She has no solo events, but there is an event where you have to get 6 hearts with her and Sebastian to see a special event. Suggested to get before Summer 26.
+List of specific day dialogue:
+Spring: 8, 14, 25, 28
+Summer: 6, 12, 14, 27
+Fall: 5, 15, 17, 28
+Winter: 24
+She does not have any changes to her regular dialogue pool.
+
+-------------------------------------------------------------
+Haley Overhauls
+Her dialogue is super light and there isn't much, but she is involved in the story. I might come back to her later and add more dialogue in the future. Her personality is super flirty, but she's a lot less snarky and mean. She's rather level-headed, but likes to tease.
+There is one other important element, but I'll let the story tell that one. It's put out there pretty quickly.
+List of specific day dialogue:
+Spring: 25
+Summer: 3, 12, 27
+Fall: 5
+Winter: None
+She does not have any changes to her regular dialogue pool.
+
+--------------------------------------------------------------
+Alex Overhauls
+His is also super light. He is however involved in the story. He's headstrong and flirtatious, but more on the joking side. Definitely a macho dude though. There is another important element to him, but I'll let the story tell that one. His is later in the story, but definitely be sure to keep an eye on his set dialogue later.
+List of specific day dialogue:
+Spring: 15, 25
+Summer: 9, 12, 16
+Fall 10, 17
+He does not have any changes to his regular dialogue pool.
+
+---------------------------------------------------------------
+Future Expansion Ideas
+
+As I'm hoping I'll have the drive to come back to this again later and work on it some more, here are my current ideas for expansion.
+-Add Abigail version (I am definitely not making a fork in the current version of the mod. That might get messy very quickly. It'll be an alternate version of this mod, but will be housed here.)
+-Expand Haley, Alex, and Robin's dialogue.
+-Have characters react based on the amount of hearts you have with other characters (have to learn how to code that properly)
+-Edit the schedules of NPCs after certain events happen (I haven't tried schedule editing yet at all.)
+-Add more events like a solo Abigail event and at least one with Robin.
+-Potentially add dialogue to the regular dialogue pool for Sam, Abigail, Haley, and Alex.
+-Might add dialogue in reference to certain events for other NPCs that aren't central to my mod.
+
+---------------------------------------------------------------
+
+I think that's it! I really, really hope people like this mod as I've worked on this for about a month testing, re-testing, overhauling dialogue multiple times, and I put a lot of love into making it entertaining. It won't be for every SDV player, but that's okay. I hope that those who do like it enjoy it!
+Tweet your screenshots and reactions to me @solariancomic on Twitter! I would love to be able to see in real-time what people think!
+
+You can also take a look at my code and use it as a base for your own mod. Just please do not copy any of my dialogue or exact scenes. If you also have any fixes or additions that you'd like to contribute, I would gladly accept that! Please contact me at any time!
+
+
+Thank you all so much!
